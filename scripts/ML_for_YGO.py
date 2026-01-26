@@ -111,13 +111,22 @@ from sklearn.ensemble import RandomForestClassifier
 def train_and_score_models(X: pd.DataFrame, y: pd.Series, *, test_size: float = 0.2, random_state: int = 1) -> dict[str, float]:
     if len(X) == 0:
         raise ValueError("No samples available after feature building (X is empty).")
+    if len(X) < 2:
+        raise ValueError(f"Not enough samples to train/test split (n_samples={len(X)}).")
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=random_state)
 
     scores: dict[str, float] = {}
 
-    knn = KNeighborsClassifier(n_neighbors=11)
+    # KNN requires n_neighbors <= n_train
+    n_neighbors = min(11, len(X_train))
+    n_neighbors = max(1, n_neighbors)
+    knn = KNeighborsClassifier(n_neighbors=n_neighbors)
     knn.fit(X_train, y_train)
     scores["knn"] = float(knn.score(X_test, y_test))
+
+    # Some models require at least 2 classes in the training set
+    if getattr(y_train, "nunique", None) is not None and int(y_train.nunique()) < 2:
+        return scores
 
     logistic_regression = LogisticRegression(max_iter=200)
     logistic_regression.fit(X_train, y_train)

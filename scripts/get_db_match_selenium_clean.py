@@ -499,19 +499,17 @@ def main(argv: list[str] | None = None) -> int:
         print(f"✅ Matches CSV saved to: {args.matches_csv} (rows={len(df)})")
 
         dataset = load_dataset(args.matches_csv)
-        X, y = build_features(dataset, replays_dir)
+
+        # In try-it-yourself mode, we want this to work on arbitrary replays, so we disable
+        # the deck-specific filter (if supported by ML_for_YGO.py).
+        try:
+            X, y = build_features(dataset, replays_dir, filter_wrong_deck=False)  # type: ignore[call-arg]
+        except TypeError:
+            X, y = build_features(dataset, replays_dir)
+
         args.features_out.parent.mkdir(parents=True, exist_ok=True)
         X.to_csv(args.features_out, index=False)
         print(f"✅ Features CSV saved to: {args.features_out} (shape={X.shape})")
-
-        # In try-it-yourself mode, we want this to work on arbitrary replays, so we disable
-        # the deck-specific filter.
-        try:
-            # Rebuild features without the deck filter if the helper supports it.
-            X, y = build_features(dataset, replays_dir, filter_wrong_deck=False)  # type: ignore[call-arg]
-        except TypeError:
-            # Backwards-compat: older ML_for_YGO.py without this parameter.
-            pass
 
         if len(X) == 0:
             print("⚠️ No samples available after feature building; skipping model training.")
