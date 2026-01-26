@@ -109,7 +109,7 @@ def get_recaptcha_token_and_cookies_with_selenium(replay_url: str, *, profile_di
             pass
 
 
-def normalize_replay_url(url_or_id: str) -> str:
+def normalize_replay_url(url_or_id: str, *, strip_user_prefix: bool = True) -> str:
     # Accept:
     # - full replay URL: https://www.duelingbook.com/replay?id=745183-77512517
     # - view-replay URL: https://www.duelingbook.com/view-replay?id=...
@@ -117,6 +117,14 @@ def normalize_replay_url(url_or_id: str) -> str:
     s = (url_or_id or "").strip()
     if not s:
         raise ValueError("Empty replay identifier")
+
+    # If it's in the form userId-duelId, prefer duelId-only by default.
+    # This often avoids "must be logged in" restrictions for public replays.
+    if strip_user_prefix and "-" in s and not s.startswith("http"):
+        left, right = s.split("-", 1)
+        if left.isdigit() and right.isdigit():
+            s = right
+
     if s.startswith("http"):
         if "replay?id=" in s:
             return s
@@ -232,9 +240,15 @@ def read_links_from_file(path: Path) -> list[str]:
     return [ln.strip() for ln in lines if ln.strip()]
 
 
-def scrape_one(db_link: str, *, out_dir: Path, profile_dir: str | None = None) -> int:
+def scrape_one(
+    db_link: str,
+    *,
+    out_dir: Path,
+    profile_dir: str | None = None,
+    strip_user_prefix: bool = True,
+) -> int:
     try:
-        replay_url = normalize_replay_url(db_link)
+        replay_url = normalize_replay_url(db_link, strip_user_prefix=strip_user_prefix)
         match_data = get_match_data(url_id=replay_url, profile_dir=profile_dir)
         out_dir = out_dir.expanduser().resolve()
         out_dir.mkdir(parents=True, exist_ok=True)
@@ -261,6 +275,11 @@ def main(argv: list[str] | None = None) -> int:
         default=None,
         help="Optional Chrome user-data-dir (NOT COMMITTED). Helps if some replays require login.",
     )
+    parser.add_argument(
+        "--keep-user-prefix",
+        action="store_true",
+        help="Do not strip userId from ids like '745183-77512517' (by default we keep only '77512517').",
+    )
     args = parser.parse_args(argv)
 
     links: Iterable[str]
@@ -271,7 +290,17 @@ def main(argv: list[str] | None = None) -> int:
 
     failures = 0
     for link in links:
-        failures += 1 if scrape_one(link, out_dir=args.out_dir, profile_dir=args.profile_dir) != 0 else 0
+        failures += (
+            1
+            if scrape_one(
+                link,
+                out_dir=args.out_dir,
+                profile_dir=args.profile_dir,
+                strip_user_prefix=not args.keep_user_prefix,
+            )
+            != 0
+            else 0
+        )
 
     if failures:
         print(f"Done with {failures} failure(s).")
