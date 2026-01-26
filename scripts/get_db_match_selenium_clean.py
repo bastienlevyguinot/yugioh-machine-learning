@@ -75,7 +75,12 @@ def get_replay_id(url_or_id: str) -> str:
         return f"{replay_id}_match{match}"
     return replay_id
 
-def get_recaptcha_token_and_cookies_with_selenium(replay_url: str, *, profile_dir: str | None = None):
+def get_recaptcha_token_and_cookies_with_selenium(
+    replay_url: str,
+    *,
+    profile_dir: str | None = None,
+    action_name: str = "submit",
+):
     try:
         from selenium import webdriver
         from selenium.webdriver.support.ui import WebDriverWait
@@ -190,7 +195,7 @@ def get_recaptcha_token_and_cookies_with_selenium(replay_url: str, *, profile_di
             } else {
                 exec();
             }
-        """, sitekey or "6LcjdkEgAAAAAKoEsPnPbSdjLkf4bLx68445txKj", mode, "submit")
+        """, sitekey or "6LcjdkEgAAAAAKoEsPnPbSdjLkf4bLx68445txKj", mode, action_name)
         
         # Recuperer les cookies
         cookies = driver.get_cookies()
@@ -203,6 +208,10 @@ def get_recaptcha_token_and_cookies_with_selenium(replay_url: str, *, profile_di
         if token and len(token) > 50:
             print("Token reCAPTCHA obtenu! (longueur: " + str(len(token)) + ")")
             print("Cookies recuperes: " + str(len(cookies)) + " cookies")
+            try:
+                print(f"Action reCAPTCHA utilisée: {action_name}")
+            except Exception:
+                pass
             return token, cookies
         raise Exception("Impossible d'obtenir un token reCAPTCHA valide.")
     finally:
@@ -293,8 +302,15 @@ def get_match_data(url_id: str, *, profile_dir: str | None = None): # returns js
 
     try:
         # Obtenir le token reCAPTCHA et les cookies (with retries on Invalid Token)
-        for attempt in range(3):
-            recaptcha_token, cookies = get_recaptcha_token_and_cookies_with_selenium(url_id, profile_dir=profile_dir)
+        # DuelingBook may validate the reCAPTCHA "action" server-side, so try a few common ones.
+        action_candidates = ["submit", "replay", "view_replay", "view-replay", "viewreplay", "view"]
+        for attempt in range(6):
+            action_name = action_candidates[min(attempt, len(action_candidates) - 1)]
+            recaptcha_token, cookies = get_recaptcha_token_and_cookies_with_selenium(
+                url_id,
+                profile_dir=profile_dir,
+                action_name=action_name,
+            )
             data = _post_with_token(recaptcha_token, cookies)
 
             if data.get("action") != "Error":
