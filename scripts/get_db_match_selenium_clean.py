@@ -9,6 +9,7 @@ import argparse
 from pathlib import Path
 from typing import Iterable
 from urllib.parse import parse_qs, urlparse
+from urllib.parse import urlparse as _urlparse
 
 import json
 import sys
@@ -113,6 +114,36 @@ def get_recaptcha_token_and_cookies_with_selenium(replay_url: str, *, profile_di
         driver = webdriver.Chrome(service=service, options=chrome_options)
         print("ChromeDriver installe automatiquement via webdriver-manager")
 
+    def _detect_site_key_and_mode() -> tuple[str | None, str]:
+        """
+        Try to detect the reCAPTCHA sitekey from script tags.
+        Returns (sitekey, mode) where mode is 'enterprise' or 'standard'.
+        """
+        try:
+            srcs = driver.execute_script(
+                "return Array.from(document.querySelectorAll('script[src]')).map(s => s.src);"
+            )
+        except Exception:
+            srcs = []
+
+        sitekey: str | None = None
+        mode = "standard"
+        if isinstance(srcs, list):
+            for src in srcs:
+                if not isinstance(src, str):
+                    continue
+                if "recaptcha/enterprise.js" in src:
+                    mode = "enterprise"
+                if "recaptcha/api.js" in src or "recaptcha/enterprise.js" in src:
+                    try:
+                        qs = parse_qs(_urlparse(src).query)
+                        render = (qs.get("render") or [None])[0]
+                        if isinstance(render, str) and render.strip():
+                            sitekey = render.strip()
+                    except Exception:
+                        pass
+        return sitekey, mode
+
     try:
         try:
             driver.get("https://www.duelingbook.com/")  # Aller sur la home
@@ -122,29 +153,44 @@ def get_recaptcha_token_and_cookies_with_selenium(replay_url: str, *, profile_di
         driver.get(replay_url) # Charger la page de replay
         
         print("Attente du chargement de reCAPTCHA...")
-        WebDriverWait(driver, 15).until(
-            lambda d: d.execute_script("return typeof grecaptcha !== 'undefined'")
+        WebDriverWait(driver, 20).until(
+            lambda d: d.execute_script("return (typeof grecaptcha !== 'undefined') || (typeof grecaptcha !== 'undefined' && grecaptcha.enterprise)")
         )
+
+        sitekey, mode = _detect_site_key_and_mode()
+        if sitekey:
+            print(f"Sitekey détectée: {sitekey} (mode={mode})")
+        else:
+            print("Sitekey non détectée; fallback sur la clé hardcodée.")
         
         # Obtenir le token
         token = driver.execute_async_script("""
             var callback = arguments[arguments.length - 1];
+            var siteKey = arguments[0];
+            var mode = arguments[1];
+            var actionName = arguments[2];
             
             if (typeof grecaptcha === 'undefined') {
                 callback(null);
                 return;
             }
             
-            grecaptcha.ready(function() {
-                grecaptcha.execute('6LcjdkEgAAAAAKoEsPnPbSdjLkf4bLx68445txKj', {action: 'submit'})
-                    .then(function(token) {
-                        callback(token);
-                    })
-                    .catch(function(error) {
-                        callback(null);
-                    });
-            });
-        """)
+            function exec() {
+                var api = grecaptcha;
+                if (mode === 'enterprise' && grecaptcha.enterprise) {
+                    api = grecaptcha.enterprise;
+                }
+                api.execute(siteKey, {action: actionName})
+                  .then(function(token) { callback(token); })
+                  .catch(function(error) { callback(null); });
+            }
+
+            if (grecaptcha.ready) {
+                grecaptcha.ready(exec);
+            } else {
+                exec();
+            }
+        """, sitekey or "6LcjdkEgAAAAAKoEsPnPbSdjLkf4bLx68445txKj", mode, "submit")
         
         # Recuperer les cookies
         cookies = driver.get_cookies()
@@ -206,26 +252,29 @@ def get_match_data(url_id: str, *, profile_dir: str | None = None): # returns js
         url += "&match=" + match
 
     
-    # Obtenir le token reCAPTCHA et les cookies si non fournis
-    recaptcha_token, cookies = get_recaptcha_token_and_cookies_with_selenium(url_id, profile_dir=profile_dir)
-    
-    # Donnees du formulaire
-    form_data = {"token": recaptcha_token, "recaptcha_version": "3", "master": "2"}
-    
-    headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36", "Accept": "application/json", "Content-Type": "application/x-www-form-urlencoded", "Origin": "https://www.duelingbook.com", "Referer": url_id}
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "application/json",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Origin": "https://www.duelingbook.com",
+        "Referer": url_id,
+    }
     
     print("Requete a l'API DuelingBook...")
     print("URL: " + url)
     print("Replay ID: " + replay_id + (f" (match={match})" if match else ""))
     
     
-    try:
+    def _post_with_token(token: str, cookies_list: list[dict] | None):
+        # Donnees du formulaire
+        form_data = {"token": token, "recaptcha_version": "3", "master": "2"}
+
         # Creer une session pour utiliser les cookies
         session = requests.Session()
 
         # Ajouter les cookies si disponibles
-        if cookies: # cookies is a list
-            for c in cookies:
+        if cookies_list:  # cookies is a list
+            for c in cookies_list:
                 try:
                     name = c.get('name')
                     value = c.get('value')
@@ -235,26 +284,34 @@ def get_match_data(url_id: str, *, profile_dir: str | None = None): # returns js
                         session.cookies.set(name, value, domain=domain, path=path)
                 except Exception:
                     pass
-            print("Cookies de session ajoutes (" + str(len(cookies)) + " cookies)")
-        
+            print("Cookies de session ajoutes (" + str(len(cookies_list)) + " cookies)")
+
         # Faire la requete POST avec headers et cookies
         response = session.post(url, data=form_data, headers=headers, timeout=30)
         response.raise_for_status()
-        
-        # Parser la reponse JSON
-        data = response.json()
-        
-        # Verifier les erreurs
-        if data.get("action") == "Error":
+        return response.json()
+
+    try:
+        # Obtenir le token reCAPTCHA et les cookies (with retries on Invalid Token)
+        for attempt in range(3):
+            recaptcha_token, cookies = get_recaptcha_token_and_cookies_with_selenium(url_id, profile_dir=profile_dir)
+            data = _post_with_token(recaptcha_token, cookies)
+
+            if data.get("action") != "Error":
+                return data
+
             error_msg = data.get("message", "Erreur inconnue")
-            
-            if "logged in" in error_msg.lower():
+            if isinstance(error_msg, str) and "invalid token" in error_msg.lower():
+                print("ATTENTION: Token invalide (reCAPTCHA). Nouvelle tentative...")
+                continue
+
+            if isinstance(error_msg, str) and "logged in" in error_msg.lower():
                 print("")
                 print("ATTENTION: Ce replay necessite une connexion.")
-            
+
             raise Exception("Erreur API: " + str(error_msg))
-        
-        return data
+
+        raise Exception("Erreur API: Invalid Token (after retries)")
     
     except requests.exceptions.RequestException as e:
         raise Exception("Erreur de requete: " + str(e))
