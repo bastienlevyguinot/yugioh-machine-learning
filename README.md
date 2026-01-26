@@ -10,17 +10,30 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Run the offline pipeline (no scraping)
+### Pipeline 1: offline (no scraping, uses an existing `db_replays/`)
 
 This uses the committed replay JSON files in `data/db_replays/`.
 
 ```bash
-python scripts/run_pipeline.py
+python scripts/run_pipeline.py offline
 ```
 
 Outputs:
 - `data/matches_data_mitsu_RB.csv` (built from `data/db_replays/`)
 - `data/matches_data_mitsu_RB_2.0.csv` (features for ML)
+
+### Pipeline 2: from-excel (start only from a links file, scrape JSONs, then run offline)
+
+You provide an `.xlsx` / `.csv` / `.txt` file with replay ids/urls.
+
+```bash
+python scripts/run_pipeline.py from-excel --links-file path/to/links.xlsx
+```
+
+This will:
+- scrape replay JSONs into `data/db_replays/` (or `--replays-dir ...`)
+- build the matches CSV + features CSV
+- print model scores
 
 ### Run individual steps
 
