@@ -23,7 +23,13 @@ list_plays = ['Normal Summon', 'Declare', 'Activate ST', 'To GY', 'SS ATK', 'Ban
 targeted_cards = ['R.B. Ga10 Driller', 'Jet Synchron', 'R.B. Last Stand', 'R.B. Ga10 Cutter', 'Scrap Recycler', 'R.B. Funk Dock', 'R.B. Stage Landing', 'R.B. Lambda Cannon', 'R.B. Lambda Blade', 'R.B. Ga10 Pile Bunker']
 DATA_PROVIDER_USERNAME = "Fryderyk Chopin"
 
-def using_wrong_deck(dataset: pd.DataFrame, index_file: int, replays_dir: Path) -> bool:
+def using_wrong_deck(
+    dataset: pd.DataFrame,
+    index_file: int,
+    replays_dir: Path,
+    *,
+    data_provider_username: str,
+) -> bool:
     # True  -> wrong deck (no targeted plays/cards found)
     # False -> correct deck (targeted play/card found)
     file_name_json = dataset.loc[index_file, "file"]
@@ -32,7 +38,11 @@ def using_wrong_deck(dataset: pd.DataFrame, index_file: int, replays_dir: Path) 
         data = json.load(f)
         for play in data['plays']:
                 
-            if (play['play'] in list_plays) and (play['card'].get('name') in targeted_cards) and (play.get('username') == DATA_PROVIDER_USERNAME):
+            if (
+                (play['play'] in list_plays)
+                and (play['card'].get('name') in targeted_cards)
+                and (play.get('username') == data_provider_username)
+            ):
                 # print("RETURN FALSE, CORRECT DECK")
                 return False
         # print("RETURN TRUE, WRONG DECK")
@@ -43,6 +53,8 @@ def build_features(
     replays_dir: Path,
     *,
     drop_indices: list[int] | None = None,
+    filter_wrong_deck: bool = True,
+    data_provider_username: str = DATA_PROVIDER_USERNAME,
 ) -> tuple[pd.DataFrame, pd.Series]:
     # Drop rows with missing target/hand information (more robust than hardcoded indices)
     dataset = dataset.copy()
@@ -58,9 +70,14 @@ def build_features(
         if existing:
             dataset = dataset.drop(index=existing).reset_index(drop=True)
 
-    # Drop all rows detected as "wrong deck"
-    to_drop = [idx for idx in dataset.index if using_wrong_deck(dataset, idx, replays_dir)]
-    dataset = dataset.drop(index=to_drop).reset_index(drop=True)
+    # Drop all rows detected as "wrong deck" (optional; deck-specific heuristic)
+    if filter_wrong_deck:
+        to_drop = [
+            idx
+            for idx in dataset.index
+            if using_wrong_deck(dataset, idx, replays_dir, data_provider_username=data_provider_username)
+        ]
+        dataset = dataset.drop(index=to_drop).reset_index(drop=True)
 
     # starting_hands from string to list
     dataset["starting_hand_player1"] = dataset["starting_hand_player1"].apply(lambda x: str(x).split("%%%%")[0:5])
@@ -92,6 +109,8 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
 def train_and_score_models(X: pd.DataFrame, y: pd.Series, *, test_size: float = 0.2, random_state: int = 1) -> dict[str, float]:
+    if len(X) == 0:
+        raise ValueError("No samples available after feature building (X is empty).")
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=random_state)
 
     scores: dict[str, float] = {}
@@ -123,10 +142,27 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--test-size", type=float, default=0.2)
     parser.add_argument("--random-state", type=int, default=1)
     parser.add_argument("--drop-index", type=int, action="append", default=[])
+    parser.add_argument(
+        "--no-deck-filter",
+        action="store_true",
+        help="Disable the deck-specific 'wrong deck' filter (recommended for generic datasets).",
+    )
+    parser.add_argument(
+        "--provider",
+        type=str,
+        default=DATA_PROVIDER_USERNAME,
+        help="Username to use for deck filtering (only relevant if deck filter is enabled).",
+    )
     args = parser.parse_args(argv)
 
     dataset = load_dataset(args.csv)
-    X, y = build_features(dataset, args.replays_dir, drop_indices=args.drop_index or None)
+    X, y = build_features(
+        dataset,
+        args.replays_dir,
+        drop_indices=args.drop_index or None,
+        filter_wrong_deck=not args.no_deck_filter,
+        data_provider_username=args.provider,
+    )
 
     args.features_out.parent.mkdir(parents=True, exist_ok=True)
     X.to_csv(args.features_out, index=False)

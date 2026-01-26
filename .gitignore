@@ -27,6 +27,11 @@ build/
 # Chrome profiles / browser data (DO NOT COMMIT)
 chrome_profile_duelingbook/
 
+# Try-it-yourself outputs (user-specific, should not be committed)
+data/my_own_db_replays/
+data/my_matches.csv
+data/my_features.csv
+
 # Data outputs (optional, can be large)
 data/db_replays/.DS_Store
 

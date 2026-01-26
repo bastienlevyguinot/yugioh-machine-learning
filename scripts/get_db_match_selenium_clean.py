@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 from typing import Iterable
+from urllib.parse import parse_qs, urlparse
 
 import json
 import sys
@@ -18,8 +19,60 @@ DEFAULT_TRY_IT_YOURSELF_REPLAYS_DIR = Path("data/my_own_db_replays")
 DEFAULT_TRY_IT_YOURSELF_MATCHES_CSV = Path("data/my_matches.csv")
 DEFAULT_TRY_IT_YOURSELF_FEATURES_CSV = Path("data/my_features.csv")
 
-def get_replay_id(url_id):
-    return url_id.split("=")[1]
+def _parse_replay_id_and_match(url_or_id: str) -> tuple[str, str | None]:
+    """
+    Extract replay id (and optional match index) from:
+      - https://www.duelingbook.com/replay?id=...&match=2
+      - https://www.duelingbook.com/view-replay?id=...&match=2
+      - raw id: 1313181-76237082
+      - raw id: 77512517
+    """
+    s = (url_or_id or "").strip()
+    if not s:
+        raise ValueError("Empty replay identifier")
+
+    if s.startswith("http"):
+        parsed = urlparse(s)
+        qs = parse_qs(parsed.query)
+        replay_id = (qs.get("id") or [None])[0]
+        match = (qs.get("match") or [None])[0]
+        if not replay_id:
+            raise ValueError(f"Could not parse replay id from URL: {s}")
+        return str(replay_id), (str(match) if match else None)
+
+    return s, None
+
+
+def _clean_link_value(value: object) -> str | None:
+    """
+    Normalize a raw cell/line into a replay id/url string.
+    Returns None if the value should be ignored (empty/header/etc).
+    """
+    s = str(value).strip()
+    if not s:
+        return None
+
+    # Common "empty" values coming from pandas
+    if s.lower() in {"nan", "none", "null"}:
+        return None
+
+    # Remove surrounding quotes (common when users paste quoted CSV values)
+    if len(s) >= 2 and ((s[0] == s[-1] == '"') or (s[0] == s[-1] == "'")):
+        s = s[1:-1].strip()
+        if not s:
+            return None
+
+    # Ignore header-like rows accidentally pasted in the body
+    if s.strip().lower() in {"url", "urls", "replay", "replay_id", "replay id", "id"}:
+        return None
+
+    return s
+
+def get_replay_id(url_or_id: str) -> str:
+    replay_id, match = _parse_replay_id_and_match(url_or_id)
+    if match:
+        return f"{replay_id}_match{match}"
+    return replay_id
 
 def get_recaptcha_token_and_cookies_with_selenium(replay_url: str, *, profile_dir: str | None = None):
     try:
@@ -147,8 +200,10 @@ def get_match_data(url_id: str, *, profile_dir: str | None = None): # returns js
             "requests is not installed. Install dependencies with: pip install -r requirements.txt"
         ) from e
     
-    replay_id = url_id.split("=")[1]
+    replay_id, match = _parse_replay_id_and_match(url_id)
     url = "https://www.duelingbook.com/view-replay?id=" + replay_id
+    if match:
+        url += "&match=" + match
 
     
     # Obtenir le token reCAPTCHA et les cookies si non fournis
@@ -161,7 +216,7 @@ def get_match_data(url_id: str, *, profile_dir: str | None = None): # returns js
     
     print("Requete a l'API DuelingBook...")
     print("URL: " + url)
-    print("Replay ID: " + replay_id)
+    print("Replay ID: " + replay_id + (f" (match={match})" if match else ""))
     
     
     try:
@@ -227,12 +282,12 @@ def read_links_from_file(path: Path) -> list[str]:
         if isinstance(obj, list):
             for item in obj:
                 if isinstance(item, str):
-                    s = item.strip()
+                    s = _clean_link_value(item)
                     if s:
                         links.append(s)
                     continue
                 if isinstance(item, dict):
-                    url = str(item.get("url", "")).strip()
+                    url = _clean_link_value(item.get("url", ""))
                     if not url or url.upper() == "N/A":
                         continue
                     # keep anything that looks like a duelingbook replay link/id
@@ -246,10 +301,12 @@ def read_links_from_file(path: Path) -> list[str]:
                 v = obj.get(k)
                 if isinstance(v, list):
                     for item in v:
-                        if isinstance(item, str) and item.strip():
-                            links.append(item.strip())
+                        if isinstance(item, str):
+                            s = _clean_link_value(item)
+                            if s:
+                                links.append(s)
                         elif isinstance(item, dict):
-                            url = str(item.get("url", "")).strip()
+                            url = _clean_link_value(item.get("url", ""))
                             if url and url.upper() != "N/A":
                                 links.append(url)
                     if links:
@@ -266,7 +323,12 @@ def read_links_from_file(path: Path) -> list[str]:
             ) from e
         df = pd.read_excel(path)  # requires openpyxl for xlsx
         # take first column
-        return [str(x) for x in df.iloc[:, 0].tolist() if str(x).strip()]
+        out: list[str] = []
+        for x in df.iloc[:, 0].tolist():
+            s = _clean_link_value(x)
+            if s:
+                out.append(s)
+        return out
 
     if path.suffix.lower() in [".csv"]:
         try:
@@ -276,11 +338,21 @@ def read_links_from_file(path: Path) -> list[str]:
                 "pandas is not installed. Install dependencies with: pip install -r requirements.txt"
             ) from e
         df = pd.read_csv(path)
-        return [str(x) for x in df.iloc[:, 0].tolist() if str(x).strip()]
+        out: list[str] = []
+        for x in df.iloc[:, 0].tolist():
+            s = _clean_link_value(x)
+            if s:
+                out.append(s)
+        return out
 
     # default: treat as text file (one link per line)
     lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
-    return [ln.strip() for ln in lines if ln.strip()]
+    out: list[str] = []
+    for ln in lines:
+        s = _clean_link_value(ln)
+        if s:
+            out.append(s)
+    return out
 
 
 def scrape_one(
@@ -341,6 +413,11 @@ def main(argv: list[str] | None = None) -> int:
         help="After scraping, build matches CSV + features and print baseline model scores.",
     )
     parser.add_argument(
+        "--continue-on-failure",
+        action="store_true",
+        help="Do not stop the run if some replays fail (e.g. login required); continue and optionally run ML on successes.",
+    )
+    parser.add_argument(
         "--provider",
         type=str,
         default=None,
@@ -376,27 +453,36 @@ def main(argv: list[str] | None = None) -> int:
         links = read_links_from_file(args.links_file)
 
     failures = 0
+    successes = 0
     for link in links:
-        failures += (
-            1
-            if scrape_one(
-                link,
-                out_dir=args.out_dir,
-                profile_dir=args.profile_dir,
-                strip_user_prefix=not args.keep_user_prefix,
-            )
-            != 0
-            else 0
+        rc = scrape_one(
+            link,
+            out_dir=args.out_dir,
+            profile_dir=args.profile_dir,
+            strip_user_prefix=not args.keep_user_prefix,
         )
+        if rc == 0:
+            successes += 1
+        else:
+            failures += 1
 
     if failures:
         print(f"Done with {failures} failure(s).")
-        return 1
+        if not args.continue_on_failure and not args.run_ml:
+            return 1
+        if not args.continue_on_failure and args.run_ml and successes == 0:
+            return 1
 
-    print("Done with 0 failures.")
+    if failures == 0:
+        print("Done with 0 failures.")
+    else:
+        print(f"Continuing with {successes} success(es) despite failures.")
 
     # Optional: run offline ML pipeline on freshly scraped replays
     if args.run_ml:
+        if successes == 0:
+            print("No replay JSONs were saved successfully; skipping ML.")
+            return 1
         try:
             from get_csv_from_json import build_matches_dataframe
             from ML_for_YGO import build_features, load_dataset, train_and_score_models
@@ -417,6 +503,19 @@ def main(argv: list[str] | None = None) -> int:
         args.features_out.parent.mkdir(parents=True, exist_ok=True)
         X.to_csv(args.features_out, index=False)
         print(f"✅ Features CSV saved to: {args.features_out} (shape={X.shape})")
+
+        # In try-it-yourself mode, we want this to work on arbitrary replays, so we disable
+        # the deck-specific filter.
+        try:
+            # Rebuild features without the deck filter if the helper supports it.
+            X, y = build_features(dataset, replays_dir, filter_wrong_deck=False)  # type: ignore[call-arg]
+        except TypeError:
+            # Backwards-compat: older ML_for_YGO.py without this parameter.
+            pass
+
+        if len(X) == 0:
+            print("⚠️ No samples available after feature building; skipping model training.")
+            return 0
 
         scores = train_and_score_models(X, y)
         print("Scores:")
