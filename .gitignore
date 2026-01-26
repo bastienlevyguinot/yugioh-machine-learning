@@ -26,3 +26,6 @@ build/
 # Chrome profiles / browser data (DO NOT COMMIT)
 chrome_profile_duelingbook/
 
+# Data outputs (optional, can be large)
+data/db_replays/.DS_Store
+

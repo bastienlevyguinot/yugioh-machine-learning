@@ -1,0 +1,4062 @@
+{
+  "conceal": false,
+  "date": "2025-12-04 05:01:30",
+  "plays": [
+    {
+      "play": "RPS",
+      "player1_choice": "Rock",
+      "seconds": 34,
+      "winner": "",
+      "player1": "Fryderyk Chopin",
+      "player2": "naes",
+      "action": "Duel",
+      "player2_choice": "Rock"
+    },
+    {
+      "play": "RPS",
+      "player1_choice": "Rock",
+      "seconds": 36,
+      "winner": "",
+      "player1": "Fryderyk Chopin",
+      "player2": "naes",
+      "action": "Duel",
+      "player2_choice": "Rock"
+    },
+    {
+      "play": "RPS",
+      "player1_choice": "Rock",
+      "seconds": 38,
+      "winner": "",
+      "player1": "Fryderyk Chopin",
+      "player2": "naes",
+      "action": "Duel",
+      "player2_choice": "Rock"
+    },
+    {
+      "play": "RPS",
+      "player1_choice": "Paper",
+      "seconds": 40,
+      "winner": "Fryderyk Chopin",
+      "player1": "Fryderyk Chopin",
+      "player2": "naes",
+      "log": {
+        "public_log": "Won Rock-Paper-Scissors",
+        "type": "game",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "player2_choice": "Rock"
+    },
+    {
+      "play": "Pick first",
+      "seconds": 47,
+      "cards": [
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Normal",
+          "ocg": 0,
+          "atk": "0",
+          "tcg": 1,
+          "id": 17084,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 2,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "43450363",
+          "card_type": "Trap",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 12,
+          "effect": "Special Summon 1 \"R.B.\" monster from your Deck, Extra Deck, or GY, with a different name than the cards you control. For the rest of this turn after this card resolves, you cannot Special Summon from the Extra Deck, except Machine monsters with 1500 or less ATK. When your opponent activates a card or effect that targets an \"R.B.\" monster(s) you control: You can banish this card from your GY; negate that effect. You can only use 1 \"R.B. Last Stand\" effect per turn, and only once that turn.",
+          "name": "R.B. Last Stand",
+          "pendulum_effect": "",
+          "treated_as": "R.B. Last Stand"
+        },
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Normal",
+          "points": 13,
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 9201,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "10045474",
+          "card_type": "Trap",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 40,
+          "effect": "Target 1 face-up monster your opponent controls; negate its effects (until the end of this turn), then, if this card was Set before activation and is on the field at resolution, for the rest of this turn all other Spell/Trap effects in this column are negated. If you control no cards, you can activate this card from your hand.",
+          "name": "Infinite Impermanence",
+          "pendulum_effect": "",
+          "treated_as": "Infinite Impermanence"
+        },
+        {
+          "def": "400",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Reptile",
+          "ocg": 1,
+          "atk": "1600",
+          "tcg": 1,
+          "id": 16265,
+          "attribute": "DARK",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 4,
+          "custom": 0,
+          "serial_number": "82782870",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 22,
+          "effect": "If this card is Normal or Special Summoned, or if this card is Tributed: You can target 1 \"Mitsurugi\" card in your GY or banishment, except \"Mitsurugi no Mikoto, Kusanagi\"; add it to your hand. If another Reptile monster(s) you control would be destroyed by battle or card effect, you can Tribute this card instead. You can only use each effect of \"Mitsurugi no Mikoto, Kusanagi\" once per turn.",
+          "name": "Mitsurugi no Mikoto, Kusanagi",
+          "pendulum_effect": "",
+          "treated_as": "Mitsurugi no Mikoto, Kusanagi"
+        },
+        {
+          "def": "1200",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Machine",
+          "ocg": 1,
+          "atk": "900",
+          "tcg": 1,
+          "id": 3724,
+          "attribute": "EARTH",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 3,
+          "custom": 0,
+          "serial_number": "04334811",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 28,
+          "effect": "When this card is Normal or Special Summoned: You can send 1 Machine monster from your Deck to the GY. Once per turn: You can shuffle 2 Level 4 EARTH Machine monsters from your GY into the Deck; draw 1 card.",
+          "name": "Scrap Recycler",
+          "pendulum_effect": "",
+          "treated_as": "Scrap Recycler"
+        },
+        {
+          "def": "800",
+          "monster_color": "Ritual",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Reptile",
+          "ocg": 1,
+          "atk": "3200",
+          "tcg": 1,
+          "id": 16267,
+          "attribute": "DARK",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 8,
+          "custom": 0,
+          "serial_number": "19899073",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 19,
+          "effect": "You can Ritual Summon this card with \"Mitsurugi Ritual\". If this card is Special Summoned: You can destroy all monsters your opponent controls. When your opponent activates a card or effect (Quick Effect): You can activate this effect; your opponent can discard 1 card, or that effect is negated. If this card is Tributed: You can add 1 \"Mitsurugi\" card from your Deck to your hand, except \"Ame no Murakumo no Mitsurugi\", then you can Special Summon this card. You can only use each effect of \"Ame no Murakumo no Mitsurugi\" once per turn.",
+          "name": "Ame no Murakumo no Mitsurugi",
+          "pendulum_effect": "",
+          "treated_as": "Ame no Murakumo no Mitsurugi"
+        },
+        {
+          "def": "800",
+          "monster_color": "Ritual",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Reptile",
+          "ocg": 1,
+          "atk": "3200",
+          "tcg": 1,
+          "id": 16267,
+          "attribute": "DARK",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 8,
+          "custom": 0,
+          "serial_number": "19899073",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 18,
+          "effect": "You can Ritual Summon this card with \"Mitsurugi Ritual\". If this card is Special Summoned: You can destroy all monsters your opponent controls. When your opponent activates a card or effect (Quick Effect): You can activate this effect; your opponent can discard 1 card, or that effect is negated. If this card is Tributed: You can add 1 \"Mitsurugi\" card from your Deck to your hand, except \"Ame no Murakumo no Mitsurugi\", then you can Special Summon this card. You can only use each effect of \"Ame no Murakumo no Mitsurugi\" once per turn.",
+          "name": "Ame no Murakumo no Mitsurugi",
+          "pendulum_effect": "",
+          "treated_as": "Ame no Murakumo no Mitsurugi"
+        },
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Normal",
+          "points": 10,
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 7917,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "13048472",
+          "card_type": "Spell",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 6,
+          "effect": "Add 1 Ritual Spell from your Deck to your hand, and add 1 Ritual Monster from your Deck or GY to your hand whose name is mentioned on that Ritual Spell. You can only activate 1 \"Pre-Preparation of Rites\" per turn.",
+          "name": "Pre-Preparation of Rites",
+          "pendulum_effect": "",
+          "treated_as": "Pre-Preparation of Rites"
+        },
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Normal",
+          "points": 13,
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 9201,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "10045474",
+          "card_type": "Trap",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 34,
+          "effect": "Target 1 face-up monster your opponent controls; negate its effects (until the end of this turn), then, if this card was Set before activation and is on the field at resolution, for the rest of this turn all other Spell/Trap effects in this column are negated. If you control no cards, you can activate this card from your hand.",
+          "name": "Infinite Impermanence",
+          "pendulum_effect": "",
+          "treated_as": "Infinite Impermanence"
+        },
+        {
+          "def": "900",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Reptile",
+          "ocg": 1,
+          "atk": "1200",
+          "tcg": 1,
+          "id": 16668,
+          "attribute": "DARK",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 4,
+          "custom": 0,
+          "serial_number": "40543231",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 7,
+          "effect": "If this card is Normal or Special Summoned, or if this card is Tributed: You can add 1 \"Mitsurugi\" monster from your Deck to your hand, except \"Mitsurugi no Mikoto, Aramasa\". If another Reptile monster(s) you control would be destroyed by battle or card effect, you can Tribute this card instead. You can only use each effect of \"Mitsurugi no Mikoto, Aramasa\" once per turn.",
+          "name": "Mitsurugi no Mikoto, Aramasa",
+          "pendulum_effect": "",
+          "treated_as": "Mitsurugi no Mikoto, Aramasa"
+        },
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Quick-Play",
+          "points": 10,
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 10868,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "24299458",
+          "card_type": "Spell",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 38,
+          "effect": "Send any number of other cards from your hand and/or field to the GY; choose that many Effect Monsters your opponent controls, and until the end of this turn, their ATK is halved, also their effects are negated. In response to this card's activation, your opponent cannot activate cards, or the effects of cards, with the same original type (Monster/Spell/Trap) as the cards sent to the GY to activate this card. You can only activate 1 \"Forbidden Droplet\" per turn.",
+          "name": "Forbidden Droplet",
+          "pendulum_effect": "",
+          "treated_as": "Forbidden Droplet"
+        }
+      ],
+      "log": [
+        {
+          "private_log": "Chose to go first",
+          "public_log": "Chose to go first",
+          "type": "game",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"R.B. Last Stand\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Infinite Impermanence\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Mitsurugi no Mikoto, Kusanagi\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Scrap Recycler\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Ame no Murakumo no Mitsurugi\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Ame no Murakumo no Mitsurugi\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "naes"
+        },
+        {
+          "private_log": "Drew \"Pre-Preparation of Rites\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "naes"
+        },
+        {
+          "private_log": "Drew \"Infinite Impermanence\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "naes"
+        },
+        {
+          "private_log": "Drew \"Mitsurugi no Mikoto, Aramasa\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "naes"
+        },
+        {
+          "private_log": "Drew \"Forbidden Droplet\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "naes"
+        }
+      ],
+      "action": "Duel",
+      "username": "Fryderyk Chopin",
+      "order": [
+        "Fryderyk Chopin",
+        "naes"
+      ]
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 56,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "naes"
+      },
+      "prev": [
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        501,
+        502,
+        503,
+        504,
+        505
+      ],
+      "username": "naes"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 62,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "naes"
+      },
+      "prev": [
+        501,
+        505,
+        503,
+        504,
+        502
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        506,
+        507,
+        508,
+        509,
+        510
+      ],
+      "username": "naes"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 62,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "naes"
+      },
+      "prev": [
+        507,
+        510,
+        506,
+        508,
+        509
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        511,
+        512,
+        513,
+        514,
+        515
+      ],
+      "username": "naes"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 63,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "naes"
+      },
+      "prev": [
+        515,
+        511,
+        512,
+        514,
+        513
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        516,
+        517,
+        518,
+        519,
+        520
+      ],
+      "username": "naes"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 63,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "naes"
+      },
+      "prev": [
+        517,
+        520,
+        518,
+        516,
+        519
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        521,
+        522,
+        523,
+        524,
+        525
+      ],
+      "username": "naes"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 67,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "naes"
+      },
+      "prev": [
+        523,
+        524,
+        522,
+        525,
+        521
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        526,
+        527,
+        528,
+        529,
+        530
+      ],
+      "username": "naes"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 68,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"bro chill\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "bro chill",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 69,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"wtf\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "wtf",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 71,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "naes"
+      },
+      "prev": [
+        528,
+        526,
+        527,
+        530,
+        529
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        531,
+        532,
+        533,
+        534,
+        535
+      ],
+      "username": "naes"
+    },
+    {
+      "play": "Enter SP",
+      "seconds": 72,
+      "log": {
+        "public_log": "Entered Standby Phase",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 72,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "naes"
+      },
+      "prev": [
+        532,
+        533,
+        534,
+        535,
+        531
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        536,
+        537,
+        538,
+        539,
+        540
+      ],
+      "username": "naes"
+    },
+    {
+      "play": "Enter M1",
+      "seconds": 73,
+      "log": {
+        "public_log": "Entered Main Phase 1",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Normal Summon",
+      "seconds": 77,
+      "log": {
+        "public_log": "Normal Summoned \"Scrap Recycler\" from hand (4/5) to M-3",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "zone": "M-3",
+      "action": "Duel",
+      "id": 4,
+      "card": {
+        "def": "1200",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Machine",
+        "ocg": 1,
+        "atk": "900",
+        "tcg": 1,
+        "id": 3724,
+        "attribute": "EARTH",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 3,
+        "custom": 0,
+        "serial_number": "04334811",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 28,
+        "effect": "When this card is Normal or Special Summoned: You can send 1 Machine monster from your Deck to the GY. Once per turn: You can shuffle 2 Level 4 EARTH Machine monsters from your GY into the Deck; draw 1 card.",
+        "name": "Scrap Recycler",
+        "pendulum_effect": "",
+        "treated_as": "Scrap Recycler"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Declare",
+      "seconds": 79,
+      "log": {
+        "public_log": "Declared effect of \"Scrap Recycler\" in M-3",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "name": "Scrap Recycler",
+      "action": "Duel",
+      "id": 4,
+      "card": {
+        "def": "1200",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Machine",
+        "ocg": 1,
+        "atk": "900",
+        "tcg": 1,
+        "id": 3724,
+        "attribute": "EARTH",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 3,
+        "custom": 0,
+        "serial_number": "04334811",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 28,
+        "effect": "When this card is Normal or Special Summoned: You can send 1 Machine monster from your Deck to the GY. Once per turn: You can shuffle 2 Level 4 EARTH Machine monsters from your GY into the Deck; draw 1 card.",
+        "name": "Scrap Recycler",
+        "pendulum_effect": "",
+        "treated_as": "Scrap Recycler"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Set ST",
+      "seconds": 82,
+      "zone": "S-5",
+      "log": {
+        "private_log": "Set \"Infinite Impermanence\" from hand (4/5) to S-5",
+        "public_log": "Set card from hand (4/5) to S-5",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "id": 539,
+      "username": "naes"
+    },
+    {
+      "play": "Activate ST",
+      "seconds": 83,
+      "log": {
+        "public_log": "Activated Set \"Infinite Impermanence\" in S-5",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "id": 539,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Normal",
+        "points": 13,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 9201,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "10045474",
+        "card_type": "Trap",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 34,
+        "effect": "Target 1 face-up monster your opponent controls; negate its effects (until the end of this turn), then, if this card was Set before activation and is on the field at resolution, for the rest of this turn all other Spell/Trap effects in this column are negated. If you control no cards, you can activate this card from your hand.",
+        "name": "Infinite Impermanence",
+        "pendulum_effect": "",
+        "treated_as": "Infinite Impermanence"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "Target card",
+      "seconds": 84,
+      "log": {
+        "private_log": "Pointed at \"Scrap Recycler\" in M-3",
+        "public_log": "Pointed at \"Scrap Recycler\" in M-3",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "id": 4,
+      "username": "naes"
+    },
+    {
+      "play": "Good",
+      "seconds": 85,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "To GY",
+      "seconds": 86,
+      "log": {
+        "public_log": "Sent \"Infinite Impermanence\" from S-5 to GY",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "id": 539,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Normal",
+        "points": 13,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 9201,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "10045474",
+        "card_type": "Trap",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 34,
+        "effect": "Target 1 face-up monster your opponent controls; negate its effects (until the end of this turn), then, if this card was Set before activation and is on the field at resolution, for the rest of this turn all other Spell/Trap effects in this column are negated. If you control no cards, you can activate this card from your hand.",
+        "name": "Infinite Impermanence",
+        "pendulum_effect": "",
+        "treated_as": "Infinite Impermanence"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "View ED",
+      "seconds": 91,
+      "log": {
+        "private_log": "Viewed Extra Deck",
+        "public_log": "Viewed Extra Deck",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Extra Deck",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 95,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "naes"
+      },
+      "prev": [
+        540,
+        536,
+        537,
+        538
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        541,
+        542,
+        543,
+        544
+      ],
+      "username": "naes"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 114,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "naes"
+      },
+      "prev": [
+        544,
+        542,
+        541,
+        543
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        545,
+        546,
+        547,
+        548
+      ],
+      "username": "naes"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 115,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "naes"
+      },
+      "prev": [
+        548,
+        547,
+        546,
+        545
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        549,
+        550,
+        551,
+        552
+      ],
+      "username": "naes"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 124,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "naes"
+      },
+      "prev": [
+        551,
+        552,
+        550,
+        549
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        553,
+        554,
+        555,
+        556
+      ],
+      "username": "naes"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 125,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "naes"
+      },
+      "prev": [
+        556,
+        554,
+        553,
+        555
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        557,
+        558,
+        559,
+        560
+      ],
+      "username": "naes"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 126,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "naes"
+      },
+      "prev": [
+        560,
+        559,
+        558,
+        557
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        561,
+        562,
+        563,
+        564
+      ],
+      "username": "naes"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 128,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"pls stop\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "pls stop",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 134,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"play\"",
+        "type": "chat",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "message": "play",
+      "username": "naes"
+    },
+    {
+      "play": "Set ST",
+      "seconds": 136,
+      "zone": "S-4",
+      "log": {
+        "private_log": "Set \"Infinite Impermanence\" from hand (2/4) to S-4",
+        "public_log": "Set card from hand (2/4) to S-4",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 2,
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 136,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "naes"
+      },
+      "prev": [
+        562,
+        561,
+        564,
+        563
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        565,
+        566,
+        567,
+        568
+      ],
+      "username": "naes"
+    },
+    {
+      "play": "Set ST",
+      "seconds": 139,
+      "zone": "S-2",
+      "log": {
+        "private_log": "Set \"R.B. Last Stand\" from hand (1/3) to S-2",
+        "public_log": "Set card from hand (1/3) to S-2",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 1,
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 140,
+      "log": {
+        "public_log": "Stopped viewing Extra Deck",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Extra Deck",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Enter EP",
+      "seconds": 141,
+      "log": {
+        "public_log": "Entered End Phase",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "End turn",
+      "seconds": 142,
+      "log": {
+        "public_log": "Ended turn",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Start turn",
+      "seconds": 143,
+      "log": {
+        "public_log": "Entered Draw Phase",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "username": "naes"
+    },
+    {
+      "play": "Draw card",
+      "seconds": 143,
+      "log": {
+        "private_log": "Drew \"Pre-Preparation of Rites\"",
+        "public_log": "Drew a card",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "id": 81,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Normal",
+        "points": 10,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 7917,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "13048472",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 5,
+        "effect": "Add 1 Ritual Spell from your Deck to your hand, and add 1 Ritual Monster from your Deck or GY to your hand whose name is mentioned on that Ritual Spell. You can only activate 1 \"Pre-Preparation of Rites\" per turn.",
+        "name": "Pre-Preparation of Rites",
+        "pendulum_effect": "",
+        "treated_as": "Pre-Preparation of Rites"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "Enter SP",
+      "seconds": 145,
+      "log": {
+        "public_log": "Entered Standby Phase",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "username": "naes"
+    },
+    {
+      "play": "Enter M1",
+      "seconds": 145,
+      "log": {
+        "public_log": "Entered Main Phase 1",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "username": "naes"
+    },
+    {
+      "play": "Good",
+      "seconds": 146,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Normal Summon",
+      "seconds": 151,
+      "log": {
+        "public_log": "Normal Summoned \"Mitsurugi no Mikoto, Aramasa\" from hand (3/5) to M-5",
+        "type": "duel",
+        "username": "naes"
+      },
+      "zone": "M-5",
+      "action": "Duel",
+      "id": 567,
+      "card": {
+        "def": "900",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "ocg": 1,
+        "atk": "1200",
+        "tcg": 1,
+        "id": 16668,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 4,
+        "custom": 0,
+        "serial_number": "40543231",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 7,
+        "effect": "If this card is Normal or Special Summoned, or if this card is Tributed: You can add 1 \"Mitsurugi\" monster from your Deck to your hand, except \"Mitsurugi no Mikoto, Aramasa\". If another Reptile monster(s) you control would be destroyed by battle or card effect, you can Tribute this card instead. You can only use each effect of \"Mitsurugi no Mikoto, Aramasa\" once per turn.",
+        "name": "Mitsurugi no Mikoto, Aramasa",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi no Mikoto, Aramasa"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "Declare",
+      "seconds": 152,
+      "log": {
+        "public_log": "Declared effect of \"Mitsurugi no Mikoto, Aramasa\" in M-5",
+        "type": "duel",
+        "username": "naes"
+      },
+      "name": "Mitsurugi no Mikoto, Aramasa",
+      "action": "Duel",
+      "id": 567,
+      "card": {
+        "def": "900",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "ocg": 1,
+        "atk": "1200",
+        "tcg": 1,
+        "id": 16668,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 4,
+        "custom": 0,
+        "serial_number": "40543231",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 7,
+        "effect": "If this card is Normal or Special Summoned, or if this card is Tributed: You can add 1 \"Mitsurugi\" monster from your Deck to your hand, except \"Mitsurugi no Mikoto, Aramasa\". If another Reptile monster(s) you control would be destroyed by battle or card effect, you can Tribute this card instead. You can only use each effect of \"Mitsurugi no Mikoto, Aramasa\" once per turn.",
+        "name": "Mitsurugi no Mikoto, Aramasa",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi no Mikoto, Aramasa"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "Thinking",
+      "seconds": 154,
+      "log": {
+        "public_log": "Thinking",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Activate ST",
+      "seconds": 157,
+      "log": {
+        "public_log": "Activated Set \"Infinite Impermanence\" in S-4",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 2,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Normal",
+        "points": 13,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 9201,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "10045474",
+        "card_type": "Trap",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 40,
+        "effect": "Target 1 face-up monster your opponent controls; negate its effects (until the end of this turn), then, if this card was Set before activation and is on the field at resolution, for the rest of this turn all other Spell/Trap effects in this column are negated. If you control no cards, you can activate this card from your hand.",
+        "name": "Infinite Impermanence",
+        "pendulum_effect": "",
+        "treated_as": "Infinite Impermanence"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Good",
+      "seconds": 164,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "username": "naes"
+    },
+    {
+      "play": "To GY",
+      "seconds": 166,
+      "log": {
+        "public_log": "Sent \"Infinite Impermanence\" from S-4 to GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 2,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Normal",
+        "points": 13,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 9201,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "10045474",
+        "card_type": "Trap",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 40,
+        "effect": "Target 1 face-up monster your opponent controls; negate its effects (until the end of this turn), then, if this card was Set before activation and is on the field at resolution, for the rest of this turn all other Spell/Trap effects in this column are negated. If you control no cards, you can activate this card from your hand.",
+        "name": "Infinite Impermanence",
+        "pendulum_effect": "",
+        "treated_as": "Infinite Impermanence"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Activate ST",
+      "seconds": 169,
+      "log": {
+        "public_log": "Activated \"Pre-Preparation of Rites\" from hand (4/4) to S-1",
+        "type": "duel",
+        "username": "naes"
+      },
+      "zone": "S-1",
+      "action": "Duel",
+      "id": 81,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Normal",
+        "points": 10,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 7917,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "13048472",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 5,
+        "effect": "Add 1 Ritual Spell from your Deck to your hand, and add 1 Ritual Monster from your Deck or GY to your hand whose name is mentioned on that Ritual Spell. You can only activate 1 \"Pre-Preparation of Rites\" per turn.",
+        "name": "Pre-Preparation of Rites",
+        "pendulum_effect": "",
+        "treated_as": "Pre-Preparation of Rites"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "Declare",
+      "seconds": 171,
+      "log": {
+        "public_log": "Declared effect of \"Pre-Preparation of Rites\" in S-1",
+        "type": "duel",
+        "username": "naes"
+      },
+      "name": "Pre-Preparation of Rites",
+      "action": "Duel",
+      "id": 81,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Normal",
+        "points": 10,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 7917,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "13048472",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 5,
+        "effect": "Add 1 Ritual Spell from your Deck to your hand, and add 1 Ritual Monster from your Deck or GY to your hand whose name is mentioned on that Ritual Spell. You can only activate 1 \"Pre-Preparation of Rites\" per turn.",
+        "name": "Pre-Preparation of Rites",
+        "pendulum_effect": "",
+        "treated_as": "Pre-Preparation of Rites"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "Admit defeat",
+      "over": false,
+      "seconds": 175,
+      "player1": {
+        "rating": 1081,
+        "experience": 390,
+        "points": 0
+      },
+      "log": {
+        "public_log": "Admitted defeat",
+        "type": "game",
+        "username": "Fryderyk Chopin"
+      },
+      "player2": {
+        "rating": 755,
+        "experience": 1473,
+        "points": 0
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Siding",
+      "seconds": 175,
+      "action": "Duel",
+      "message": "Siding for the next duel has begun (0-1-0)"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 179,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"ez\"",
+        "type": "chat",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "message": "ez",
+      "username": "naes"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 182,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"cringe\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "cringe",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 188,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u2\"",
+        "type": "chat",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "message": "u2",
+      "username": "naes"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 199,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"for what?\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "for what?",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 211,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"maybe did i spank ur ass in the past so u re salty since then?\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "maybe did i spank ur ass in the past so u re salty since then?",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Done siding",
+      "seconds": 224,
+      "log": {
+        "public_log": "Finished siding",
+        "type": "game",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "username": "naes"
+    },
+    {
+      "play": "Done siding",
+      "seconds": 227,
+      "log": {
+        "public_log": "Finished siding",
+        "type": "game",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Begin next duel",
+      "score": "(0-1-0)",
+      "seconds": 227,
+      "player1": {
+        "main_total": 45,
+        "start": 1,
+        "extra_total": 15,
+        "username": "Fryderyk Chopin",
+        "token": "1"
+      },
+      "player2": {
+        "main_total": 41,
+        "start": 76,
+        "extra_total": 15,
+        "username": "naes",
+        "token": "1"
+      },
+      "action": "Duel",
+      "starting": true,
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Pick first",
+      "seconds": 227,
+      "cards": [
+        {
+          "def": "1200",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Machine",
+          "ocg": 1,
+          "atk": "900",
+          "tcg": 1,
+          "id": 3724,
+          "attribute": "EARTH",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 3,
+          "custom": 0,
+          "serial_number": "04334811",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 29,
+          "effect": "When this card is Normal or Special Summoned: You can send 1 Machine monster from your Deck to the GY. Once per turn: You can shuffle 2 Level 4 EARTH Machine monsters from your GY into the Deck; draw 1 card.",
+          "name": "Scrap Recycler",
+          "pendulum_effect": "",
+          "treated_as": "Scrap Recycler"
+        },
+        {
+          "def": "1800",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Zombie",
+          "points": 15,
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 8504,
+          "attribute": "FIRE",
+          "ability": "Tuner",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 3,
+          "custom": 0,
+          "serial_number": "14558127",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 42,
+          "effect": "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that effect.\n●Add a card from the Deck to the hand.\n●Special Summon from the Deck.\n●Send a card from the Deck to the GY.\nYou can only use this effect of \"Ash Blossom & Joyous Spring\" once per turn.",
+          "name": "Ash Blossom & Joyous Spring",
+          "pendulum_effect": "",
+          "treated_as": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "def": "0",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Spellcaster",
+          "points": 5,
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 1300,
+          "attribute": "WIND",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 1,
+          "custom": 0,
+          "serial_number": "94145021",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 74,
+          "effect": "If a card(s) is added from the Main Deck to your opponent's hand, except during the Draw Phase (Quick Effect): You can send this card from your hand to the GY; for the rest of this turn, cards cannot be added from either player's Main Deck to the hand.",
+          "name": "Droll & Lock Bird",
+          "pendulum_effect": "",
+          "treated_as": "Droll & Lock Bird"
+        },
+        {
+          "def": "1700",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Reptile",
+          "ocg": 1,
+          "atk": "1000",
+          "tcg": 1,
+          "id": 16266,
+          "attribute": "DARK",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 4,
+          "custom": 0,
+          "serial_number": "18176525",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 23,
+          "effect": "If this card is Normal or Special Summoned, or if this card is Tributed: You can add 1 \"Mitsurugi\" Spell/Trap from your Deck to your hand. If another Reptile monster(s) you control would be destroyed by battle or card effect, you can Tribute this card instead. You can only use each effect of \"Mitsurugi no Mikoto, Saji\" once per turn.",
+          "name": "Mitsurugi no Mikoto, Saji",
+          "pendulum_effect": "",
+          "treated_as": "Mitsurugi no Mikoto, Saji"
+        },
+        {
+          "def": "1800",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Zombie",
+          "points": 15,
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 8504,
+          "attribute": "FIRE",
+          "ability": "Tuner",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 3,
+          "custom": 0,
+          "serial_number": "14558127",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 41,
+          "effect": "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that effect.\n●Add a card from the Deck to the hand.\n●Special Summon from the Deck.\n●Send a card from the Deck to the GY.\nYou can only use this effect of \"Ash Blossom & Joyous Spring\" once per turn.",
+          "name": "Ash Blossom & Joyous Spring",
+          "pendulum_effect": "",
+          "treated_as": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Ritual",
+          "points": 51,
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 16270,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "81560239",
+          "card_type": "Spell",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 16,
+          "effect": "This card can be used to Ritual Summon any Reptile Ritual Monster. Activate 1 of these effects (but you can only use each effect of \"Mitsurugi Ritual\" once per turn);\n●Ritual Summon 1 Reptile Ritual Monster from your Deck, by Tributing Reptile monsters from your hand or field whose total Levels equal the Level of the Ritual Monster.\n●Ritual Summon 1 Reptile Ritual Monster from your hand, by Tributing up to 2 Reptile monsters from your hand, Deck, or field, whose total Levels equal the Level of the Ritual Monster.",
+          "name": "Mitsurugi Ritual",
+          "pendulum_effect": "",
+          "treated_as": "Mitsurugi Ritual"
+        },
+        {
+          "def": "3400",
+          "monster_color": "Ritual",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Reptile",
+          "ocg": 1,
+          "atk": "2000",
+          "tcg": 1,
+          "id": 16268,
+          "attribute": "DARK",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 8,
+          "custom": 0,
+          "serial_number": "55397172",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 10,
+          "effect": "You can Ritual Summon this card with \"Mitsurugi Ritual\". If your opponent Special Summons a monster(s) (except during the Damage Step): You can target 1 Reptile monster in your GY, except \"Futsu no Mitama no Mitsurugi\"; Special Summon it. You can only activate this effect of \"Futsu no Mitama no Mitsurugi\" once per Chain. If this card is Tributed: You can add 1 \"Mitsurugi\" card from your Deck to your hand, except \"Futsu no Mitama no Mitsurugi\", then you can Special Summon this card. You can only use this effect of \"Futsu no Mitama no Mitsurugi\" once per turn.",
+          "name": "Futsu no Mitama no Mitsurugi",
+          "pendulum_effect": "",
+          "treated_as": "Futsu no Mitama no Mitsurugi"
+        },
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Ritual",
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 16671,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "49721684",
+          "card_type": "Spell",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 27,
+          "effect": "This card can be used to Ritual Summon any Reptile Ritual Monster from your hand or GY. You must also Tribute Reptile monsters from your hand or field whose total Levels equal or exceed the Level of the Ritual Monster. If \"Ame no Murakumo no Mitsurugi\", \"Futsu no Mitama no Mitsurugi\", or \"Ame no Habakiri no Mitsurugi\" you control is Tributed, while this card is in your GY: You can shuffle this card into the Deck. You can only use each effect of \"Mitsurugi Mirror\" once per turn.",
+          "name": "Mitsurugi Mirror",
+          "pendulum_effect": "",
+          "treated_as": "Mitsurugi Mirror"
+        },
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Normal",
+          "points": 13,
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 9201,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "10045474",
+          "card_type": "Trap",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 33,
+          "effect": "Target 1 face-up monster your opponent controls; negate its effects (until the end of this turn), then, if this card was Set before activation and is on the field at resolution, for the rest of this turn all other Spell/Trap effects in this column are negated. If you control no cards, you can activate this card from your hand.",
+          "name": "Infinite Impermanence",
+          "pendulum_effect": "",
+          "treated_as": "Infinite Impermanence"
+        },
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Quick-Play",
+          "points": 20,
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 9189,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "24224830",
+          "card_type": "Spell",
+          "tcg_limit": 1,
+          "ocg_limit": 2,
+          "rush": 0,
+          "object_id": 40,
+          "effect": "Target 1 monster in your opponent's GY; banish it, and if you do, until the end of the next turn, its effects are negated, as well as the activated effects and effects on the field of monsters with the same original name.",
+          "name": "Called by the Grave",
+          "pendulum_effect": "",
+          "treated_as": "Called by the Grave"
+        }
+      ],
+      "log": [
+        {
+          "private_log": "Chose to go first",
+          "public_log": "Chose to go first",
+          "type": "game",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Scrap Recycler\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Ash Blossom & Joyous Spring\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Droll & Lock Bird\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Mitsurugi no Mikoto, Saji\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Ash Blossom & Joyous Spring\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Mitsurugi Ritual\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "naes"
+        },
+        {
+          "private_log": "Drew \"Futsu no Mitama no Mitsurugi\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "naes"
+        },
+        {
+          "private_log": "Drew \"Mitsurugi Mirror\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "naes"
+        },
+        {
+          "private_log": "Drew \"Infinite Impermanence\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "naes"
+        },
+        {
+          "private_log": "Drew \"Called by the Grave\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "naes"
+        }
+      ],
+      "action": "Duel",
+      "username": "Fryderyk Chopin",
+      "order": [
+        "Fryderyk Chopin",
+        "naes"
+      ]
+    },
+    {
+      "play": "Duel message",
+      "seconds": 229,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"with that skill \"",
+        "type": "chat",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "message": "with that skill ",
+      "username": "naes"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 233,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i don't think so \"",
+        "type": "chat",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "message": "i don't think so ",
+      "username": "naes"
+    },
+    {
+      "play": "Enter M1",
+      "seconds": 235,
+      "log": {
+        "public_log": "Entered Main Phase 1",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 237,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"tbh \"",
+        "type": "chat",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "message": "tbh ",
+      "username": "naes"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 239,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "naes"
+      },
+      "prev": [
+        76,
+        79,
+        78,
+        80,
+        77
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        569,
+        570,
+        571,
+        572,
+        573
+      ],
+      "username": "naes"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 243,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"skill of bricking?\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "skill of bricking?",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Normal Summon",
+      "seconds": 246,
+      "log": {
+        "public_log": "Normal Summoned \"Scrap Recycler\" from hand (1/5) to M-3",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "zone": "M-3",
+      "action": "Duel",
+      "id": 1,
+      "card": {
+        "def": "1200",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Machine",
+        "ocg": 1,
+        "atk": "900",
+        "tcg": 1,
+        "id": 3724,
+        "attribute": "EARTH",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 3,
+        "custom": 0,
+        "serial_number": "04334811",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 29,
+        "effect": "When this card is Normal or Special Summoned: You can send 1 Machine monster from your Deck to the GY. Once per turn: You can shuffle 2 Level 4 EARTH Machine monsters from your GY into the Deck; draw 1 card.",
+        "name": "Scrap Recycler",
+        "pendulum_effect": "",
+        "treated_as": "Scrap Recycler"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Declare",
+      "seconds": 248,
+      "log": {
+        "public_log": "Declared effect of \"Scrap Recycler\" in M-3",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "name": "Scrap Recycler",
+      "action": "Duel",
+      "id": 1,
+      "card": {
+        "def": "1200",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Machine",
+        "ocg": 1,
+        "atk": "900",
+        "tcg": 1,
+        "id": 3724,
+        "attribute": "EARTH",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 3,
+        "custom": 0,
+        "serial_number": "04334811",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 29,
+        "effect": "When this card is Normal or Special Summoned: You can send 1 Machine monster from your Deck to the GY. Once per turn: You can shuffle 2 Level 4 EARTH Machine monsters from your GY into the Deck; draw 1 card.",
+        "name": "Scrap Recycler",
+        "pendulum_effect": "",
+        "treated_as": "Scrap Recycler"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Set ST",
+      "seconds": 250,
+      "zone": "S-5",
+      "log": {
+        "private_log": "Set \"Infinite Impermanence\" from hand (2/5) to S-5",
+        "public_log": "Set card from hand (2/5) to S-5",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "id": 570,
+      "username": "naes"
+    },
+    {
+      "play": "Activate ST",
+      "seconds": 251,
+      "log": {
+        "public_log": "Activated Set \"Infinite Impermanence\" in S-5",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "id": 570,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Normal",
+        "points": 13,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 9201,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "10045474",
+        "card_type": "Trap",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 33,
+        "effect": "Target 1 face-up monster your opponent controls; negate its effects (until the end of this turn), then, if this card was Set before activation and is on the field at resolution, for the rest of this turn all other Spell/Trap effects in this column are negated. If you control no cards, you can activate this card from your hand.",
+        "name": "Infinite Impermanence",
+        "pendulum_effect": "",
+        "treated_as": "Infinite Impermanence"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "Target card",
+      "seconds": 252,
+      "log": {
+        "private_log": "Pointed at \"Scrap Recycler\" in M-3",
+        "public_log": "Pointed at \"Scrap Recycler\" in M-3",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "id": 1,
+      "username": "naes"
+    },
+    {
+      "play": "Good",
+      "seconds": 254,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "To GY",
+      "seconds": 255,
+      "log": {
+        "public_log": "Sent \"Infinite Impermanence\" from S-5 to GY",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "id": 570,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Normal",
+        "points": 13,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 9201,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "10045474",
+        "card_type": "Trap",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 33,
+        "effect": "Target 1 face-up monster your opponent controls; negate its effects (until the end of this turn), then, if this card was Set before activation and is on the field at resolution, for the rest of this turn all other Spell/Trap effects in this column are negated. If you control no cards, you can activate this card from your hand.",
+        "name": "Infinite Impermanence",
+        "pendulum_effect": "",
+        "treated_as": "Infinite Impermanence"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "Enter EP",
+      "seconds": 259,
+      "log": {
+        "public_log": "Entered End Phase",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "End turn",
+      "seconds": 260,
+      "log": {
+        "public_log": "Ended turn",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Start turn",
+      "seconds": 264,
+      "log": {
+        "public_log": "Entered Draw Phase",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "username": "naes"
+    },
+    {
+      "play": "Draw card",
+      "seconds": 264,
+      "log": {
+        "private_log": "Drew \"Mitsurugi Great Purification\"",
+        "public_log": "Drew a card",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "id": 81,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Normal",
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 16271,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "17954937",
+        "card_type": "Trap",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 29,
+        "effect": "When your opponent activates a card or effect: Tribute 1 Level 5 or higher Reptile monster; negate that effect, and if you do, destroy that card. You can banish this card from your GY, then target 1 Reptile monster in your GY; Special Summon it, and if you do, Tribute 1 other monster you control. You can only use 1 \"Mitsurugi Great Purification\" effect per turn, and only once that turn.",
+        "name": "Mitsurugi Great Purification",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi Great Purification"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "Enter SP",
+      "seconds": 266,
+      "log": {
+        "public_log": "Entered Standby Phase",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "username": "naes"
+    },
+    {
+      "play": "Enter M1",
+      "seconds": 271,
+      "log": {
+        "public_log": "Entered Main Phase 1",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "username": "naes"
+    },
+    {
+      "play": "Good",
+      "seconds": 272,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Activate ST",
+      "seconds": 273,
+      "log": {
+        "public_log": "Activated \"Mitsurugi Ritual\" from hand (1/5) to S-5",
+        "type": "duel",
+        "username": "naes"
+      },
+      "zone": "S-5",
+      "action": "Duel",
+      "id": 569,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Ritual",
+        "points": 51,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 16270,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "81560239",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 16,
+        "effect": "This card can be used to Ritual Summon any Reptile Ritual Monster. Activate 1 of these effects (but you can only use each effect of \"Mitsurugi Ritual\" once per turn);\n●Ritual Summon 1 Reptile Ritual Monster from your Deck, by Tributing Reptile monsters from your hand or field whose total Levels equal the Level of the Ritual Monster.\n●Ritual Summon 1 Reptile Ritual Monster from your hand, by Tributing up to 2 Reptile monsters from your hand, Deck, or field, whose total Levels equal the Level of the Ritual Monster.",
+        "name": "Mitsurugi Ritual",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi Ritual"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 278,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"from hand \"",
+        "type": "chat",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "message": "from hand ",
+      "username": "naes"
+    },
+    {
+      "play": "Good",
+      "seconds": 280,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "SS ATK",
+      "seconds": 282,
+      "log": {
+        "public_log": "Special Summoned \"Futsu no Mitama no Mitsurugi\" from hand (3/4) to M-1 (ATK)",
+        "type": "duel",
+        "username": "naes"
+      },
+      "zone": "M-1",
+      "action": "Duel",
+      "id": 573,
+      "card": {
+        "def": "3400",
+        "monster_color": "Ritual",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "ocg": 1,
+        "atk": "2000",
+        "tcg": 1,
+        "id": 16268,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 8,
+        "custom": 0,
+        "serial_number": "55397172",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 10,
+        "effect": "You can Ritual Summon this card with \"Mitsurugi Ritual\". If your opponent Special Summons a monster(s) (except during the Damage Step): You can target 1 Reptile monster in your GY, except \"Futsu no Mitama no Mitsurugi\"; Special Summon it. You can only activate this effect of \"Futsu no Mitama no Mitsurugi\" once per Chain. If this card is Tributed: You can add 1 \"Mitsurugi\" card from your Deck to your hand, except \"Futsu no Mitama no Mitsurugi\", then you can Special Summon this card. You can only use this effect of \"Futsu no Mitama no Mitsurugi\" once per turn.",
+        "name": "Futsu no Mitama no Mitsurugi",
+        "pendulum_effect": "",
+        "treated_as": "Futsu no Mitama no Mitsurugi"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "View deck",
+      "seconds": 284,
+      "log": {
+        "private_log": "Viewed deck",
+        "public_log": "Viewed deck",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "naes"
+    },
+    {
+      "play": "To GY",
+      "seconds": 299,
+      "log": {
+        "public_log": "Sent \"Mitsurugi no Mikoto, Aramasa\" from Deck to GY",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "id": 105,
+      "card": {
+        "def": "900",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "ocg": 1,
+        "atk": "1200",
+        "tcg": 1,
+        "id": 16668,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 4,
+        "custom": 0,
+        "serial_number": "40543231",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 7,
+        "effect": "If this card is Normal or Special Summoned, or if this card is Tributed: You can add 1 \"Mitsurugi\" monster from your Deck to your hand, except \"Mitsurugi no Mikoto, Aramasa\". If another Reptile monster(s) you control would be destroyed by battle or card effect, you can Tribute this card instead. You can only use each effect of \"Mitsurugi no Mikoto, Aramasa\" once per turn.",
+        "name": "Mitsurugi no Mikoto, Aramasa",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi no Mikoto, Aramasa"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 312,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        3,
+        5,
+        4,
+        2
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        574,
+        575,
+        576,
+        577
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 313,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        575,
+        576,
+        574,
+        577
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        578,
+        579,
+        580,
+        581
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 314,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        580,
+        579,
+        581,
+        578
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        582,
+        583,
+        584,
+        585
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 314,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        583,
+        582,
+        585,
+        584
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        586,
+        587,
+        588,
+        589
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 315,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        587,
+        589,
+        588,
+        586
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        590,
+        591,
+        592,
+        593
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 316,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        592,
+        591,
+        590,
+        593
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        594,
+        595,
+        596,
+        597
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 317,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        597,
+        594,
+        595,
+        596
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        598,
+        599,
+        600,
+        601
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 317,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        601,
+        599,
+        598,
+        600
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        602,
+        603,
+        604,
+        605
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Good",
+      "seconds": 319,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 320,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        602,
+        604,
+        603,
+        605
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        606,
+        607,
+        608,
+        609
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Good",
+      "seconds": 321,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 321,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        606,
+        608,
+        607,
+        609
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        610,
+        611,
+        612,
+        613
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Good",
+      "seconds": 322,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 323,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        612,
+        613,
+        611,
+        610
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        614,
+        615,
+        616,
+        617
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Good",
+      "seconds": 324,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 324,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        615,
+        617,
+        614,
+        616
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        618,
+        619,
+        620,
+        621
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Good",
+      "seconds": 325,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 326,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        620,
+        621,
+        618,
+        619
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        622,
+        623,
+        624,
+        625
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Good",
+      "seconds": 327,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 327,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        622,
+        623,
+        625,
+        624
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        626,
+        627,
+        628,
+        629
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Good",
+      "seconds": 328,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 329,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        629,
+        626,
+        628,
+        627
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        630,
+        631,
+        632,
+        633
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Good",
+      "seconds": 330,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 331,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        633,
+        631,
+        630,
+        632
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        634,
+        635,
+        636,
+        637
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "To GY",
+      "seconds": 337,
+      "log": {
+        "public_log": "Sent \"Mitsurugi no Mikoto, Saji\" from Deck to GY",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "id": 94,
+      "card": {
+        "def": "1700",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "ocg": 1,
+        "atk": "1000",
+        "tcg": 1,
+        "id": 16266,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 4,
+        "custom": 0,
+        "serial_number": "18176525",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 9,
+        "effect": "If this card is Normal or Special Summoned, or if this card is Tributed: You can add 1 \"Mitsurugi\" Spell/Trap from your Deck to your hand. If another Reptile monster(s) you control would be destroyed by battle or card effect, you can Tribute this card instead. You can only use each effect of \"Mitsurugi no Mikoto, Saji\" once per turn.",
+        "name": "Mitsurugi no Mikoto, Saji",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi no Mikoto, Saji"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 338,
+      "log": {
+        "public_log": "Stopped viewing Deck",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "naes"
+    },
+    {
+      "play": "Shuffle deck",
+      "seconds": 338,
+      "log": {
+        "private_log": "Shuffled deck",
+        "public_log": "Shuffled deck",
+        "type": "duel",
+        "username": "naes"
+      },
+      "deck": [
+        638,
+        639,
+        640,
+        641,
+        642,
+        643,
+        644,
+        645,
+        646,
+        647,
+        648,
+        649,
+        650,
+        651,
+        652,
+        653,
+        654,
+        655,
+        656,
+        657,
+        658,
+        659,
+        660,
+        661,
+        662,
+        663,
+        664,
+        665,
+        666,
+        667,
+        668,
+        669,
+        670
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "message": "naes shuffled his deck",
+      "username": "naes"
+    },
+    {
+      "play": "Declare",
+      "seconds": 340,
+      "log": {
+        "public_log": "Declared effect of \"Mitsurugi Ritual\" in S-5",
+        "type": "duel",
+        "username": "naes"
+      },
+      "name": "Mitsurugi Ritual",
+      "action": "Duel",
+      "id": 569,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Ritual",
+        "points": 51,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 16270,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "81560239",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 16,
+        "effect": "This card can be used to Ritual Summon any Reptile Ritual Monster. Activate 1 of these effects (but you can only use each effect of \"Mitsurugi Ritual\" once per turn);\n●Ritual Summon 1 Reptile Ritual Monster from your Deck, by Tributing Reptile monsters from your hand or field whose total Levels equal the Level of the Ritual Monster.\n●Ritual Summon 1 Reptile Ritual Monster from your hand, by Tributing up to 2 Reptile monsters from your hand, Deck, or field, whose total Levels equal the Level of the Ritual Monster.",
+        "name": "Mitsurugi Ritual",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi Ritual"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "To GY",
+      "seconds": 341,
+      "log": {
+        "public_log": "Sent \"Mitsurugi Ritual\" from S-5 to GY",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "id": 569,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Ritual",
+        "points": 51,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 16270,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "81560239",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 16,
+        "effect": "This card can be used to Ritual Summon any Reptile Ritual Monster. Activate 1 of these effects (but you can only use each effect of \"Mitsurugi Ritual\" once per turn);\n●Ritual Summon 1 Reptile Ritual Monster from your Deck, by Tributing Reptile monsters from your hand or field whose total Levels equal the Level of the Ritual Monster.\n●Ritual Summon 1 Reptile Ritual Monster from your hand, by Tributing up to 2 Reptile monsters from your hand, Deck, or field, whose total Levels equal the Level of the Ritual Monster.",
+        "name": "Mitsurugi Ritual",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi Ritual"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "View GY",
+      "seconds": 342,
+      "log": {
+        "private_log": "Viewed GY",
+        "public_log": "Viewed GY",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "naes"
+    },
+    {
+      "play": "Good",
+      "seconds": 343,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Declare",
+      "seconds": 344,
+      "log": {
+        "public_log": "Declared effect of \"Mitsurugi no Mikoto, Aramasa\" from GY",
+        "type": "duel",
+        "username": "naes"
+      },
+      "name": "Mitsurugi no Mikoto, Aramasa",
+      "action": "Duel",
+      "id": 105,
+      "card": {
+        "def": "900",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "ocg": 1,
+        "atk": "1200",
+        "tcg": 1,
+        "id": 16668,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 4,
+        "custom": 0,
+        "serial_number": "40543231",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 7,
+        "effect": "If this card is Normal or Special Summoned, or if this card is Tributed: You can add 1 \"Mitsurugi\" monster from your Deck to your hand, except \"Mitsurugi no Mikoto, Aramasa\". If another Reptile monster(s) you control would be destroyed by battle or card effect, you can Tribute this card instead. You can only use each effect of \"Mitsurugi no Mikoto, Aramasa\" once per turn.",
+        "name": "Mitsurugi no Mikoto, Aramasa",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi no Mikoto, Aramasa"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "Good",
+      "seconds": 346,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Declare",
+      "seconds": 346,
+      "log": {
+        "public_log": "Declared effect of \"Mitsurugi no Mikoto, Saji\" from GY",
+        "type": "duel",
+        "username": "naes"
+      },
+      "name": "Mitsurugi no Mikoto, Saji",
+      "action": "Duel",
+      "id": 94,
+      "card": {
+        "def": "1700",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "ocg": 1,
+        "atk": "1000",
+        "tcg": 1,
+        "id": 16266,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 4,
+        "custom": 0,
+        "serial_number": "18176525",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 9,
+        "effect": "If this card is Normal or Special Summoned, or if this card is Tributed: You can add 1 \"Mitsurugi\" Spell/Trap from your Deck to your hand. If another Reptile monster(s) you control would be destroyed by battle or card effect, you can Tribute this card instead. You can only use each effect of \"Mitsurugi no Mikoto, Saji\" once per turn.",
+        "name": "Mitsurugi no Mikoto, Saji",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi no Mikoto, Saji"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 347,
+      "log": {
+        "public_log": "Stopped viewing GY",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "naes"
+    },
+    {
+      "play": "View deck",
+      "seconds": 348,
+      "log": {
+        "private_log": "Viewed deck",
+        "public_log": "Viewed deck",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "naes"
+    },
+    {
+      "play": "To hand",
+      "seconds": 351,
+      "log": {
+        "private_log": "Added \"Ame no Habakiri no Mitsurugi\" from Deck to hand",
+        "public_log": "Added \"Ame no Habakiri no Mitsurugi\" from Deck to hand",
+        "type": "duel",
+        "username": "naes"
+      },
+      "prev": [
+        572,
+        644,
+        571,
+        81
+      ],
+      "action": "Duel",
+      "id": 644,
+      "shuffle": true,
+      "card": {
+        "def": "1800",
+        "monster_color": "Ritual",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "points": 100,
+        "ocg": 1,
+        "atk": "2400",
+        "tcg": 1,
+        "id": 16670,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 8,
+        "custom": 0,
+        "serial_number": "13332685",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 11,
+        "effect": "You can Ritual Summon this card with \"Mitsurugi Ritual\". Monsters your opponent controls lose 800 ATK. You can reveal this card in your hand; Special Summon 1 \"Mitsurugi\" monster from your Deck, then Tribute 1 monster you control. You can only use this effect of \"Ame no Habakiri no Mitsurugi\" once per Duel. If this card is Tributed: You can add 1 \"Mitsurugi\" card from your Deck to your hand, except \"Ame no Habakiri no Mitsurugi\", then you can Special Summon this card. You can only use this effect of \"Ame no Habakiri no Mitsurugi\" once per turn.",
+        "name": "Ame no Habakiri no Mitsurugi",
+        "pendulum_effect": "",
+        "treated_as": "Ame no Habakiri no Mitsurugi"
+      },
+      "hand": [
+        671,
+        672,
+        673,
+        674
+      ],
+      "username": "naes"
+    },
+    {
+      "play": "To hand",
+      "seconds": 353,
+      "log": {
+        "private_log": "Added \"Mitsurugi Prayers\" from Deck to hand",
+        "public_log": "Added \"Mitsurugi Prayers\" from Deck to hand",
+        "type": "duel",
+        "username": "naes"
+      },
+      "prev": [
+        672,
+        674,
+        646,
+        671,
+        673
+      ],
+      "action": "Duel",
+      "id": 646,
+      "shuffle": true,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Quick-Play",
+        "points": 51,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 16269,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "45171524",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 3,
+        "effect": "When you activate this card, you can also Tribute 1 Reptile monster in your hand or field; apply 1 of these effects, or if you Tributed a monster at activation, you can apply both effects in sequence.\n●Add 1 \"Mitsurugi\" monster from your Deck to your hand.\n●Take 800 damage, then you can Special Summon 1 \"Mitsurugi\" monster from your hand or GY, but it cannot attack directly.\nYou can only activate 1 \"Mitsurugi Prayers\" per turn.",
+        "name": "Mitsurugi Prayers",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi Prayers"
+      },
+      "hand": [
+        675,
+        676,
+        677,
+        678,
+        679
+      ],
+      "username": "naes"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 354,
+      "log": {
+        "public_log": "Stopped viewing Deck",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "naes"
+    },
+    {
+      "play": "Shuffle deck",
+      "seconds": 354,
+      "log": {
+        "private_log": "Shuffled deck",
+        "public_log": "Shuffled deck",
+        "type": "duel",
+        "username": "naes"
+      },
+      "deck": [
+        680,
+        681,
+        682,
+        683,
+        684,
+        685,
+        686,
+        687,
+        688,
+        689,
+        690,
+        691,
+        692,
+        693,
+        694,
+        695,
+        696,
+        697,
+        698,
+        699,
+        700,
+        701,
+        702,
+        703,
+        704,
+        705,
+        706,
+        707,
+        708,
+        709,
+        710
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "message": "naes shuffled his deck",
+      "username": "naes"
+    },
+    {
+      "play": "To GY",
+      "seconds": 354,
+      "log": {
+        "public_log": "Sent \"Droll & Lock Bird\" from hand (4/4) to GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 637,
+      "card": {
+        "def": "0",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Spellcaster",
+        "points": 5,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 1300,
+        "attribute": "WIND",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 1,
+        "custom": 0,
+        "serial_number": "94145021",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 74,
+        "effect": "If a card(s) is added from the Main Deck to your opponent's hand, except during the Draw Phase (Quick Effect): You can send this card from your hand to the GY; for the rest of this turn, cards cannot be added from either player's Main Deck to the hand.",
+        "name": "Droll & Lock Bird",
+        "pendulum_effect": "",
+        "treated_as": "Droll & Lock Bird"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Activate ST",
+      "seconds": 362,
+      "log": {
+        "public_log": "Activated \"Called by the Grave\" from hand (4/5) to S-5",
+        "type": "duel",
+        "username": "naes"
+      },
+      "zone": "S-5",
+      "action": "Duel",
+      "id": 678,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Quick-Play",
+        "points": 20,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 9189,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "24224830",
+        "card_type": "Spell",
+        "tcg_limit": 1,
+        "ocg_limit": 2,
+        "rush": 0,
+        "object_id": 40,
+        "effect": "Target 1 monster in your opponent's GY; banish it, and if you do, until the end of the next turn, its effects are negated, as well as the activated effects and effects on the field of monsters with the same original name.",
+        "name": "Called by the Grave",
+        "pendulum_effect": "",
+        "treated_as": "Called by the Grave"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "Declare",
+      "seconds": 363,
+      "log": {
+        "public_log": "Declared effect of \"Called by the Grave\" in S-5",
+        "type": "duel",
+        "username": "naes"
+      },
+      "name": "Called by the Grave",
+      "action": "Duel",
+      "id": 678,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Quick-Play",
+        "points": 20,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 9189,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "24224830",
+        "card_type": "Spell",
+        "tcg_limit": 1,
+        "ocg_limit": 2,
+        "rush": 0,
+        "object_id": 40,
+        "effect": "Target 1 monster in your opponent's GY; banish it, and if you do, until the end of the next turn, its effects are negated, as well as the activated effects and effects on the field of monsters with the same original name.",
+        "name": "Called by the Grave",
+        "pendulum_effect": "",
+        "treated_as": "Called by the Grave"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "View GY 2",
+      "seconds": 364,
+      "log": {
+        "private_log": "Viewed Opponent's Graveyard",
+        "public_log": "Viewed Opponent's Graveyard",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "viewing": "Opponent's Graveyard",
+      "username": "naes"
+    },
+    {
+      "play": "Banish",
+      "seconds": 365,
+      "log": {
+        "public_log": "Banished \"Droll & Lock Bird\" from GY",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "id": 637,
+      "card": {
+        "def": "0",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Spellcaster",
+        "points": 5,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 1300,
+        "attribute": "WIND",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 1,
+        "custom": 0,
+        "serial_number": "94145021",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 74,
+        "effect": "If a card(s) is added from the Main Deck to your opponent's hand, except during the Draw Phase (Quick Effect): You can send this card from your hand to the GY; for the rest of this turn, cards cannot be added from either player's Main Deck to the hand.",
+        "name": "Droll & Lock Bird",
+        "pendulum_effect": "",
+        "treated_as": "Droll & Lock Bird"
+      },
+      "username": "naes"
+    },
+    {
+      "play": "Admit defeat",
+      "over": true,
+      "seconds": 365,
+      "player1": {
+        "rating": 1056,
+        "experience": 392,
+        "points": -25
+      },
+      "log": {
+        "public_log": "Admitted defeat",
+        "type": "game",
+        "username": "Fryderyk Chopin"
+      },
+      "player2": {
+        "rating": 774,
+        "experience": 1474,
+        "points": 19
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Left duel",
+      "seconds": 367,
+      "log": {
+        "public_log": "Left duel",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 368,
+      "log": {
+        "public_log": "Stopped viewing Opponent's Graveyard",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "viewing": "Opponent's Graveyard",
+      "username": "naes"
+    },
+    {
+      "play": "Left duel",
+      "seconds": 456,
+      "log": {
+        "public_log": "Left duel",
+        "type": "duel",
+        "username": "naes"
+      },
+      "action": "Duel",
+      "username": "naes"
+    }
+  ],
+  "player1": {
+    "side": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75
+    ],
+    "nsfw": 0,
+    "rating": 1081,
+    "start": 1,
+    "extra_total": 15,
+    "main": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "pic": "13011.jpg",
+    "experience": 388,
+    "token": "1",
+    "main_total": 45,
+    "side_total": 15,
+    "legality": "Advanced",
+    "user_id": 1313181,
+    "default_pic": "13011.jpg",
+    "sleeve": "",
+    "extra": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    "username": "Fryderyk Chopin"
+  },
+  "player2": {
+    "side": [
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+    ],
+    "nsfw": 0,
+    "rating": 755,
+    "start": 76,
+    "extra_total": 15,
+    "main": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116
+    ],
+    "pic": "4929.jpg",
+    "experience": 1472,
+    "token": "1",
+    "main_total": 41,
+    "side_total": 15,
+    "legality": "Advanced",
+    "user_id": 330959,
+    "default_pic": "4929.jpg",
+    "sleeve": "35.jpg",
+    "extra": [
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131
+    ],
+    "username": "naes"
+  },
+  "format": "ar",
+  "rules": "TCG",
+  "tag_duel": false,
+  "version": 17,
+  "watching": true,
+  "rated": true,
+  "password": false,
+  "match_type": "m",
+  "links": true,
+  "id": 77237354,
+  "logs": [
+    {
+      "seconds": 0,
+      "public_log": "Fryderyk Chopin joined pool (English, TCG, Match) in Advanced (Rated)",
+      "type": "game",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "seconds": 26,
+      "public_log": "naes automatically paired via pool",
+      "type": "game",
+      "username": "naes"
+    }
+  ],
+  "player3": null,
+  "player4": null,
+  "liked": false
+}

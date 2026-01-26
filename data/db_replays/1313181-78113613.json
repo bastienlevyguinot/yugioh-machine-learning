@@ -1,0 +1,6670 @@
+{
+  "conceal": false,
+  "date": "2026-01-09 13:47:31",
+  "plays": [
+    {
+      "play": "RPS",
+      "player1_choice": "Rock",
+      "seconds": 45,
+      "winner": "KarlosS86",
+      "player1": "Fryderyk Chopin",
+      "player2": "KarlosS86",
+      "log": {
+        "public_log": "Won Rock-Paper-Scissors",
+        "type": "game",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "player2_choice": "Paper"
+    },
+    {
+      "play": "Pick first",
+      "seconds": 49,
+      "cards": [
+        {
+          "def": "1200",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Machine",
+          "ocg": 0,
+          "atk": "1200",
+          "tcg": 1,
+          "id": 17079,
+          "attribute": "DARK",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 2,
+          "level": 6,
+          "custom": 0,
+          "serial_number": "81794107",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 32,
+          "effect": "If this card is Normal or Special Summoned: You can target 1 \"R.B.\" monster in your GY, except \"R.B. Lambda Cannon\"; add it to your hand. While this card is linked to an \"R.B.\" Link Monster: You can pay 1200 LP; destroy this card, and if you do, look at your opponent's hand, then you can Special Summon 1 monster from it to their field, but negate its effects. You can only use each effect of \"R.B. Lambda Cannon\" once per turn.",
+          "name": "R.B. Lambda Cannon",
+          "pendulum_effect": "",
+          "treated_as": "R.B. Lambda Cannon"
+        },
+        {
+          "def": "900",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Reptile",
+          "ocg": 1,
+          "atk": "1200",
+          "tcg": 1,
+          "id": 16668,
+          "attribute": "DARK",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 4,
+          "custom": 0,
+          "serial_number": "40543231",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 24,
+          "effect": "If this card is Normal or Special Summoned, or if this card is Tributed: You can add 1 \"Mitsurugi\" monster from your Deck to your hand, except \"Mitsurugi no Mikoto, Aramasa\". If another Reptile monster(s) you control would be destroyed by battle or card effect, you can Tribute this card instead. You can only use each effect of \"Mitsurugi no Mikoto, Aramasa\" once per turn.",
+          "name": "Mitsurugi no Mikoto, Aramasa",
+          "pendulum_effect": "",
+          "treated_as": "Mitsurugi no Mikoto, Aramasa"
+        },
+        {
+          "def": "600",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Winged Beast",
+          "points": 7,
+          "ocg": 1,
+          "atk": "100",
+          "tcg": 1,
+          "id": 15722,
+          "attribute": "WIND",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 4,
+          "custom": 0,
+          "serial_number": "42141493",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 39,
+          "effect": "If you control no cards (Quick Effect): You can discard this card; apply these effects this turn.\n●Each time your opponent Special Summons a monster(s) from the Deck and/or Extra Deck, immediately draw 1 card.\n●Once, during this End Phase, if the number of cards in your hand is more than the number of cards your opponent controls +6, you must randomly shuffle cards from your hand into the Deck so the number in your hand equals the number your opponent controls +6.\nYou can only activate 1 other \"Mulcharmy\" monster effect, the turn you activate this effect.",
+          "name": "Mulcharmy Fuwalos",
+          "pendulum_effect": "",
+          "treated_as": "Mulcharmy Fuwalos"
+        },
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Ritual",
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 16671,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "49721684",
+          "card_type": "Spell",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 36,
+          "effect": "This card can be used to Ritual Summon any Reptile Ritual Monster from your hand or GY. You must also Tribute Reptile monsters from your hand or field whose total Levels equal or exceed the Level of the Ritual Monster. If \"Ame no Murakumo no Mitsurugi\", \"Futsu no Mitama no Mitsurugi\", or \"Ame no Habakiri no Mitsurugi\" you control is Tributed, while this card is in your GY: You can shuffle this card into the Deck. You can only use each effect of \"Mitsurugi Mirror\" once per turn.",
+          "name": "Mitsurugi Mirror",
+          "pendulum_effect": "",
+          "treated_as": "Mitsurugi Mirror"
+        },
+        {
+          "def": "0",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Machine",
+          "points": 1,
+          "ocg": 1,
+          "atk": "500",
+          "tcg": 1,
+          "id": 7085,
+          "attribute": "FIRE",
+          "ability": "Tuner",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 1,
+          "custom": 0,
+          "serial_number": "09742784",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 31,
+          "effect": "If this card is sent to the GY as Synchro Material: You can add 1 \"Junk\" monster from your Deck to your hand. If this card is in your GY: You can send 1 card from your hand to the GY; Special Summon this card, but banish it when it leaves the field. You can only use 1 \"Jet Synchron\" effect per turn, and only once that turn.",
+          "name": "Jet Synchron",
+          "pendulum_effect": "",
+          "treated_as": "Jet Synchron"
+        },
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Normal",
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 17008,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "20415050",
+          "card_type": "Spell",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 35,
+          "effect": "When you activate this card, you can also send 1 other card you control to the GY; add 1 \"Hecahands\" monster from your Deck to your hand, then if you sent another card to the GY at activation, you can Set 1 \"Hecahands\" Spell/Trap from your Deck, except \"The Hidden Hecahands\". You can banish this card from your GY; your opponent draws 1 card, then they discard 1 card. You can only use each effect of \"The Hidden Hecahands\" once per turn.",
+          "name": "The Hidden Hecahands",
+          "pendulum_effect": "",
+          "treated_as": "The Hidden Hecahands"
+        },
+        {
+          "def": "1600",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Illusion",
+          "ocg": 1,
+          "atk": "2100",
+          "tcg": 1,
+          "id": 17002,
+          "attribute": "LIGHT",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 6,
+          "custom": 0,
+          "serial_number": "32759190",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 12,
+          "effect": "If this card battles a monster, neither can be destroyed by that battle. You can only use each of the following effects of \"Hecahands Yadel\" once per turn. You can reveal this card in your hand; shuffle this card into the Deck, then add 1 \"Hecahands\" Spell/Trap from your Deck to your hand. If this card is sent to the GY: You can target 1 \"Hecahands\" Spell/Trap in your GY; Set it.",
+          "name": "Hecahands Yadel",
+          "pendulum_effect": "",
+          "treated_as": "Hecahands Yadel"
+        },
+        {
+          "def": "1500",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Machine",
+          "points": 15,
+          "ocg": 1,
+          "atk": "2200",
+          "tcg": 1,
+          "id": 16866,
+          "attribute": "EARTH",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 5,
+          "custom": 0,
+          "serial_number": "47960073",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 13,
+          "effect": "If your opponent has 2 or more cards in their hand, you can Normal Summon this card without Tributing. You can only use each of the following effects of \"K9-04 Noroi\" once per turn. If this card is Normal Summoned: You can Special Summon 1 non-Machine \"K9\" monster from your Deck, but you cannot Special Summon from the Extra Deck, except \"K9\" monsters, while you control that face-up monster. You can send 1 face-up \"K9\" card you control to the GY; look at your opponent's hand.",
+          "name": "K9-04 Noroi",
+          "pendulum_effect": "",
+          "treated_as": "K9-04 Noroi"
+        },
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Counter",
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 17011,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "29792472",
+          "card_type": "Trap",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 40,
+          "effect": "When your opponent activates a Spell/Trap Card, while you control a \"Hecahands\" monster: Negate the activation, and if you do, destroy that card, then you can Set the destroyed Spell/Trap to your field. You can only activate 1 \"Yad'al-Hecahands\" per turn.",
+          "name": "Yad'al-Hecahands",
+          "pendulum_effect": "",
+          "treated_as": "Yad'al-Hecahands"
+        },
+        {
+          "def": "600",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Winged Beast",
+          "points": 7,
+          "ocg": 1,
+          "atk": "100",
+          "tcg": 1,
+          "id": 15722,
+          "attribute": "WIND",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 4,
+          "custom": 0,
+          "serial_number": "42141493",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 23,
+          "effect": "If you control no cards (Quick Effect): You can discard this card; apply these effects this turn.\n●Each time your opponent Special Summons a monster(s) from the Deck and/or Extra Deck, immediately draw 1 card.\n●Once, during this End Phase, if the number of cards in your hand is more than the number of cards your opponent controls +6, you must randomly shuffle cards from your hand into the Deck so the number in your hand equals the number your opponent controls +6.\nYou can only activate 1 other \"Mulcharmy\" monster effect, the turn you activate this effect.",
+          "name": "Mulcharmy Fuwalos",
+          "pendulum_effect": "",
+          "treated_as": "Mulcharmy Fuwalos"
+        }
+      ],
+      "log": [
+        {
+          "private_log": "Chose to go first",
+          "public_log": "Chose to go first",
+          "type": "game",
+          "username": "KarlosS86"
+        },
+        {
+          "private_log": "Drew \"R.B. Lambda Cannon\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Mitsurugi no Mikoto, Aramasa\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Mulcharmy Fuwalos\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Mitsurugi Mirror\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Jet Synchron\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"The Hidden Hecahands\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "KarlosS86"
+        },
+        {
+          "private_log": "Drew \"Hecahands Yadel\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "KarlosS86"
+        },
+        {
+          "private_log": "Drew \"K9-04 Noroi\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "KarlosS86"
+        },
+        {
+          "private_log": "Drew \"Yad'al-Hecahands\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "KarlosS86"
+        },
+        {
+          "private_log": "Drew \"Mulcharmy Fuwalos\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "KarlosS86"
+        }
+      ],
+      "action": "Duel",
+      "username": "KarlosS86",
+      "order": [
+        "KarlosS86",
+        "Fryderyk Chopin"
+      ]
+    },
+    {
+      "play": "Enter SP",
+      "seconds": 56,
+      "log": {
+        "public_log": "Entered Standby Phase",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Enter M1",
+      "seconds": 57,
+      "log": {
+        "public_log": "Entered Main Phase 1",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Normal Summon",
+      "seconds": 59,
+      "log": {
+        "public_log": "Normal Summoned \"K9-04 Noroi\" from hand (3/5) to M-3",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "zone": "M-3",
+      "action": "Duel",
+      "id": 78,
+      "card": {
+        "def": "1500",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Machine",
+        "points": 15,
+        "ocg": 1,
+        "atk": "2200",
+        "tcg": 1,
+        "id": 16866,
+        "attribute": "EARTH",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 5,
+        "custom": 0,
+        "serial_number": "47960073",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 13,
+        "effect": "If your opponent has 2 or more cards in their hand, you can Normal Summon this card without Tributing. You can only use each of the following effects of \"K9-04 Noroi\" once per turn. If this card is Normal Summoned: You can Special Summon 1 non-Machine \"K9\" monster from your Deck, but you cannot Special Summon from the Extra Deck, except \"K9\" monsters, while you control that face-up monster. You can send 1 face-up \"K9\" card you control to the GY; look at your opponent's hand.",
+        "name": "K9-04 Noroi",
+        "pendulum_effect": "",
+        "treated_as": "K9-04 Noroi"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Declare",
+      "seconds": 61,
+      "log": {
+        "public_log": "Declared effect of \"K9-04 Noroi\" in M-3",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "name": "K9-04 Noroi",
+      "action": "Duel",
+      "id": 78,
+      "card": {
+        "def": "1500",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Machine",
+        "points": 15,
+        "ocg": 1,
+        "atk": "2200",
+        "tcg": 1,
+        "id": 16866,
+        "attribute": "EARTH",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 5,
+        "custom": 0,
+        "serial_number": "47960073",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 13,
+        "effect": "If your opponent has 2 or more cards in their hand, you can Normal Summon this card without Tributing. You can only use each of the following effects of \"K9-04 Noroi\" once per turn. If this card is Normal Summoned: You can Special Summon 1 non-Machine \"K9\" monster from your Deck, but you cannot Special Summon from the Extra Deck, except \"K9\" monsters, while you control that face-up monster. You can send 1 face-up \"K9\" card you control to the GY; look at your opponent's hand.",
+        "name": "K9-04 Noroi",
+        "pendulum_effect": "",
+        "treated_as": "K9-04 Noroi"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "To GY",
+      "seconds": 62,
+      "log": {
+        "public_log": "Sent \"Mulcharmy Fuwalos\" from hand (3/5) to GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 3,
+      "card": {
+        "def": "600",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Winged Beast",
+        "points": 7,
+        "ocg": 1,
+        "atk": "100",
+        "tcg": 1,
+        "id": 15722,
+        "attribute": "WIND",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 4,
+        "custom": 0,
+        "serial_number": "42141493",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 39,
+        "effect": "If you control no cards (Quick Effect): You can discard this card; apply these effects this turn.\n●Each time your opponent Special Summons a monster(s) from the Deck and/or Extra Deck, immediately draw 1 card.\n●Once, during this End Phase, if the number of cards in your hand is more than the number of cards your opponent controls +6, you must randomly shuffle cards from your hand into the Deck so the number in your hand equals the number your opponent controls +6.\nYou can only activate 1 other \"Mulcharmy\" monster effect, the turn you activate this effect.",
+        "name": "Mulcharmy Fuwalos",
+        "pendulum_effect": "",
+        "treated_as": "Mulcharmy Fuwalos"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "View deck",
+      "seconds": 65,
+      "log": {
+        "private_log": "Viewed deck",
+        "public_log": "Viewed deck",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "SS ATK",
+      "seconds": 72,
+      "log": {
+        "public_log": "Special Summoned \"K9-66a Jokul\" from Deck to M-1 (ATK)",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "zone": "M-1",
+      "action": "Duel",
+      "id": 100,
+      "card": {
+        "def": "1900",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Aqua",
+        "points": 33,
+        "ocg": 1,
+        "atk": "2000",
+        "tcg": 1,
+        "id": 16502,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 5,
+        "custom": 0,
+        "serial_number": "28642461",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 1,
+        "rush": 0,
+        "object_id": 19,
+        "effect": "If your opponent has 2 or more cards in their hand, you can Normal Summon this card without Tributing. You can only use each of the following effects of \"K9-66a Jokul\" once per turn. You can reveal this card and 1 other Level 5 monster in your hand; Special Summon both, but they cannot be used as material for the Xyz Summon of a LIGHT monster. During your Main Phase: You can add 1 non-Aqua \"K9\" monster from your Deck to your hand.",
+        "name": "K9-66a Jokul",
+        "pendulum_effect": "",
+        "treated_as": "K9-66a Jokul"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Draw card",
+      "seconds": 73,
+      "log": {
+        "private_log": "Drew \"Mitsurugi Prayers\"",
+        "public_log": "Drew a card",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 6,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Quick-Play",
+        "points": 51,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 16269,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "45171524",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 16,
+        "effect": "When you activate this card, you can also Tribute 1 Reptile monster in your hand or field; apply 1 of these effects, or if you Tributed a monster at activation, you can apply both effects in sequence.\n●Add 1 \"Mitsurugi\" monster from your Deck to your hand.\n●Take 800 damage, then you can Special Summon 1 \"Mitsurugi\" monster from your hand or GY, but it cannot attack directly.\nYou can only activate 1 \"Mitsurugi Prayers\" per turn.",
+        "name": "Mitsurugi Prayers",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi Prayers"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Declare",
+      "seconds": 74,
+      "log": {
+        "public_log": "Declared effect of \"K9-66a Jokul\" in M-1",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "name": "K9-66a Jokul",
+      "action": "Duel",
+      "id": 100,
+      "card": {
+        "def": "1900",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Aqua",
+        "points": 33,
+        "ocg": 1,
+        "atk": "2000",
+        "tcg": 1,
+        "id": 16502,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 5,
+        "custom": 0,
+        "serial_number": "28642461",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 1,
+        "rush": 0,
+        "object_id": 19,
+        "effect": "If your opponent has 2 or more cards in their hand, you can Normal Summon this card without Tributing. You can only use each of the following effects of \"K9-66a Jokul\" once per turn. You can reveal this card and 1 other Level 5 monster in your hand; Special Summon both, but they cannot be used as material for the Xyz Summon of a LIGHT monster. During your Main Phase: You can add 1 non-Aqua \"K9\" monster from your Deck to your hand.",
+        "name": "K9-66a Jokul",
+        "pendulum_effect": "",
+        "treated_as": "K9-66a Jokul"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 75,
+      "log": {
+        "public_log": "Stopped viewing Deck",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Shuffle deck",
+      "seconds": 75,
+      "log": {
+        "private_log": "Shuffled deck",
+        "public_log": "Shuffled deck",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "deck": [
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508,
+        509,
+        510,
+        511,
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        518,
+        519,
+        520,
+        521,
+        522,
+        523,
+        524,
+        525,
+        526,
+        527,
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        534
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "message": "KarlosS86 shuffled his deck",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "View deck",
+      "seconds": 84,
+      "log": {
+        "private_log": "Viewed deck",
+        "public_log": "Viewed deck",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "To hand",
+      "seconds": 85,
+      "log": {
+        "private_log": "Added \"K9-17 Izuna\" from Deck to hand",
+        "public_log": "Added \"K9-17 Izuna\" from Deck to hand",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "prev": [
+        79,
+        76,
+        80,
+        505,
+        77
+      ],
+      "action": "Duel",
+      "id": 505,
+      "shuffle": true,
+      "card": {
+        "def": "1600",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Warrior",
+        "points": 20,
+        "ocg": 1,
+        "atk": "2100",
+        "tcg": 1,
+        "id": 16501,
+        "attribute": "EARTH",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 5,
+        "custom": 0,
+        "serial_number": "92248362",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 2,
+        "rush": 0,
+        "object_id": 16,
+        "effect": "If your opponent has 2 or more cards in their hand, you can Normal Summon this card without Tributing. You can only use each of the following effects of \"K9-17 Izuna\" once per turn. During the Main Phase, if your opponent has activated a monster effect in the hand or GY this turn (Quick Effect): You can Special Summon this card from your hand. If this card is Normal or Special Summoned: You can send 1 \"K9\" card from your Deck to the GY, except \"K9-17 Izuna\".",
+        "name": "K9-17 Izuna",
+        "pendulum_effect": "",
+        "treated_as": "K9-17 Izuna"
+      },
+      "hand": [
+        535,
+        536,
+        537,
+        538,
+        539
+      ],
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 86,
+      "log": {
+        "public_log": "Stopped viewing Deck",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Shuffle deck",
+      "seconds": 86,
+      "log": {
+        "private_log": "Shuffled deck",
+        "public_log": "Shuffled deck",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "deck": [
+        540,
+        541,
+        542,
+        543,
+        544,
+        545,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557,
+        558,
+        559,
+        560,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        567,
+        568,
+        569,
+        570,
+        571,
+        572
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "message": "KarlosS86 shuffled his deck",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Declare",
+      "seconds": 89,
+      "log": {
+        "public_log": "Declared effect of \"K9-17 Izuna\" in hand (4/5)",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "name": "K9-17 Izuna",
+      "action": "Duel",
+      "id": 538,
+      "card": {
+        "def": "1600",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Warrior",
+        "points": 20,
+        "ocg": 1,
+        "atk": "2100",
+        "tcg": 1,
+        "id": 16501,
+        "attribute": "EARTH",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 5,
+        "custom": 0,
+        "serial_number": "92248362",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 2,
+        "rush": 0,
+        "object_id": 16,
+        "effect": "If your opponent has 2 or more cards in their hand, you can Normal Summon this card without Tributing. You can only use each of the following effects of \"K9-17 Izuna\" once per turn. During the Main Phase, if your opponent has activated a monster effect in the hand or GY this turn (Quick Effect): You can Special Summon this card from your hand. If this card is Normal or Special Summoned: You can send 1 \"K9\" card from your Deck to the GY, except \"K9-17 Izuna\".",
+        "name": "K9-17 Izuna",
+        "pendulum_effect": "",
+        "treated_as": "K9-17 Izuna"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "SS ATK",
+      "seconds": 91,
+      "log": {
+        "public_log": "Special Summoned \"K9-17 Izuna\" from hand (4/5) to M-4 (ATK)",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "zone": "M-4",
+      "action": "Duel",
+      "id": 538,
+      "card": {
+        "def": "1600",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Warrior",
+        "points": 20,
+        "ocg": 1,
+        "atk": "2100",
+        "tcg": 1,
+        "id": 16501,
+        "attribute": "EARTH",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 5,
+        "custom": 0,
+        "serial_number": "92248362",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 2,
+        "rush": 0,
+        "object_id": 16,
+        "effect": "If your opponent has 2 or more cards in their hand, you can Normal Summon this card without Tributing. You can only use each of the following effects of \"K9-17 Izuna\" once per turn. During the Main Phase, if your opponent has activated a monster effect in the hand or GY this turn (Quick Effect): You can Special Summon this card from your hand. If this card is Normal or Special Summoned: You can send 1 \"K9\" card from your Deck to the GY, except \"K9-17 Izuna\".",
+        "name": "K9-17 Izuna",
+        "pendulum_effect": "",
+        "treated_as": "K9-17 Izuna"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Declare",
+      "seconds": 94,
+      "log": {
+        "public_log": "Declared effect of \"K9-17 Izuna\" in M-4",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "name": "K9-17 Izuna",
+      "action": "Duel",
+      "id": 538,
+      "card": {
+        "def": "1600",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Warrior",
+        "points": 20,
+        "ocg": 1,
+        "atk": "2100",
+        "tcg": 1,
+        "id": 16501,
+        "attribute": "EARTH",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 5,
+        "custom": 0,
+        "serial_number": "92248362",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 2,
+        "rush": 0,
+        "object_id": 16,
+        "effect": "If your opponent has 2 or more cards in their hand, you can Normal Summon this card without Tributing. You can only use each of the following effects of \"K9-17 Izuna\" once per turn. During the Main Phase, if your opponent has activated a monster effect in the hand or GY this turn (Quick Effect): You can Special Summon this card from your hand. If this card is Normal or Special Summoned: You can send 1 \"K9\" card from your Deck to the GY, except \"K9-17 Izuna\".",
+        "name": "K9-17 Izuna",
+        "pendulum_effect": "",
+        "treated_as": "K9-17 Izuna"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "View deck",
+      "seconds": 97,
+      "log": {
+        "private_log": "Viewed deck",
+        "public_log": "Viewed deck",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "To GY",
+      "seconds": 100,
+      "log": {
+        "public_log": "Sent \"K9-ØØ Lupis\" from Deck to GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "id": 544,
+      "card": {
+        "def": "200",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Beast-Warrior",
+        "points": 5,
+        "ocg": 1,
+        "atk": "2300",
+        "tcg": 1,
+        "id": 16504,
+        "attribute": "EARTH",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 5,
+        "custom": 0,
+        "serial_number": "91025875",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 21,
+        "effect": "An Xyz Monster that has this card as material gains this effect.\n●Your opponent cannot target this card with card effects.\nYou can only use each of the following effects of \"K9-ØØ Lupis\" once per turn. During the Main Phase, if your opponent has activated a monster effect in the hand or GY this turn (Quick Effect): You can Special Summon this card from your hand or GY, but banish it when it leaves the field. During your opponent's turn, you can (Quick Effect): Immediately after this effect resolves, Xyz Summon using this card you control.",
+        "name": "K9-ØØ Lupis",
+        "pendulum_effect": "",
+        "treated_as": "K9-ØØ Lupis"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 102,
+      "log": {
+        "public_log": "Stopped viewing Deck",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Shuffle deck",
+      "seconds": 102,
+      "log": {
+        "private_log": "Shuffled deck",
+        "public_log": "Shuffled deck",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "deck": [
+        573,
+        574,
+        575,
+        576,
+        577,
+        578,
+        579,
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588,
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600,
+        601,
+        602,
+        603,
+        604
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "message": "KarlosS86 shuffled his deck",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "View GY",
+      "seconds": 103,
+      "log": {
+        "private_log": "Viewed GY",
+        "public_log": "Viewed GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Declare",
+      "seconds": 105,
+      "log": {
+        "public_log": "Declared effect of \"K9-ØØ Lupis\" from GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "name": "K9-ØØ Lupis",
+      "action": "Duel",
+      "id": 544,
+      "card": {
+        "def": "200",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Beast-Warrior",
+        "points": 5,
+        "ocg": 1,
+        "atk": "2300",
+        "tcg": 1,
+        "id": 16504,
+        "attribute": "EARTH",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 5,
+        "custom": 0,
+        "serial_number": "91025875",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 21,
+        "effect": "An Xyz Monster that has this card as material gains this effect.\n●Your opponent cannot target this card with card effects.\nYou can only use each of the following effects of \"K9-ØØ Lupis\" once per turn. During the Main Phase, if your opponent has activated a monster effect in the hand or GY this turn (Quick Effect): You can Special Summon this card from your hand or GY, but banish it when it leaves the field. During your opponent's turn, you can (Quick Effect): Immediately after this effect resolves, Xyz Summon using this card you control.",
+        "name": "K9-ØØ Lupis",
+        "pendulum_effect": "",
+        "treated_as": "K9-ØØ Lupis"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "SS ATK",
+      "seconds": 107,
+      "log": {
+        "public_log": "Special Summoned \"K9-ØØ Lupis\" from GY to M-2 (ATK)",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "zone": "M-2",
+      "action": "Duel",
+      "id": 544,
+      "card": {
+        "def": "200",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Beast-Warrior",
+        "points": 5,
+        "ocg": 1,
+        "atk": "2300",
+        "tcg": 1,
+        "id": 16504,
+        "attribute": "EARTH",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 5,
+        "custom": 0,
+        "serial_number": "91025875",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 21,
+        "effect": "An Xyz Monster that has this card as material gains this effect.\n●Your opponent cannot target this card with card effects.\nYou can only use each of the following effects of \"K9-ØØ Lupis\" once per turn. During the Main Phase, if your opponent has activated a monster effect in the hand or GY this turn (Quick Effect): You can Special Summon this card from your hand or GY, but banish it when it leaves the field. During your opponent's turn, you can (Quick Effect): Immediately after this effect resolves, Xyz Summon using this card you control.",
+        "name": "K9-ØØ Lupis",
+        "pendulum_effect": "",
+        "treated_as": "K9-ØØ Lupis"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 108,
+      "log": {
+        "public_log": "Stopped viewing GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Overlay",
+      "seconds": 112,
+      "start_id": 544,
+      "log": {
+        "public_log": "Overlayed \"K9-ØØ Lupis\" in M-2 onto \"K9-66a Jokul\" in M-1",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "zone": "M-1",
+      "end_id": 100,
+      "action": "Duel",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "View ED",
+      "seconds": 112,
+      "log": {
+        "private_log": "Viewed Extra Deck",
+        "public_log": "Viewed Extra Deck",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Extra Deck",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Draw card",
+      "seconds": 115,
+      "log": {
+        "private_log": "Drew \"Ash Blossom & Joyous Spring\"",
+        "public_log": "Drew a card",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 7,
+      "card": {
+        "def": "1800",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Zombie",
+        "points": 15,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 8504,
+        "attribute": "FIRE",
+        "ability": "Tuner",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 3,
+        "custom": 0,
+        "serial_number": "14558127",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 2,
+        "rush": 0,
+        "object_id": 18,
+        "effect": "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that effect.\n●Add a card from the Deck to the hand.\n●Special Summon from the Deck.\n●Send a card from the Deck to the GY.\nYou can only use this effect of \"Ash Blossom & Joyous Spring\" once per turn.",
+        "name": "Ash Blossom & Joyous Spring",
+        "pendulum_effect": "",
+        "treated_as": "Ash Blossom & Joyous Spring"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "OL ATK",
+      "seconds": 115,
+      "start_id": 122,
+      "log": {
+        "public_log": "Special Summoned \"K9-17 \"Ripper\"\" from Extra Deck onto \"K9-ØØ Lupis\" in M-1 (ATK)",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "zone": "M-1",
+      "end_id": 544,
+      "action": "Duel",
+      "card": {
+        "def": "1800",
+        "monster_color": "Xyz",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Warrior",
+        "points": 30,
+        "ocg": 1,
+        "atk": "2300",
+        "tcg": 1,
+        "id": 16505,
+        "attribute": "WIND",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 5,
+        "custom": 0,
+        "serial_number": "27420823",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 47,
+        "effect": "2 Level 5 monsters\nYou can detach 1 material from this card; add 1 \"K9\" card from your Deck to your hand, then if your opponent has activated a monster effect this turn, you can Set 1 \"K9\" Quick-Play Spell from your Deck or GY. When your opponent activates a monster effect in the hand or GY (Quick Effect): You can detach 1 material from this card; negate that effect. You can only use each effect of \"K9-17 \"Ripper\"\" once per turn.",
+        "name": "K9-17 \"Ripper\"",
+        "pendulum_effect": "",
+        "treated_as": "K9-17 \"Ripper\""
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 116,
+      "log": {
+        "public_log": "Stopped viewing Extra Deck",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Extra Deck",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Declare",
+      "seconds": 119,
+      "log": {
+        "public_log": "Declared effect of \"K9-17 \"Ripper\"\" in M-1",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "name": "K9-17 \"Ripper\"",
+      "action": "Duel",
+      "id": 122,
+      "card": {
+        "def": "1800",
+        "monster_color": "Xyz",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Warrior",
+        "points": 30,
+        "ocg": 1,
+        "atk": "2300",
+        "tcg": 1,
+        "id": 16505,
+        "attribute": "WIND",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 5,
+        "custom": 0,
+        "serial_number": "27420823",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 47,
+        "effect": "2 Level 5 monsters\nYou can detach 1 material from this card; add 1 \"K9\" card from your Deck to your hand, then if your opponent has activated a monster effect this turn, you can Set 1 \"K9\" Quick-Play Spell from your Deck or GY. When your opponent activates a monster effect in the hand or GY (Quick Effect): You can detach 1 material from this card; negate that effect. You can only use each effect of \"K9-17 \"Ripper\"\" once per turn.",
+        "name": "K9-17 \"Ripper\"",
+        "pendulum_effect": "",
+        "treated_as": "K9-17 \"Ripper\""
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Detach",
+      "seconds": 120,
+      "log": {
+        "private_log": "Detached Xyz Material \"K9-66a Jokul\" from \"K9-17 \"Ripper\"\" in M-1",
+        "public_log": "Detached Xyz Material \"K9-66a Jokul\" from \"K9-17 \"Ripper\"\" in M-1",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "id": 100,
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Thinking",
+      "seconds": 121,
+      "log": {
+        "public_log": "Thinking",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "To GY",
+      "seconds": 126,
+      "log": {
+        "public_log": "Sent \"Ash Blossom & Joyous Spring\" from hand (6/6) to GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 7,
+      "card": {
+        "def": "1800",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Zombie",
+        "points": 15,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 8504,
+        "attribute": "FIRE",
+        "ability": "Tuner",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 3,
+        "custom": 0,
+        "serial_number": "14558127",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 2,
+        "rush": 0,
+        "object_id": 18,
+        "effect": "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that effect.\n●Add a card from the Deck to the hand.\n●Special Summon from the Deck.\n●Send a card from the Deck to the GY.\nYou can only use this effect of \"Ash Blossom & Joyous Spring\" once per turn.",
+        "name": "Ash Blossom & Joyous Spring",
+        "pendulum_effect": "",
+        "treated_as": "Ash Blossom & Joyous Spring"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Good",
+      "seconds": 135,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Declare",
+      "seconds": 136,
+      "log": {
+        "public_log": "Declared effect of \"K9-04 Noroi\" in M-3",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "name": "K9-04 Noroi",
+      "action": "Duel",
+      "id": 78,
+      "card": {
+        "def": "1500",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Machine",
+        "points": 15,
+        "ocg": 1,
+        "atk": "2200",
+        "tcg": 1,
+        "id": 16866,
+        "attribute": "EARTH",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 5,
+        "custom": 0,
+        "serial_number": "47960073",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 13,
+        "effect": "If your opponent has 2 or more cards in their hand, you can Normal Summon this card without Tributing. You can only use each of the following effects of \"K9-04 Noroi\" once per turn. If this card is Normal Summoned: You can Special Summon 1 non-Machine \"K9\" monster from your Deck, but you cannot Special Summon from the Extra Deck, except \"K9\" monsters, while you control that face-up monster. You can send 1 face-up \"K9\" card you control to the GY; look at your opponent's hand.",
+        "name": "K9-04 Noroi",
+        "pendulum_effect": "",
+        "treated_as": "K9-04 Noroi"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "To GY",
+      "seconds": 137,
+      "log": {
+        "public_log": "Sent \"K9-17 Izuna\" from M-4 to GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "id": 538,
+      "card": {
+        "def": "1600",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Warrior",
+        "points": 20,
+        "ocg": 1,
+        "atk": "2100",
+        "tcg": 1,
+        "id": 16501,
+        "attribute": "EARTH",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 5,
+        "custom": 0,
+        "serial_number": "92248362",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 2,
+        "rush": 0,
+        "object_id": 16,
+        "effect": "If your opponent has 2 or more cards in their hand, you can Normal Summon this card without Tributing. You can only use each of the following effects of \"K9-17 Izuna\" once per turn. During the Main Phase, if your opponent has activated a monster effect in the hand or GY this turn (Quick Effect): You can Special Summon this card from your hand. If this card is Normal or Special Summoned: You can send 1 \"K9\" card from your Deck to the GY, except \"K9-17 Izuna\".",
+        "name": "K9-17 Izuna",
+        "pendulum_effect": "",
+        "treated_as": "K9-17 Izuna"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Show hand",
+      "seconds": 140,
+      "log": {
+        "public_log": "Showed hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Opponent's Hand",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 149,
+      "log": {
+        "public_log": "Stopped viewing Opponent's Hand",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Opponent's Hand",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Shuffle hand",
+      "seconds": 149,
+      "log": {
+        "private_log": "Shuffled hand",
+        "public_log": "Shuffled hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        5,
+        1,
+        4,
+        6,
+        2
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "hand": [
+        605,
+        606,
+        607,
+        608,
+        609
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Activate ST",
+      "seconds": 154,
+      "log": {
+        "public_log": "Activated \"The Hidden Hecahands\" from hand (2/4) to S-4",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "zone": "S-4",
+      "action": "Duel",
+      "id": 536,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Normal",
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 17008,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "20415050",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 35,
+        "effect": "When you activate this card, you can also send 1 other card you control to the GY; add 1 \"Hecahands\" monster from your Deck to your hand, then if you sent another card to the GY at activation, you can Set 1 \"Hecahands\" Spell/Trap from your Deck, except \"The Hidden Hecahands\". You can banish this card from your GY; your opponent draws 1 card, then they discard 1 card. You can only use each effect of \"The Hidden Hecahands\" once per turn.",
+        "name": "The Hidden Hecahands",
+        "pendulum_effect": "",
+        "treated_as": "The Hidden Hecahands"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "To GY",
+      "seconds": 155,
+      "log": {
+        "public_log": "Sent \"K9-04 Noroi\" from M-3 to GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "id": 78,
+      "card": {
+        "def": "1500",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Machine",
+        "points": 15,
+        "ocg": 1,
+        "atk": "2200",
+        "tcg": 1,
+        "id": 16866,
+        "attribute": "EARTH",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 5,
+        "custom": 0,
+        "serial_number": "47960073",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 13,
+        "effect": "If your opponent has 2 or more cards in their hand, you can Normal Summon this card without Tributing. You can only use each of the following effects of \"K9-04 Noroi\" once per turn. If this card is Normal Summoned: You can Special Summon 1 non-Machine \"K9\" monster from your Deck, but you cannot Special Summon from the Extra Deck, except \"K9\" monsters, while you control that face-up monster. You can send 1 face-up \"K9\" card you control to the GY; look at your opponent's hand.",
+        "name": "K9-04 Noroi",
+        "pendulum_effect": "",
+        "treated_as": "K9-04 Noroi"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "View deck",
+      "seconds": 157,
+      "log": {
+        "private_log": "Viewed deck",
+        "public_log": "Viewed deck",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Good",
+      "seconds": 160,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "To hand",
+      "seconds": 178,
+      "log": {
+        "private_log": "Added \"Hecahands Breus\" from Deck to hand",
+        "public_log": "Added \"Hecahands Breus\" from Deck to hand",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "prev": [
+        590,
+        535,
+        537,
+        539
+      ],
+      "action": "Duel",
+      "id": 590,
+      "shuffle": true,
+      "card": {
+        "def": "1300",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Illusion",
+        "ocg": 1,
+        "atk": "2800",
+        "tcg": 1,
+        "id": 17005,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 7,
+        "custom": 0,
+        "serial_number": "21637502",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 4,
+        "effect": "If this card battles a monster, neither can be destroyed by that battle. You can only use each of the following effects of \"Hecahands Breus\" once per turn. If a card(s) is added to your opponent's hand (except during the Draw Phase or Damage Step): You can Special Summon this card from your hand. During your Main Phase: You can look at 1 random card in your opponent's hand, then if it is a monster, you can Special Summon it to your field.",
+        "name": "Hecahands Breus",
+        "pendulum_effect": "",
+        "treated_as": "Hecahands Breus"
+      },
+      "hand": [
+        610,
+        611,
+        612,
+        613
+      ],
+      "username": "KarlosS86"
+    },
+    {
+      "play": "To ST",
+      "seconds": 187,
+      "log": {
+        "public_log": "Placed \"Ib'al-Hecahands\" from Deck to S-5",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "zone": "S-5",
+      "action": "Duel",
+      "id": 579,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Counter",
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 17010,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "93294363",
+        "card_type": "Trap",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 36,
+        "effect": "When your opponent activates a monster effect, while you control a \"Hecahands\" monster: Negate the activation, and if you do, destroy that monster, then you can Special Summon the destroyed monster to your field. You can only activate 1 \"Ib'al-Hecahands\" per turn.",
+        "name": "Ib'al-Hecahands",
+        "pendulum_effect": "",
+        "treated_as": "Ib'al-Hecahands"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Set ST",
+      "seconds": 189,
+      "log": {
+        "private_log": "Set \"Ib'al-Hecahands\" in S-5",
+        "public_log": "Set \"Ib'al-Hecahands\" in S-5",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "id": 579,
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 190,
+      "log": {
+        "public_log": "Stopped viewing Deck",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Shuffle deck",
+      "seconds": 190,
+      "log": {
+        "private_log": "Shuffled deck",
+        "public_log": "Shuffled deck",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "deck": [
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629,
+        630,
+        631,
+        632,
+        633,
+        634,
+        635,
+        636,
+        637,
+        638,
+        639,
+        640,
+        641,
+        642,
+        643
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "message": "KarlosS86 shuffled his deck",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "View GY",
+      "seconds": 190,
+      "log": {
+        "private_log": "Viewed GY",
+        "public_log": "Viewed GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 191,
+      "log": {
+        "public_log": "Stopped viewing GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "To GY",
+      "seconds": 192,
+      "log": {
+        "public_log": "Sent \"The Hidden Hecahands\" from S-4 to GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "id": 536,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Normal",
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 17008,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "20415050",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 35,
+        "effect": "When you activate this card, you can also send 1 other card you control to the GY; add 1 \"Hecahands\" monster from your Deck to your hand, then if you sent another card to the GY at activation, you can Set 1 \"Hecahands\" Spell/Trap from your Deck, except \"The Hidden Hecahands\". You can banish this card from your GY; your opponent draws 1 card, then they discard 1 card. You can only use each effect of \"The Hidden Hecahands\" once per turn.",
+        "name": "The Hidden Hecahands",
+        "pendulum_effect": "",
+        "treated_as": "The Hidden Hecahands"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "View GY",
+      "seconds": 193,
+      "log": {
+        "private_log": "Viewed GY",
+        "public_log": "Viewed GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Declare",
+      "seconds": 195,
+      "log": {
+        "public_log": "Declared effect of \"The Hidden Hecahands\" from GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "name": "The Hidden Hecahands",
+      "action": "Duel",
+      "id": 536,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Normal",
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 17008,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "20415050",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 35,
+        "effect": "When you activate this card, you can also send 1 other card you control to the GY; add 1 \"Hecahands\" monster from your Deck to your hand, then if you sent another card to the GY at activation, you can Set 1 \"Hecahands\" Spell/Trap from your Deck, except \"The Hidden Hecahands\". You can banish this card from your GY; your opponent draws 1 card, then they discard 1 card. You can only use each effect of \"The Hidden Hecahands\" once per turn.",
+        "name": "The Hidden Hecahands",
+        "pendulum_effect": "",
+        "treated_as": "The Hidden Hecahands"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Banish",
+      "seconds": 196,
+      "log": {
+        "public_log": "Banished \"The Hidden Hecahands\" from GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "id": 536,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Normal",
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 17008,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "20415050",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 35,
+        "effect": "When you activate this card, you can also send 1 other card you control to the GY; add 1 \"Hecahands\" monster from your Deck to your hand, then if you sent another card to the GY at activation, you can Set 1 \"Hecahands\" Spell/Trap from your Deck, except \"The Hidden Hecahands\". You can banish this card from your GY; your opponent draws 1 card, then they discard 1 card. You can only use each effect of \"The Hidden Hecahands\" once per turn.",
+        "name": "The Hidden Hecahands",
+        "pendulum_effect": "",
+        "treated_as": "The Hidden Hecahands"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 198,
+      "log": {
+        "public_log": "Stopped viewing GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Draw card",
+      "seconds": 202,
+      "log": {
+        "private_log": "Drew \"Ame no Habakiri no Mitsurugi\"",
+        "public_log": "Drew a card",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 8,
+      "card": {
+        "def": "1800",
+        "monster_color": "Ritual",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "points": 100,
+        "ocg": 1,
+        "atk": "2400",
+        "tcg": 1,
+        "id": 16670,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 8,
+        "custom": 0,
+        "serial_number": "13332685",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 7,
+        "effect": "You can Ritual Summon this card with \"Mitsurugi Ritual\". Monsters your opponent controls lose 800 ATK. You can reveal this card in your hand; Special Summon 1 \"Mitsurugi\" monster from your Deck, then Tribute 1 monster you control. You can only use this effect of \"Ame no Habakiri no Mitsurugi\" once per Duel. If this card is Tributed: You can add 1 \"Mitsurugi\" card from your Deck to your hand, except \"Ame no Habakiri no Mitsurugi\", then you can Special Summon this card. You can only use this effect of \"Ame no Habakiri no Mitsurugi\" once per turn.",
+        "name": "Ame no Habakiri no Mitsurugi",
+        "pendulum_effect": "",
+        "treated_as": "Ame no Habakiri no Mitsurugi"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 206,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"draw 1 discard 1\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "draw 1 discard 1",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "To GY",
+      "seconds": 209,
+      "log": {
+        "public_log": "Sent \"Jet Synchron\" from hand (1/6) to GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 605,
+      "card": {
+        "def": "0",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Machine",
+        "points": 1,
+        "ocg": 1,
+        "atk": "500",
+        "tcg": 1,
+        "id": 7085,
+        "attribute": "FIRE",
+        "ability": "Tuner",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 1,
+        "custom": 0,
+        "serial_number": "09742784",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 31,
+        "effect": "If this card is sent to the GY as Synchro Material: You can add 1 \"Junk\" monster from your Deck to your hand. If this card is in your GY: You can send 1 card from your hand to the GY; Special Summon this card, but banish it when it leaves the field. You can only use 1 \"Jet Synchron\" effect per turn, and only once that turn.",
+        "name": "Jet Synchron",
+        "pendulum_effect": "",
+        "treated_as": "Jet Synchron"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Declare",
+      "seconds": 212,
+      "log": {
+        "public_log": "Declared effect of \"Hecahands Breus\" in hand (1/4)",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "name": "Hecahands Breus",
+      "action": "Duel",
+      "id": 610,
+      "card": {
+        "def": "1300",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Illusion",
+        "ocg": 1,
+        "atk": "2800",
+        "tcg": 1,
+        "id": 17005,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 7,
+        "custom": 0,
+        "serial_number": "21637502",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 4,
+        "effect": "If this card battles a monster, neither can be destroyed by that battle. You can only use each of the following effects of \"Hecahands Breus\" once per turn. If a card(s) is added to your opponent's hand (except during the Draw Phase or Damage Step): You can Special Summon this card from your hand. During your Main Phase: You can look at 1 random card in your opponent's hand, then if it is a monster, you can Special Summon it to your field.",
+        "name": "Hecahands Breus",
+        "pendulum_effect": "",
+        "treated_as": "Hecahands Breus"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "SS ATK",
+      "seconds": 214,
+      "log": {
+        "public_log": "Special Summoned \"Hecahands Breus\" from hand (1/4) to M-3 (ATK)",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "zone": "M-3",
+      "action": "Duel",
+      "id": 610,
+      "card": {
+        "def": "1300",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Illusion",
+        "ocg": 1,
+        "atk": "2800",
+        "tcg": 1,
+        "id": 17005,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 7,
+        "custom": 0,
+        "serial_number": "21637502",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 4,
+        "effect": "If this card battles a monster, neither can be destroyed by that battle. You can only use each of the following effects of \"Hecahands Breus\" once per turn. If a card(s) is added to your opponent's hand (except during the Draw Phase or Damage Step): You can Special Summon this card from your hand. During your Main Phase: You can look at 1 random card in your opponent's hand, then if it is a monster, you can Special Summon it to your field.",
+        "name": "Hecahands Breus",
+        "pendulum_effect": "",
+        "treated_as": "Hecahands Breus"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Add watcher",
+      "seconds": 215,
+      "action": "Duel",
+      "username": "LionEscanor"
+    },
+    {
+      "play": "Declare",
+      "seconds": 219,
+      "log": {
+        "public_log": "Declared effect of \"Hecahands Breus\" in M-3",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "name": "Hecahands Breus",
+      "action": "Duel",
+      "id": 610,
+      "card": {
+        "def": "1300",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Illusion",
+        "ocg": 1,
+        "atk": "2800",
+        "tcg": 1,
+        "id": 17005,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 7,
+        "custom": 0,
+        "serial_number": "21637502",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 4,
+        "effect": "If this card battles a monster, neither can be destroyed by that battle. You can only use each of the following effects of \"Hecahands Breus\" once per turn. If a card(s) is added to your opponent's hand (except during the Draw Phase or Damage Step): You can Special Summon this card from your hand. During your Main Phase: You can look at 1 random card in your opponent's hand, then if it is a monster, you can Special Summon it to your field.",
+        "name": "Hecahands Breus",
+        "pendulum_effect": "",
+        "treated_as": "Hecahands Breus"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Remove watcher",
+      "seconds": 224,
+      "action": "Duel",
+      "username": "LionEscanor"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 225,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"good\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "good",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 225,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"?\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "?",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Target card",
+      "seconds": 226,
+      "log": {
+        "private_log": "Pointed at \"Mitsurugi no Mikoto, Aramasa\" in opponent's hand (4/5)",
+        "public_log": "Pointed at card in opponent's hand (4/5)",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "id": 609,
+      "username": "KarlosS86"
+    },
+    {
+      "play": "To GY",
+      "seconds": 232,
+      "log": {
+        "public_log": "Sent \"Mitsurugi no Mikoto, Aramasa\" from hand (4/5) to GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 609,
+      "card": {
+        "def": "900",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "ocg": 1,
+        "atk": "1200",
+        "tcg": 1,
+        "id": 16668,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 4,
+        "custom": 0,
+        "serial_number": "40543231",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 24,
+        "effect": "If this card is Normal or Special Summoned, or if this card is Tributed: You can add 1 \"Mitsurugi\" monster from your Deck to your hand, except \"Mitsurugi no Mikoto, Aramasa\". If another Reptile monster(s) you control would be destroyed by battle or card effect, you can Tribute this card instead. You can only use each effect of \"Mitsurugi no Mikoto, Aramasa\" once per turn.",
+        "name": "Mitsurugi no Mikoto, Aramasa",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi no Mikoto, Aramasa"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "View GY 2",
+      "seconds": 233,
+      "log": {
+        "private_log": "Viewed Opponent's Graveyard",
+        "public_log": "Viewed Opponent's Graveyard",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Opponent's Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "SS DEF",
+      "seconds": 236,
+      "log": {
+        "public_log": "Special Summoned \"Mitsurugi no Mikoto, Aramasa\" from GY to M-5 (DEF)",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "zone": "M-5",
+      "action": "Duel",
+      "id": 609,
+      "card": {
+        "def": "900",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "ocg": 1,
+        "atk": "1200",
+        "tcg": 1,
+        "id": 16668,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 4,
+        "custom": 0,
+        "serial_number": "40543231",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 24,
+        "effect": "If this card is Normal or Special Summoned, or if this card is Tributed: You can add 1 \"Mitsurugi\" monster from your Deck to your hand, except \"Mitsurugi no Mikoto, Aramasa\". If another Reptile monster(s) you control would be destroyed by battle or card effect, you can Tribute this card instead. You can only use each effect of \"Mitsurugi no Mikoto, Aramasa\" once per turn.",
+        "name": "Mitsurugi no Mikoto, Aramasa",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi no Mikoto, Aramasa"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 237,
+      "log": {
+        "public_log": "Stopped viewing Opponent's Graveyard",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Opponent's Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Set ST",
+      "seconds": 243,
+      "zone": "S-2",
+      "log": {
+        "private_log": "Set \"Yad'al-Hecahands\" from hand (1/3) to S-2",
+        "public_log": "Set card from hand (1/3) to S-2",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "id": 611,
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Enter EP",
+      "seconds": 248,
+      "log": {
+        "public_log": "Entered End Phase",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "End turn",
+      "seconds": 249,
+      "log": {
+        "public_log": "Ended turn",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "View GY",
+      "seconds": 250,
+      "log": {
+        "private_log": "Viewed GY",
+        "public_log": "Viewed GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Start turn",
+      "seconds": 250,
+      "log": {
+        "public_log": "Entered Draw Phase",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Draw card",
+      "seconds": 250,
+      "log": {
+        "private_log": "Drew \"Forbidden Droplet\"",
+        "public_log": "Drew a card",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 9,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Quick-Play",
+        "points": 10,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 10868,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "24299458",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 30,
+        "effect": "Send any number of other cards from your hand and/or field to the GY; choose that many Effect Monsters your opponent controls, and until the end of this turn, their ATK is halved, also their effects are negated. In response to this card's activation, your opponent cannot activate cards, or the effects of cards, with the same original type (Monster/Spell/Trap) as the cards sent to the GY to activate this card. You can only activate 1 \"Forbidden Droplet\" per turn.",
+        "name": "Forbidden Droplet",
+        "pendulum_effect": "",
+        "treated_as": "Forbidden Droplet"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 252,
+      "log": {
+        "public_log": "Stopped viewing GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 259,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"let me read the cpunte\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "let me read the cpunte",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Good",
+      "seconds": 260,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Target card",
+      "seconds": 268,
+      "log": {
+        "private_log": "Pointed at Set \"Ib'al-Hecahands\" in S-5",
+        "public_log": "Pointed at Set card in S-5",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 579,
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 274,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"monster omni\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "monster omni",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Add watcher",
+      "seconds": 279,
+      "action": "Duel",
+      "username": "B2K99"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 281,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"take control the destroyed monster\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "take control the destroyed monster",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 282,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"show pls\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "show pls",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 287,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"just that\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "just that",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 291,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"canu show pls\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "canu show pls",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 293,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"need t o control a heca\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "need t o control a heca",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Activate ST",
+      "seconds": 295,
+      "log": {
+        "public_log": "Activated Set \"Ib'al-Hecahands\" in S-5",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "id": 579,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Counter",
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 17010,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "93294363",
+        "card_type": "Trap",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 36,
+        "effect": "When your opponent activates a monster effect, while you control a \"Hecahands\" monster: Negate the activation, and if you do, destroy that monster, then you can Special Summon the destroyed monster to your field. You can only activate 1 \"Ib'al-Hecahands\" per turn.",
+        "name": "Ib'al-Hecahands",
+        "pendulum_effect": "",
+        "treated_as": "Ib'al-Hecahands"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Set ST",
+      "seconds": 298,
+      "log": {
+        "private_log": "Set \"Ib'al-Hecahands\" in S-5",
+        "public_log": "Set \"Ib'al-Hecahands\" in S-5",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "id": 579,
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 301,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"show\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "show",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Remove watcher",
+      "seconds": 303,
+      "action": "Duel",
+      "username": "B2K99"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 304,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"serach\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "serach",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 308,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"on log\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "on log",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 308,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"ok\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "ok",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 309,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"wait\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "wait",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "View GY",
+      "seconds": 315,
+      "log": {
+        "private_log": "Viewed GY",
+        "public_log": "Viewed GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 316,
+      "log": {
+        "public_log": "Stopped viewing GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 316,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"waste of time\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "waste of time",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 319,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"bozo\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "bozo",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "View GY",
+      "seconds": 325,
+      "log": {
+        "private_log": "Viewed GY",
+        "public_log": "Viewed GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 326,
+      "log": {
+        "public_log": "Stopped viewing GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "View GY",
+      "seconds": 332,
+      "log": {
+        "private_log": "Viewed GY",
+        "public_log": "Viewed GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 334,
+      "log": {
+        "public_log": "Stopped viewing GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Enter M1",
+      "seconds": 354,
+      "log": {
+        "public_log": "Entered Main Phase 1",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Declare",
+      "seconds": 356,
+      "log": {
+        "public_log": "Declared effect of \"Ame no Habakiri no Mitsurugi\" in hand (4/5)",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "name": "Ame no Habakiri no Mitsurugi",
+      "action": "Duel",
+      "id": 8,
+      "card": {
+        "def": "1800",
+        "monster_color": "Ritual",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "points": 100,
+        "ocg": 1,
+        "atk": "2400",
+        "tcg": 1,
+        "id": 16670,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 8,
+        "custom": 0,
+        "serial_number": "13332685",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 7,
+        "effect": "You can Ritual Summon this card with \"Mitsurugi Ritual\". Monsters your opponent controls lose 800 ATK. You can reveal this card in your hand; Special Summon 1 \"Mitsurugi\" monster from your Deck, then Tribute 1 monster you control. You can only use this effect of \"Ame no Habakiri no Mitsurugi\" once per Duel. If this card is Tributed: You can add 1 \"Mitsurugi\" card from your Deck to your hand, except \"Ame no Habakiri no Mitsurugi\", then you can Special Summon this card. You can only use this effect of \"Ame no Habakiri no Mitsurugi\" once per turn.",
+        "name": "Ame no Habakiri no Mitsurugi",
+        "pendulum_effect": "",
+        "treated_as": "Ame no Habakiri no Mitsurugi"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Good",
+      "seconds": 362,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "View deck",
+      "seconds": 364,
+      "log": {
+        "private_log": "Viewed deck",
+        "public_log": "Viewed deck",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "To GY",
+      "seconds": 368,
+      "log": {
+        "public_log": "Sent \"Mitsurugi no Mikoto, Saji\" from Deck to GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 17,
+      "card": {
+        "def": "1700",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "ocg": 1,
+        "atk": "1000",
+        "tcg": 1,
+        "id": 16266,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 4,
+        "custom": 0,
+        "serial_number": "18176525",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 4,
+        "effect": "If this card is Normal or Special Summoned, or if this card is Tributed: You can add 1 \"Mitsurugi\" Spell/Trap from your Deck to your hand. If another Reptile monster(s) you control would be destroyed by battle or card effect, you can Tribute this card instead. You can only use each effect of \"Mitsurugi no Mikoto, Saji\" once per turn.",
+        "name": "Mitsurugi no Mikoto, Saji",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi no Mikoto, Saji"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 369,
+      "log": {
+        "public_log": "Stopped viewing Deck",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle deck",
+      "seconds": 369,
+      "log": {
+        "private_log": "Shuffled deck",
+        "public_log": "Shuffled deck",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "deck": [
+        644,
+        645,
+        646,
+        647,
+        648,
+        649,
+        650,
+        651,
+        652,
+        653,
+        654,
+        655,
+        656,
+        657,
+        658,
+        659,
+        660,
+        661,
+        662,
+        663,
+        664,
+        665,
+        666,
+        667,
+        668,
+        669,
+        670,
+        671,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "message": "Fryderyk Chopin shuffled his deck",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "View GY",
+      "seconds": 370,
+      "log": {
+        "private_log": "Viewed GY",
+        "public_log": "Viewed GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Declare",
+      "seconds": 372,
+      "log": {
+        "public_log": "Declared effect of \"Mitsurugi no Mikoto, Saji\" from GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "name": "Mitsurugi no Mikoto, Saji",
+      "action": "Duel",
+      "id": 17,
+      "card": {
+        "def": "1700",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "ocg": 1,
+        "atk": "1000",
+        "tcg": 1,
+        "id": 16266,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 4,
+        "custom": 0,
+        "serial_number": "18176525",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 4,
+        "effect": "If this card is Normal or Special Summoned, or if this card is Tributed: You can add 1 \"Mitsurugi\" Spell/Trap from your Deck to your hand. If another Reptile monster(s) you control would be destroyed by battle or card effect, you can Tribute this card instead. You can only use each effect of \"Mitsurugi no Mikoto, Saji\" once per turn.",
+        "name": "Mitsurugi no Mikoto, Saji",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi no Mikoto, Saji"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Detach",
+      "seconds": 373,
+      "log": {
+        "private_log": "Detached Xyz Material \"K9-ØØ Lupis\" from \"K9-17 \"Ripper\"\" in M-1",
+        "public_log": "Detached Xyz Material \"K9-ØØ Lupis\" from \"K9-17 \"Ripper\"\" in M-1",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "id": 544,
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 373,
+      "log": {
+        "public_log": "Stopped viewing GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Thinking",
+      "seconds": 377,
+      "log": {
+        "public_log": "Thinking",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Activate ST",
+      "seconds": 386,
+      "log": {
+        "public_log": "Activated \"Mitsurugi Prayers\" from hand (3/5) to S-2",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "zone": "S-2",
+      "action": "Duel",
+      "id": 608,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Quick-Play",
+        "points": 51,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 16269,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "45171524",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 16,
+        "effect": "When you activate this card, you can also Tribute 1 Reptile monster in your hand or field; apply 1 of these effects, or if you Tributed a monster at activation, you can apply both effects in sequence.\n●Add 1 \"Mitsurugi\" monster from your Deck to your hand.\n●Take 800 damage, then you can Special Summon 1 \"Mitsurugi\" monster from your hand or GY, but it cannot attack directly.\nYou can only activate 1 \"Mitsurugi Prayers\" per turn.",
+        "name": "Mitsurugi Prayers",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi Prayers"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Activate ST",
+      "seconds": 398,
+      "log": {
+        "public_log": "Activated Set \"Yad'al-Hecahands\" in S-2",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "id": 611,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Counter",
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 17011,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "29792472",
+        "card_type": "Trap",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 40,
+        "effect": "When your opponent activates a Spell/Trap Card, while you control a \"Hecahands\" monster: Negate the activation, and if you do, destroy that card, then you can Set the destroyed Spell/Trap to your field. You can only activate 1 \"Yad'al-Hecahands\" per turn.",
+        "name": "Yad'al-Hecahands",
+        "pendulum_effect": "",
+        "treated_as": "Yad'al-Hecahands"
+      },
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Target card",
+      "seconds": 400,
+      "log": {
+        "private_log": "Pointed at \"Mitsurugi Prayers\" in S-2",
+        "public_log": "Pointed at \"Mitsurugi Prayers\" in S-2",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "id": 608,
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 403,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"take\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "take",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 405,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i m thinking o the cost\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i m thinking o the cost",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 411,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"wtf\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "wtf",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Set ST",
+      "seconds": 413,
+      "log": {
+        "private_log": "Set \"Yad'al-Hecahands\" in S-2",
+        "public_log": "Set \"Yad'al-Hecahands\" in S-2",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "id": 611,
+      "username": "KarlosS86"
+    },
+    {
+      "play": "To GY",
+      "seconds": 431,
+      "log": {
+        "public_log": "Sent \"Ame no Habakiri no Mitsurugi\" from hand (3/4) to GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 8,
+      "card": {
+        "def": "1800",
+        "monster_color": "Ritual",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "points": 100,
+        "ocg": 1,
+        "atk": "2400",
+        "tcg": 1,
+        "id": 16670,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 8,
+        "custom": 0,
+        "serial_number": "13332685",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 7,
+        "effect": "You can Ritual Summon this card with \"Mitsurugi Ritual\". Monsters your opponent controls lose 800 ATK. You can reveal this card in your hand; Special Summon 1 \"Mitsurugi\" monster from your Deck, then Tribute 1 monster you control. You can only use this effect of \"Ame no Habakiri no Mitsurugi\" once per Duel. If this card is Tributed: You can add 1 \"Mitsurugi\" card from your Deck to your hand, except \"Ame no Habakiri no Mitsurugi\", then you can Special Summon this card. You can only use this effect of \"Ame no Habakiri no Mitsurugi\" once per turn.",
+        "name": "Ame no Habakiri no Mitsurugi",
+        "pendulum_effect": "",
+        "treated_as": "Ame no Habakiri no Mitsurugi"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "View GY",
+      "seconds": 431,
+      "log": {
+        "private_log": "Viewed GY",
+        "public_log": "Viewed GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 432,
+      "log": {
+        "public_log": "Stopped viewing GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Good",
+      "seconds": 440,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "View deck",
+      "seconds": 444,
+      "log": {
+        "private_log": "Viewed deck",
+        "public_log": "Viewed deck",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "To hand",
+      "seconds": 460,
+      "log": {
+        "private_log": "Added \"Ame no Murakumo no Mitsurugi\" from Deck to hand",
+        "public_log": "Added \"Ame no Murakumo no Mitsurugi\" from Deck to hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        606,
+        9,
+        607,
+        651
+      ],
+      "action": "Duel",
+      "id": 651,
+      "shuffle": true,
+      "card": {
+        "def": "800",
+        "monster_color": "Ritual",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "ocg": 1,
+        "atk": "3200",
+        "tcg": 1,
+        "id": 16267,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 8,
+        "custom": 0,
+        "serial_number": "19899073",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 35,
+        "effect": "You can Ritual Summon this card with \"Mitsurugi Ritual\". If this card is Special Summoned: You can destroy all monsters your opponent controls. When your opponent activates a card or effect (Quick Effect): You can activate this effect; your opponent can discard 1 card, or that effect is negated. If this card is Tributed: You can add 1 \"Mitsurugi\" card from your Deck to your hand, except \"Ame no Murakumo no Mitsurugi\", then you can Special Summon this card. You can only use each effect of \"Ame no Murakumo no Mitsurugi\" once per turn.",
+        "name": "Ame no Murakumo no Mitsurugi",
+        "pendulum_effect": "",
+        "treated_as": "Ame no Murakumo no Mitsurugi"
+      },
+      "hand": [
+        679,
+        680,
+        681,
+        682
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 461,
+      "log": {
+        "public_log": "Stopped viewing Deck",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle deck",
+      "seconds": 461,
+      "log": {
+        "private_log": "Shuffled deck",
+        "public_log": "Shuffled deck",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "deck": [
+        683,
+        684,
+        685,
+        686,
+        687,
+        688,
+        689,
+        690,
+        691,
+        692,
+        693,
+        694,
+        695,
+        696,
+        697,
+        698,
+        699,
+        700,
+        701,
+        702,
+        703,
+        704,
+        705,
+        706,
+        707,
+        708,
+        709,
+        710,
+        711,
+        712,
+        713,
+        714,
+        715,
+        716
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "message": "Fryderyk Chopin shuffled his deck",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "View GY",
+      "seconds": 462,
+      "log": {
+        "private_log": "Viewed GY",
+        "public_log": "Viewed GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 466,
+      "log": {
+        "public_log": "Stopped viewing GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "To ST",
+      "seconds": 468,
+      "log": {
+        "public_log": "Placed \"Ame no Murakumo no Mitsurugi\" from hand (4/4) to S-4",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "zone": "S-4",
+      "action": "Duel",
+      "id": 682,
+      "card": {
+        "def": "800",
+        "monster_color": "Ritual",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "ocg": 1,
+        "atk": "3200",
+        "tcg": 1,
+        "id": 16267,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 8,
+        "custom": 0,
+        "serial_number": "19899073",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 35,
+        "effect": "You can Ritual Summon this card with \"Mitsurugi Ritual\". If this card is Special Summoned: You can destroy all monsters your opponent controls. When your opponent activates a card or effect (Quick Effect): You can activate this effect; your opponent can discard 1 card, or that effect is negated. If this card is Tributed: You can add 1 \"Mitsurugi\" card from your Deck to your hand, except \"Ame no Murakumo no Mitsurugi\", then you can Special Summon this card. You can only use each effect of \"Ame no Murakumo no Mitsurugi\" once per turn.",
+        "name": "Ame no Murakumo no Mitsurugi",
+        "pendulum_effect": "",
+        "treated_as": "Ame no Murakumo no Mitsurugi"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "To B Deck",
+      "seconds": 470,
+      "log": {
+        "private_log": "Returned \"Ame no Murakumo no Mitsurugi\" from S-4 to bottom of deck",
+        "public_log": "Returned \"Ame no Murakumo no Mitsurugi\" from S-4 to bottom of deck",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 682,
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 471,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"?\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "?",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 471,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"hugew lag\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "hugew lag",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Call admin",
+      "seconds": 475,
+      "log": {
+        "public_log": "Called a judge for Ruling",
+        "type": "game",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 478,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i lagged\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i lagged",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 479,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"add the card please\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "add the card please",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 485,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i wanna chain to droplet\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i wanna chain to droplet",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 494,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"the game just didn t activated the card i wanted\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "the game just didn t activated the card i wanted",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Pause game",
+      "seconds": 502,
+      "log": {
+        "public_log": "KarlosS86 paused the game",
+        "type": "game",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 503,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i m gonna add murakumo chill\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i m gonna add murakumo chill",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 514,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i m GONNA ADD MURAKUMO\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i m GONNA ADD MURAKUMO",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Add watcher",
+      "seconds": 516,
+      "action": "Duel",
+      "username": "redemptionized"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 529,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i wanted to chain to prayers something\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i wanted to chain to prayers something",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 534,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"wtf is ur problem\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "wtf is ur problem",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 534,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"you didnt\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "you didnt",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Resume game",
+      "seconds": 538,
+      "log": {
+        "public_log": "KarlosS86 resumed the game",
+        "type": "game",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 540,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"BECAUSE I M LAGIGN AS FUCK\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "BECAUSE I M LAGIGN AS FUCK",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 543,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"play correctly\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "play correctly",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 546,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"IM LAGGGING\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "IM LAGGGING",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 546,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"you are not\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "you are not",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 547,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"you add\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "you add",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 548,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"WTF IS WRONG WITH U \"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "WTF IS WRONG WITH U ",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 554,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"then wanna return your play\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "then wanna return your play",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 558,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"I ADDED BUT I DID SOMETHING BEFORE\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "I ADDED BUT I DID SOMETHING BEFORE",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 560,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"AND IT DIDN T WORK\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "AND IT DIDN T WORK",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 560,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"WRD\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "WRD",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 561,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"WTF\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "WTF",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 562,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"add murakumo please\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "add murakumo please",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 572,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i m trying to chain to prayers something else\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i m trying to chain to prayers something else",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 573,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"thining\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "thining",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 580,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"bro\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "bro",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 583,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"there is no need to shark or chea\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "there is no need to shark or chea",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 584,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"you already resoving\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "you already resoving",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 587,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"prayers\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "prayers",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 590,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"we re in the end of the season and u re 800 rating\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "we re in the end of the season and u re 800 rating",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 590,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"wtf\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "wtf",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 593,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"wtf is wrong with u \"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "wtf is wrong with u ",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 607,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i know i was resolvin it but i activated a card that doesnt  seems like activated\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i know i was resolvin it but i activated a card that doesnt  seems like activated",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 611,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"because of the lag\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "because of the lag",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 612,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"but i did\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "but i did",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 612,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"play correctly\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "play correctly",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 620,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"hahaha\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "hahaha",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 620,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"I M LAGGING\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "I M LAGGING",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 638,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"lier\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "lier",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 641,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i know that\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "i know that",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 642,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"but\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "but",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 644,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"wtf\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "wtf",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 646,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"chaing what ver\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "chaing what ver",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 650,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"play\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "play",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Activate ST",
+      "seconds": 651,
+      "log": {
+        "public_log": "Activated \"Forbidden Droplet\" from hand (2/3) to S-3",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "zone": "S-3",
+      "action": "Duel",
+      "id": 680,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Quick-Play",
+        "points": 10,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 10868,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "24299458",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 30,
+        "effect": "Send any number of other cards from your hand and/or field to the GY; choose that many Effect Monsters your opponent controls, and until the end of this turn, their ATK is halved, also their effects are negated. In response to this card's activation, your opponent cannot activate cards, or the effects of cards, with the same original type (Monster/Spell/Trap) as the cards sent to the GY to activate this card. You can only activate 1 \"Forbidden Droplet\" per turn.",
+        "name": "Forbidden Droplet",
+        "pendulum_effect": "",
+        "treated_as": "Forbidden Droplet"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "To GY",
+      "seconds": 652,
+      "log": {
+        "public_log": "Sent \"Mitsurugi Prayers\" from S-2 to GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 608,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Quick-Play",
+        "points": 51,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 16269,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "45171524",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 16,
+        "effect": "When you activate this card, you can also Tribute 1 Reptile monster in your hand or field; apply 1 of these effects, or if you Tributed a monster at activation, you can apply both effects in sequence.\n●Add 1 \"Mitsurugi\" monster from your Deck to your hand.\n●Take 800 damage, then you can Special Summon 1 \"Mitsurugi\" monster from your hand or GY, but it cannot attack directly.\nYou can only activate 1 \"Mitsurugi Prayers\" per turn.",
+        "name": "Mitsurugi Prayers",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi Prayers"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Good",
+      "seconds": 653,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Target card",
+      "seconds": 655,
+      "log": {
+        "private_log": "Pointed at \"K9-17 \"Ripper\"\" in M-1",
+        "public_log": "Pointed at \"K9-17 \"Ripper\"\" in M-1",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 122,
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Good",
+      "seconds": 656,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "View deck",
+      "seconds": 657,
+      "log": {
+        "private_log": "Viewed deck",
+        "public_log": "Viewed deck",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "View GY",
+      "seconds": 665,
+      "log": {
+        "private_log": "Viewed GY",
+        "public_log": "Viewed GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "To hand",
+      "seconds": 665,
+      "log": {
+        "private_log": "Added \"Ame no Murakumo no Mitsurugi\" from Deck to hand",
+        "public_log": "Added \"Ame no Murakumo no Mitsurugi\" from Deck to hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        682,
+        679,
+        681
+      ],
+      "action": "Duel",
+      "id": 682,
+      "shuffle": true,
+      "card": {
+        "def": "800",
+        "monster_color": "Ritual",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "ocg": 1,
+        "atk": "3200",
+        "tcg": 1,
+        "id": 16267,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 8,
+        "custom": 0,
+        "serial_number": "19899073",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 35,
+        "effect": "You can Ritual Summon this card with \"Mitsurugi Ritual\". If this card is Special Summoned: You can destroy all monsters your opponent controls. When your opponent activates a card or effect (Quick Effect): You can activate this effect; your opponent can discard 1 card, or that effect is negated. If this card is Tributed: You can add 1 \"Mitsurugi\" card from your Deck to your hand, except \"Ame no Murakumo no Mitsurugi\", then you can Special Summon this card. You can only use each effect of \"Ame no Murakumo no Mitsurugi\" once per turn.",
+        "name": "Ame no Murakumo no Mitsurugi",
+        "pendulum_effect": "",
+        "treated_as": "Ame no Murakumo no Mitsurugi"
+      },
+      "hand": [
+        717,
+        718,
+        719
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 666,
+      "log": {
+        "public_log": "Stopped viewing GY",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 666,
+      "log": {
+        "public_log": "Stopped viewing Deck",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle deck",
+      "seconds": 666,
+      "log": {
+        "private_log": "Shuffled deck",
+        "public_log": "Shuffled deck",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "deck": [
+        720,
+        721,
+        722,
+        723,
+        724,
+        725,
+        726,
+        727,
+        728,
+        729,
+        730,
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737,
+        738,
+        739,
+        740,
+        741,
+        742,
+        743,
+        744,
+        745,
+        746,
+        747,
+        748,
+        749,
+        750,
+        751,
+        752,
+        753
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "message": "Fryderyk Chopin shuffled his deck",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "View GY",
+      "seconds": 666,
+      "log": {
+        "private_log": "Viewed GY",
+        "public_log": "Viewed GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "SS ATK",
+      "seconds": 671,
+      "log": {
+        "public_log": "Special Summoned \"Mitsurugi no Mikoto, Saji\" from GY to M-2 (ATK)",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "zone": "M-2",
+      "action": "Duel",
+      "id": 17,
+      "card": {
+        "def": "1700",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "ocg": 1,
+        "atk": "1000",
+        "tcg": 1,
+        "id": 16266,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 4,
+        "custom": 0,
+        "serial_number": "18176525",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 4,
+        "effect": "If this card is Normal or Special Summoned, or if this card is Tributed: You can add 1 \"Mitsurugi\" Spell/Trap from your Deck to your hand. If another Reptile monster(s) you control would be destroyed by battle or card effect, you can Tribute this card instead. You can only use each effect of \"Mitsurugi no Mikoto, Saji\" once per turn.",
+        "name": "Mitsurugi no Mikoto, Saji",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi no Mikoto, Saji"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 672,
+      "log": {
+        "public_log": "Stopped viewing GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "View deck",
+      "seconds": 673,
+      "log": {
+        "private_log": "Viewed deck",
+        "public_log": "Viewed deck",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "To hand",
+      "seconds": 677,
+      "log": {
+        "private_log": "Added \"Mitsurugi Ritual\" from Deck to hand",
+        "public_log": "Added \"Mitsurugi Ritual\" from Deck to hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        719,
+        718,
+        726,
+        717
+      ],
+      "action": "Duel",
+      "id": 726,
+      "shuffle": true,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Ritual",
+        "points": 51,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 16270,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "81560239",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 37,
+        "effect": "This card can be used to Ritual Summon any Reptile Ritual Monster. Activate 1 of these effects (but you can only use each effect of \"Mitsurugi Ritual\" once per turn);\n●Ritual Summon 1 Reptile Ritual Monster from your Deck, by Tributing Reptile monsters from your hand or field whose total Levels equal the Level of the Ritual Monster.\n●Ritual Summon 1 Reptile Ritual Monster from your hand, by Tributing up to 2 Reptile monsters from your hand, Deck, or field, whose total Levels equal the Level of the Ritual Monster.",
+        "name": "Mitsurugi Ritual",
+        "pendulum_effect": "",
+        "treated_as": "Mitsurugi Ritual"
+      },
+      "hand": [
+        754,
+        755,
+        756,
+        757
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 677,
+      "log": {
+        "public_log": "Stopped viewing Deck",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle deck",
+      "seconds": 677,
+      "log": {
+        "private_log": "Shuffled deck",
+        "public_log": "Shuffled deck",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "deck": [
+        758,
+        759,
+        760,
+        761,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        768,
+        769,
+        770,
+        771,
+        772,
+        773,
+        774,
+        775,
+        776,
+        777,
+        778,
+        779,
+        780,
+        781,
+        782,
+        783,
+        784,
+        785,
+        786,
+        787,
+        788,
+        789,
+        790
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "message": "Fryderyk Chopin shuffled his deck",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "View GY",
+      "seconds": 678,
+      "log": {
+        "private_log": "Viewed GY",
+        "public_log": "Viewed GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Declare",
+      "seconds": 680,
+      "log": {
+        "public_log": "Declared effect of \"Ame no Habakiri no Mitsurugi\" from GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "name": "Ame no Habakiri no Mitsurugi",
+      "action": "Duel",
+      "id": 8,
+      "card": {
+        "def": "1800",
+        "monster_color": "Ritual",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Reptile",
+        "points": 100,
+        "ocg": 1,
+        "atk": "2400",
+        "tcg": 1,
+        "id": 16670,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 8,
+        "custom": 0,
+        "serial_number": "13332685",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 7,
+        "effect": "You can Ritual Summon this card with \"Mitsurugi Ritual\". Monsters your opponent controls lose 800 ATK. You can reveal this card in your hand; Special Summon 1 \"Mitsurugi\" monster from your Deck, then Tribute 1 monster you control. You can only use this effect of \"Ame no Habakiri no Mitsurugi\" once per Duel. If this card is Tributed: You can add 1 \"Mitsurugi\" card from your Deck to your hand, except \"Ame no Habakiri no Mitsurugi\", then you can Special Summon this card. You can only use this effect of \"Ame no Habakiri no Mitsurugi\" once per turn.",
+        "name": "Ame no Habakiri no Mitsurugi",
+        "pendulum_effect": "",
+        "treated_as": "Ame no Habakiri no Mitsurugi"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 680,
+      "log": {
+        "public_log": "Stopped viewing GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Graveyard",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 681,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"?\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "?",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "To GY",
+      "seconds": 682,
+      "log": {
+        "public_log": "Sent \"Forbidden Droplet\" from S-3 to GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 680,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Quick-Play",
+        "points": 10,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 10868,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "24299458",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 30,
+        "effect": "Send any number of other cards from your hand and/or field to the GY; choose that many Effect Monsters your opponent controls, and until the end of this turn, their ATK is halved, also their effects are negated. In response to this card's activation, your opponent cannot activate cards, or the effects of cards, with the same original type (Monster/Spell/Trap) as the cards sent to the GY to activate this card. You can only activate 1 \"Forbidden Droplet\" per turn.",
+        "name": "Forbidden Droplet",
+        "pendulum_effect": "",
+        "treated_as": "Forbidden Droplet"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 686,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i tributed haba\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i tributed haba",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 687,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"wtf\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "wtf",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 687,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"for prayers\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "for prayers",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Life points",
+      "amount": -800,
+      "seconds": 691,
+      "log": {
+        "public_log": "Lost 800 LP",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "Fryderyk Chopin has lost 800 life points",
+      "word": "decreased",
+      "life": 7200,
+      "points": 800,
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 698,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"yes declarate new effect\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "yes declarate new effect",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 700,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"you add one card\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "you add one card",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 700,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"more\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "more",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 704,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"wtf\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "wtf",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 706,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"are you doing\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "are you doing",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 709,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i added for prayers and saji\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i added for prayers and saji",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 715,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"wtf\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "wtf",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 722,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"saji was negated\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "saji was negated",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 725,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"ripper is negated\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "ripper is negated",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 727,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"for droplet\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "for droplet",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 733,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"you didnt chain prayers\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "you didnt chain prayers",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 739,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"?\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "?",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 739,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"to  ripper\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "to  ripper",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 740,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"wtf\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "wtf",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 741,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i did\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i did",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 746,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"gi2ufgod1w\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "gi2ufgod1w",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 748,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"wtf\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "wtf",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 755,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"the chaib was\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "the chaib was",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 770,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"cl1saji, cl2 ripper, cl3 prayers cost, cl4 droplet\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "cl1saji, cl2 ripper, cl3 prayers cost, cl4 droplet",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 779,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"never chain it\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "never chain it",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 783,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"yes i did\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "yes i did",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 787,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"you did\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "you did",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 788,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"wait\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "wait",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 790,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"for the judge\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "for the judge",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 799,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"never wrote chain\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "never wrote chain",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 813,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"[6:12] Declared effect of Mitsurugi no Mikoto, Saji from GY [6:13] Detached Xyz Material K9-ØØ Lupis from K9-17 \"Ripper\" in M-1 [6:13] Stopped viewing GY [6:17] Thinking [6:26] Activated Mitsurugi Prayers from hand (3/5) to S-2 [6:38] Activated Set Yad'al-Hecahands in S-2 [6:40] Pointed at Mitsurugi Prayers in S-2 [6:43] \"take\"\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "[6:12] Declared effect of Mitsurugi no Mikoto, Saji from GY [6:13] Detached Xyz Material K9-ØØ Lupis from K9-17 \"Ripper\" in M-1 [6:13] Stopped viewing GY [6:17] Thinking [6:26] Activated Mitsurugi Prayers from hand (3/5) to S-2 [6:38] Activated Set Yad'al-Hecahands in S-2 [6:40] Pointed at Mitsurugi Prayers in S-2 [6:43] \"take\"",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 817,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"evrything change if you said that i would negated prayers\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "evrything change if you said that i would negated prayers",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 819,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i said thining to ripper effect\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i said thining to ripper effect",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 821,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"never said\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "never said",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 822,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"chain\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "chain",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 823,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"it s enough\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "it s enough",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 826,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i said\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i said",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 826,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"just activate prayers\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "just activate prayers",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 827,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"thining\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "thining",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 830,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"whenu activated ripper\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "whenu activated ripper",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 835,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"it s enogh\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "it s enogh",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 841,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"wait\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "wait",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 843,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"for the judge\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "for the judge",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Pause game",
+      "seconds": 847,
+      "log": {
+        "public_log": "KarlosS86 paused the game",
+        "type": "game",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 847,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"ok\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "ok",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 851,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u must be crazy\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "u must be crazy",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 873,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"it is awesome\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "it is awesome",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 877,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i literally pressed thining button in response to ripper\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i literally pressed thining button in response to ripper",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 880,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"and u re saying indidn t\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "and u re saying indidn t",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 892,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"why did i press thinking if not to respond to something'-\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "why did i press thinking if not to respond to something'-",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 894,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"?\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "?",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 900,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"use the chat\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "use the chat",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 905,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"to comunicate and said chain\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "to comunicate and said chain",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 913,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i dont know if you wanna chain or not\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "i dont know if you wanna chain or not",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 914,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"Declared effect of Mitsurugi no Mikoto, Saji from GY [6:13] Detached Xyz Material K9-ØØ Lupis from K9-17 \"Ripper\" in M-1 [6:13] Stopped viewing GY [6:17] Thinking [6:26] Activated Mitsurugi Prayers from hand (3/5) to S-2 [6:38]\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "Declared effect of Mitsurugi no Mikoto, Saji from GY [6:13] Detached Xyz Material K9-ØØ Lupis from K9-17 \"Ripper\" in M-1 [6:13] Stopped viewing GY [6:17] Thinking [6:26] Activated Mitsurugi Prayers from hand (3/5) to S-2 [6:38]",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 918,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"if you didnt write\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "if you didnt write",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 924,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i don t have to write\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i don t have to write",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 928,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"wtf\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "wtf",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 930,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"if i press thinking\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "if i press thinking",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 933,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i m thinking in chain\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i m thinking in chain",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 943,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i never oked the effect of ripper\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i never oked the effect of ripper",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 945,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"never said ok to it\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "never said ok to it",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 948,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"you are one who take advante of the procidure\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "you are one who take advante of the procidure",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 950,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"shark\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "shark",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 951,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i immediately pressed thinking button\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i immediately pressed thinking button",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 952,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"clasic\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "clasic",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 965,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"did i ok ripper?\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "did i ok ripper?",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 966,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"no\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "no",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 972,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i immediately pressed thinking button\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i immediately pressed thinking button",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 973,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"mybe you are right cause i dint know police of DB\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "mybe you are right cause i dint know police of DB",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 975,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"but\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "but",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 985,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"in a real life tournaument\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "in a real life tournaument",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 992,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"it you write or say chain i whould negate prayers\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "it you write or say chain i whould negate prayers",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 992,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"if u activate something and i say thinking\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "if u activate something and i say thinking",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 995,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i  chaining \"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i  chaining ",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 996,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"wtf\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "wtf",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1005,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"not true\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "not true",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1017,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"yes would have negates praayers\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "yes would have negates praayers",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1020,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u tried to negate it and when i told u i were gonna pay cost u decided not to negate it\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "u tried to negate it and when i told u i were gonna pay cost u decided not to negate it",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1022,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i would be easy\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "i would be easy",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1026,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"no\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "no",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1031,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"yes i would\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "yes i would",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1032,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"but\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "but",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1034,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u will negate now for sure because u know i tyopdecked droplet\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "u will negate now for sure because u know i tyopdecked droplet",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1040,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u didn t know i had droplet in hand\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "u didn t know i had droplet in hand",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1042,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i drew it for turn\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i drew it for turn",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1058,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"you are taking advantage of policiy\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "you are taking advantage of policiy",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1061,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"absolutely not\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "absolutely not",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1067,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"YES YOU ARE\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "YES YOU ARE",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1068,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i literally presseed thinking \"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i literally presseed thinking ",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1070,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"no\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "no",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1078,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"people who play correct write chain\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "people who play correct write chain",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1080,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"when i activated saji did u say chain ripper?\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "when i activated saji did u say chain ripper?",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1081,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"no\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "no",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1081,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"on the chat\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "on the chat",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1087,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u just pressed thinking and activated ripper\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "u just pressed thinking and activated ripper",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1092,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"absolutely no\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "absolutely no",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1092,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i activates the effect\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "i activates the effect",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1096,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"cleraly\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "cleraly",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1097,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"there is thinking button for a reason\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "there is thinking button for a reason",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1106,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i activated prayers clearly\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i activated prayers clearly",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1112,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"it was a uick play effect to negate a grave effect\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "it was a uick play effect to negate a grave effect",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1120,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"but you can activate prayers\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "but you can activate prayers",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1122,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"and I PRESSED THINKING BUTTON ON IT\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "and I PRESSED THINKING BUTTON ON IT",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1123,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"in any mment\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "in any mment",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1128,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"YES\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "YES",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1131,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"U DID \"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "U DID ",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1131,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i never ok ripper\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i never ok ripper",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1135,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"where did i ok ripper?\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "where did i ok ripper?",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1138,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"and took advantage of policy\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "and took advantage of policy",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1141,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u won\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "u won",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1142,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"show me in the logs\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "show me in the logs",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1146,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i dont wanna play with u\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "i dont wanna play with u",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1147,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i immediately pressed thinking\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i immediately pressed thinking",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1150,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"after u declared riper\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "after u declared riper",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1154,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"take 90 sec breath\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "take 90 sec breath",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1156,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"and actially u neither declared it\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "and actially u neither declared it",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1161,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u just detached material\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "u just detached material",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1163,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"and think aout no be a shark\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "and think aout no be a shark",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1168,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"which is not activating it s effect\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "which is not activating it s effect",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1169,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"SHARKERO\"",
+        "type": "chat",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "message": "SHARKERO",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Left duel",
+      "seconds": 1172,
+      "log": {
+        "public_log": "Went offline",
+        "type": "duel",
+        "username": "KarlosS86"
+      },
+      "action": "Duel",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Countdown",
+      "countdown": 90,
+      "action": "Duel",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Quit duel",
+      "seconds": 1262,
+      "player1": {
+        "rating": 1230,
+        "experience": 797,
+        "points": 21
+      },
+      "log": {
+        "public_log": "Lost Duel",
+        "type": "game",
+        "username": "KarlosS86"
+      },
+      "player2": {
+        "rating": 809,
+        "experience": 28498,
+        "points": -16
+      },
+      "action": "Duel",
+      "username": "KarlosS86"
+    },
+    {
+      "play": "Resume game",
+      "seconds": 1262,
+      "log": {
+        "public_log": "The game can resume",
+        "type": "game",
+        "username": "Duelingbook"
+      },
+      "action": "Duel",
+      "username": "Duelingbook"
+    },
+    {
+      "play": "Remove watcher",
+      "seconds": 1291,
+      "action": "Duel",
+      "username": "redemptionized"
+    },
+    {
+      "play": "Left duel",
+      "seconds": 1340,
+      "log": {
+        "public_log": "Left duel",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    }
+  ],
+  "player1": {
+    "side": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75
+    ],
+    "nsfw": 0,
+    "rating": 1209,
+    "start": 1,
+    "extra_total": 15,
+    "main": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "pic": "13011.jpg",
+    "experience": 797,
+    "token": "1",
+    "main_total": 45,
+    "side_total": 15,
+    "legality": "Advanced",
+    "user_id": 1313181,
+    "default_pic": "13011.jpg",
+    "sleeve": "",
+    "extra": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    "username": "Fryderyk Chopin"
+  },
+  "player2": {
+    "side": [
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+    ],
+    "nsfw": 0,
+    "rating": 825,
+    "start": 76,
+    "extra_total": 15,
+    "main": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115
+    ],
+    "pic": "13842.jpg",
+    "experience": 28498,
+    "token": "1",
+    "main_total": 40,
+    "side_total": 15,
+    "legality": "Advanced",
+    "user_id": 11386,
+    "default_pic": "13842.jpg",
+    "sleeve": "176.jpg",
+    "extra": [
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130
+    ],
+    "username": "KarlosS86"
+  },
+  "format": "ar",
+  "rules": "TCG",
+  "tag_duel": false,
+  "version": 17,
+  "watching": true,
+  "rated": true,
+  "password": false,
+  "match_type": "m",
+  "links": true,
+  "id": 78113613,
+  "logs": [
+    {
+      "seconds": 0,
+      "public_log": "Fryderyk Chopin joined pool (English, TCG, Match) in Advanced (Rated)",
+      "type": "game",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "seconds": 43,
+      "public_log": "KarlosS86 automatically paired via pool",
+      "type": "game",
+      "username": "KarlosS86"
+    }
+  ],
+  "player3": null,
+  "player4": null,
+  "liked": false
+}

@@ -1,0 +1,3589 @@
+{
+  "conceal": false,
+  "date": "2025-12-04 05:18:19",
+  "plays": [
+    {
+      "play": "RPS",
+      "player1_choice": "Rock",
+      "seconds": 27,
+      "winner": "Fryderyk Chopin",
+      "player1": "Fryderyk Chopin",
+      "player2": "Pluginzer0",
+      "log": {
+        "public_log": "Won Rock-Paper-Scissors",
+        "type": "game",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "player2_choice": "Scissors"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 30,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"glgl\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "glgl",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Pick first",
+      "seconds": 31,
+      "cards": [
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Normal",
+          "ocg": 0,
+          "atk": "0",
+          "tcg": 1,
+          "id": 17084,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 2,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "43450363",
+          "card_type": "Trap",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 12,
+          "effect": "Special Summon 1 \"R.B.\" monster from your Deck, Extra Deck, or GY, with a different name than the cards you control. For the rest of this turn after this card resolves, you cannot Special Summon from the Extra Deck, except Machine monsters with 1500 or less ATK. When your opponent activates a card or effect that targets an \"R.B.\" monster(s) you control: You can banish this card from your GY; negate that effect. You can only use 1 \"R.B. Last Stand\" effect per turn, and only once that turn.",
+          "name": "R.B. Last Stand",
+          "pendulum_effect": "",
+          "treated_as": "R.B. Last Stand"
+        },
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Field",
+          "ocg": 0,
+          "atk": "0",
+          "tcg": 1,
+          "id": 16782,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "78710386",
+          "card_type": "Spell",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 1,
+          "effect": "When this card is activated: Add 1 \"R.B.\" card from your Deck to your hand, except \"R.B. Funk Dock\". Each time a monster(s) your opponent controls is destroyed by battle or card effect, gain 500 LP. If a face-up \"R.B.\" monster(s) you control leaves the field by card effect (except during the Damage Step): You can Special Summon 1 \"R.B.\" monster from your Deck. You can only use this effect of \"R.B. Funk Dock\" once per turn. You can only activate 1 \"R.B. Funk Dock\" per turn.",
+          "name": "R.B. Funk Dock",
+          "pendulum_effect": "",
+          "treated_as": "R.B. Funk Dock"
+        },
+        {
+          "def": "1200",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Machine",
+          "ocg": 0,
+          "atk": "1200",
+          "tcg": 1,
+          "id": 17079,
+          "attribute": "DARK",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 2,
+          "level": 6,
+          "custom": 0,
+          "serial_number": "81794107",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 8,
+          "effect": "If this card is Normal or Special Summoned: You can target 1 \"R.B.\" monster in your GY, except \"R.B. Lambda Cannon\"; add it to your hand. While this card is linked to an \"R.B.\" Link Monster: You can pay 1200 LP; destroy this card, and if you do, look at your opponent's hand, then you can Special Summon 1 monster from it to their field, but negate its effects. You can only use each effect of \"R.B. Lambda Cannon\" once per turn.",
+          "name": "R.B. Lambda Cannon",
+          "pendulum_effect": "",
+          "treated_as": "R.B. Lambda Cannon"
+        },
+        {
+          "def": "1800",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Zombie",
+          "points": 15,
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 8504,
+          "attribute": "FIRE",
+          "ability": "Tuner",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 3,
+          "custom": 0,
+          "serial_number": "14558127",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 43,
+          "effect": "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that effect.\n●Add a card from the Deck to the hand.\n●Special Summon from the Deck.\n●Send a card from the Deck to the GY.\nYou can only use this effect of \"Ash Blossom & Joyous Spring\" once per turn.",
+          "name": "Ash Blossom & Joyous Spring",
+          "pendulum_effect": "",
+          "treated_as": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Ritual",
+          "points": 51,
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 16270,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "81560239",
+          "card_type": "Spell",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 24,
+          "effect": "This card can be used to Ritual Summon any Reptile Ritual Monster. Activate 1 of these effects (but you can only use each effect of \"Mitsurugi Ritual\" once per turn);\n●Ritual Summon 1 Reptile Ritual Monster from your Deck, by Tributing Reptile monsters from your hand or field whose total Levels equal the Level of the Ritual Monster.\n●Ritual Summon 1 Reptile Ritual Monster from your hand, by Tributing up to 2 Reptile monsters from your hand, Deck, or field, whose total Levels equal the Level of the Ritual Monster.",
+          "name": "Mitsurugi Ritual",
+          "pendulum_effect": "",
+          "treated_as": "Mitsurugi Ritual"
+        },
+        {
+          "def": "2000",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 1,
+          "pic": "1",
+          "type": "Fiend",
+          "ocg": 1,
+          "atk": "2000",
+          "tcg": 1,
+          "id": 16200,
+          "attribute": "DARK",
+          "ability": "",
+          "pendulum": 1,
+          "flip": 0,
+          "level": 8,
+          "custom": 0,
+          "serial_number": "05997110",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 26,
+          "effect": "You can discard 1 other \"D/D\" monster; Special Summon this card from your hand. If this card is Normal or Special Summoned: You can add 1 \"D/D\" monster with 0 ATK or DEF from your Deck to your hand. You can only use each effect of \"D/D Count Surveyor\" once per turn.",
+          "name": "D/D Count Surveyor",
+          "pendulum_effect": "Once per turn, if you Pendulum Summon a \"D/D/D\" monster(s): You can target 3 monsters your opponent controls with the same Type or Attribute as each other; Tribute 2 of those 3 face-up monsters, and if you do, the third gains ATK/DEF equal to the total ATK/DEF the Tributed monsters had on the field.",
+          "treated_as": "D/D Count Surveyor"
+        },
+        {
+          "def": "300",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Fiend",
+          "ocg": 1,
+          "atk": "300",
+          "tcg": 1,
+          "id": 7472,
+          "attribute": "DARK",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 1,
+          "custom": 0,
+          "serial_number": "72291412",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 16,
+          "effect": "If this card is in your GY: You can Fusion Summon 1 \"D/D/D\" Fusion Monster from your Extra Deck, by banishing Fusion Materials mentioned on it from your GY, including this card. You can only use this effect of \"D/D Necro Slime\" once per turn.",
+          "name": "D/D Necro Slime",
+          "pendulum_effect": "",
+          "treated_as": "D/D Necro Slime"
+        },
+        {
+          "def": "600",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Winged Beast",
+          "points": 7,
+          "ocg": 1,
+          "atk": "100",
+          "tcg": 1,
+          "id": 15722,
+          "attribute": "WIND",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 4,
+          "custom": 0,
+          "serial_number": "42141493",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 19,
+          "effect": "If you control no cards (Quick Effect): You can discard this card; apply these effects this turn.\n●Each time your opponent Special Summons a monster(s) from the Deck and/or Extra Deck, immediately draw 1 card.\n●Once, during this End Phase, if the number of cards in your hand is more than the number of cards your opponent controls +6, you must randomly shuffle cards from your hand into the Deck so the number in your hand equals the number your opponent controls +6.\nYou can only activate 1 other \"Mulcharmy\" monster effect, the turn you activate this effect.",
+          "name": "Mulcharmy Fuwalos",
+          "pendulum_effect": "",
+          "treated_as": "Mulcharmy Fuwalos"
+        },
+        {
+          "def": "0",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 10,
+          "pic": "1",
+          "type": "Fiend",
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 6891,
+          "attribute": "DARK",
+          "ability": "",
+          "pendulum": 1,
+          "flip": 0,
+          "level": 1,
+          "custom": 0,
+          "serial_number": "11609969",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 3,
+          "effect": "If this card is Normal or Special Summoned: You can activate 1 of these effects. You can only use this effect of \"D/D Savant Kepler\" once per turn.\n●Target 1 other \"D/D\" card you control; return it to the hand.\n●Add 1 \"Dark Contract\" card from your Deck to your hand.",
+          "name": "D/D Savant Kepler",
+          "pendulum_effect": "You cannot Pendulum Summon monsters, except \"D/D\" monsters. This effect cannot be negated. Once per turn, during your Standby Phase: Reduce this card's Pendulum Scale by 2 (min. 1), then destroy all monsters you control with a Level greater than or equal to this card's Pendulum Scale, except \"D/D\" monsters.",
+          "treated_as": "D/D Savant Kepler"
+        },
+        {
+          "def": "0",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 1,
+          "pic": "1",
+          "type": "Fiend",
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 7803,
+          "attribute": "DARK",
+          "ability": "",
+          "pendulum": 1,
+          "flip": 0,
+          "level": 4,
+          "custom": 0,
+          "serial_number": "46796664",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 14,
+          "effect": "If this card is Normal or Special Summoned: You can send 1 \"D/D\" or \"Dark Contract\" card from your Deck to the GY, except \"D/D Savant Copernicus\". You can only use this effect of \"D/D Savant Copernicus\" once per turn.",
+          "name": "D/D Savant Copernicus",
+          "pendulum_effect": "You cannot Pendulum Summon monsters, except \"D/D\" monsters. This effect cannot be negated. Once, while this card is in your Pendulum Zone, you can negate an activated Spell effect that would inflict damage to you, then destroy this card.",
+          "treated_as": "D/D Savant Copernicus"
+        }
+      ],
+      "log": [
+        {
+          "private_log": "Chose to go first",
+          "public_log": "Chose to go first",
+          "type": "game",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"R.B. Last Stand\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"R.B. Funk Dock\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"R.B. Lambda Cannon\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Ash Blossom & Joyous Spring\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Mitsurugi Ritual\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"D/D Count Surveyor\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Pluginzer0"
+        },
+        {
+          "private_log": "Drew \"D/D Necro Slime\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Pluginzer0"
+        },
+        {
+          "private_log": "Drew \"Mulcharmy Fuwalos\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Pluginzer0"
+        },
+        {
+          "private_log": "Drew \"D/D Savant Kepler\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Pluginzer0"
+        },
+        {
+          "private_log": "Drew \"D/D Savant Copernicus\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Pluginzer0"
+        }
+      ],
+      "action": "Duel",
+      "username": "Fryderyk Chopin",
+      "order": [
+        "Fryderyk Chopin",
+        "Pluginzer0"
+      ]
+    },
+    {
+      "play": "Duel message",
+      "seconds": 35,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u2\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "u2",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Enter M1",
+      "seconds": 38,
+      "log": {
+        "public_log": "Entered Main Phase 1",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Activate Field Spell",
+      "seconds": 45,
+      "log": {
+        "public_log": "Activated Field Spell \"R.B. Funk Dock\" from hand (2/5)",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 2,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Field",
+        "ocg": 0,
+        "atk": "0",
+        "tcg": 1,
+        "id": 16782,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "78710386",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 1,
+        "effect": "When this card is activated: Add 1 \"R.B.\" card from your Deck to your hand, except \"R.B. Funk Dock\". Each time a monster(s) your opponent controls is destroyed by battle or card effect, gain 500 LP. If a face-up \"R.B.\" monster(s) you control leaves the field by card effect (except during the Damage Step): You can Special Summon 1 \"R.B.\" monster from your Deck. You can only use this effect of \"R.B. Funk Dock\" once per turn. You can only activate 1 \"R.B. Funk Dock\" per turn.",
+        "name": "R.B. Funk Dock",
+        "pendulum_effect": "",
+        "treated_as": "R.B. Funk Dock"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Good",
+      "seconds": 48,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "View deck",
+      "seconds": 50,
+      "log": {
+        "private_log": "Viewed deck",
+        "public_log": "Viewed deck",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "To hand",
+      "seconds": 52,
+      "log": {
+        "private_log": "Added \"R.B. Stage Landing\" from Deck to hand",
+        "public_log": "Added \"R.B. Stage Landing\" from Deck to hand",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "prev": [
+        29,
+        5,
+        1,
+        4,
+        3
+      ],
+      "action": "Duel",
+      "id": 29,
+      "shuffle": true,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Normal",
+        "ocg": 0,
+        "atk": "0",
+        "tcg": 1,
+        "id": 16783,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "05109321",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 5,
+        "effect": "Special Summon 1 \"R.B.\" monster from your Deck/Extra Deck with a different name than the cards you control. If an \"R.B.\" monster(s) you control would be destroyed by battle or card effect, you can banish this card from your GY instead. You cannot Special Summon from the Extra Deck the turn you activate this card, except Machine monsters with 1500 or less original ATK.",
+        "name": "R.B. Stage Landing",
+        "pendulum_effect": "",
+        "treated_as": "R.B. Stage Landing"
+      },
+      "hand": [
+        501,
+        502,
+        503,
+        504,
+        505
+      ],
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 53,
+      "log": {
+        "public_log": "Stopped viewing Deck",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Shuffle deck",
+      "seconds": 53,
+      "log": {
+        "private_log": "Shuffled deck",
+        "public_log": "Shuffled deck",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "deck": [
+        506,
+        507,
+        508,
+        509,
+        510,
+        511,
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        518,
+        519,
+        520,
+        521,
+        522,
+        523,
+        524,
+        525,
+        526,
+        527,
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537,
+        538,
+        539,
+        540,
+        541,
+        542,
+        543,
+        544
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "message": "Fryderyk Chopin shuffled his deck",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Activate ST",
+      "seconds": 57,
+      "log": {
+        "public_log": "Activated \"R.B. Stage Landing\" from hand (1/5) to S-1",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "zone": "S-1",
+      "action": "Duel",
+      "id": 501,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Normal",
+        "ocg": 0,
+        "atk": "0",
+        "tcg": 1,
+        "id": 16783,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "05109321",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 5,
+        "effect": "Special Summon 1 \"R.B.\" monster from your Deck/Extra Deck with a different name than the cards you control. If an \"R.B.\" monster(s) you control would be destroyed by battle or card effect, you can banish this card from your GY instead. You cannot Special Summon from the Extra Deck the turn you activate this card, except Machine monsters with 1500 or less original ATK.",
+        "name": "R.B. Stage Landing",
+        "pendulum_effect": "",
+        "treated_as": "R.B. Stage Landing"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Declare",
+      "seconds": 59,
+      "log": {
+        "public_log": "Declared effect of \"Mulcharmy Fuwalos\" in hand (3/5)",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "name": "Mulcharmy Fuwalos",
+      "action": "Duel",
+      "id": 78,
+      "card": {
+        "def": "600",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Winged Beast",
+        "points": 7,
+        "ocg": 1,
+        "atk": "100",
+        "tcg": 1,
+        "id": 15722,
+        "attribute": "WIND",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 4,
+        "custom": 0,
+        "serial_number": "42141493",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 19,
+        "effect": "If you control no cards (Quick Effect): You can discard this card; apply these effects this turn.\n●Each time your opponent Special Summons a monster(s) from the Deck and/or Extra Deck, immediately draw 1 card.\n●Once, during this End Phase, if the number of cards in your hand is more than the number of cards your opponent controls +6, you must randomly shuffle cards from your hand into the Deck so the number in your hand equals the number your opponent controls +6.\nYou can only activate 1 other \"Mulcharmy\" monster effect, the turn you activate this effect.",
+        "name": "Mulcharmy Fuwalos",
+        "pendulum_effect": "",
+        "treated_as": "Mulcharmy Fuwalos"
+      },
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "To GY",
+      "seconds": 60,
+      "log": {
+        "public_log": "Sent \"Mulcharmy Fuwalos\" from hand (3/5) to GY",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "id": 78,
+      "card": {
+        "def": "600",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Winged Beast",
+        "points": 7,
+        "ocg": 1,
+        "atk": "100",
+        "tcg": 1,
+        "id": 15722,
+        "attribute": "WIND",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 4,
+        "custom": 0,
+        "serial_number": "42141493",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 19,
+        "effect": "If you control no cards (Quick Effect): You can discard this card; apply these effects this turn.\n●Each time your opponent Special Summons a monster(s) from the Deck and/or Extra Deck, immediately draw 1 card.\n●Once, during this End Phase, if the number of cards in your hand is more than the number of cards your opponent controls +6, you must randomly shuffle cards from your hand into the Deck so the number in your hand equals the number your opponent controls +6.\nYou can only activate 1 other \"Mulcharmy\" monster effect, the turn you activate this effect.",
+        "name": "Mulcharmy Fuwalos",
+        "pendulum_effect": "",
+        "treated_as": "Mulcharmy Fuwalos"
+      },
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "To GY",
+      "seconds": 61,
+      "log": {
+        "public_log": "Sent \"Ash Blossom & Joyous Spring\" from hand (3/4) to GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 504,
+      "card": {
+        "def": "1800",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Zombie",
+        "points": 15,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 8504,
+        "attribute": "FIRE",
+        "ability": "Tuner",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 3,
+        "custom": 0,
+        "serial_number": "14558127",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 43,
+        "effect": "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that effect.\n●Add a card from the Deck to the hand.\n●Special Summon from the Deck.\n●Send a card from the Deck to the GY.\nYou can only use this effect of \"Ash Blossom & Joyous Spring\" once per turn.",
+        "name": "Ash Blossom & Joyous Spring",
+        "pendulum_effect": "",
+        "treated_as": "Ash Blossom & Joyous Spring"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Admit defeat",
+      "over": false,
+      "seconds": 64,
+      "player1": {
+        "rating": 1056,
+        "experience": 393,
+        "points": 0
+      },
+      "log": {
+        "public_log": "Admitted defeat",
+        "type": "game",
+        "username": "Pluginzer0"
+      },
+      "player2": {
+        "rating": 556,
+        "experience": 1577,
+        "points": 0
+      },
+      "action": "Duel",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Siding",
+      "seconds": 64,
+      "action": "Duel",
+      "message": "Siding for the next duel has begun (1-0-0)"
+    },
+    {
+      "play": "Done siding",
+      "seconds": 68,
+      "log": {
+        "public_log": "Finished siding",
+        "type": "game",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Done siding",
+      "seconds": 114,
+      "log": {
+        "public_log": "Finished siding",
+        "type": "game",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Begin next duel",
+      "score": "(1-0-0)",
+      "seconds": 114,
+      "player1": {
+        "main_total": 45,
+        "start": 1,
+        "extra_total": 15,
+        "username": "Fryderyk Chopin",
+        "token": "1"
+      },
+      "player2": {
+        "main_total": 42,
+        "start": 76,
+        "extra_total": 15,
+        "username": "Pluginzer0",
+        "token": "1"
+      },
+      "action": "Duel",
+      "starting": true,
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Pick first",
+      "seconds": 119,
+      "cards": [
+        {
+          "def": "600",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Winged Beast",
+          "points": 7,
+          "ocg": 1,
+          "atk": "100",
+          "tcg": 1,
+          "id": 15722,
+          "attribute": "WIND",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 4,
+          "custom": 0,
+          "serial_number": "42141493",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 34,
+          "effect": "If you control no cards (Quick Effect): You can discard this card; apply these effects this turn.\n●Each time your opponent Special Summons a monster(s) from the Deck and/or Extra Deck, immediately draw 1 card.\n●Once, during this End Phase, if the number of cards in your hand is more than the number of cards your opponent controls +6, you must randomly shuffle cards from your hand into the Deck so the number in your hand equals the number your opponent controls +6.\nYou can only activate 1 other \"Mulcharmy\" monster effect, the turn you activate this effect.",
+          "name": "Mulcharmy Fuwalos",
+          "pendulum_effect": "",
+          "treated_as": "Mulcharmy Fuwalos"
+        },
+        {
+          "def": "1800",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Zombie",
+          "points": 15,
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 8504,
+          "attribute": "FIRE",
+          "ability": "Tuner",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 3,
+          "custom": 0,
+          "serial_number": "14558127",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 42,
+          "effect": "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that effect.\n●Add a card from the Deck to the hand.\n●Special Summon from the Deck.\n●Send a card from the Deck to the GY.\nYou can only use this effect of \"Ash Blossom & Joyous Spring\" once per turn.",
+          "name": "Ash Blossom & Joyous Spring",
+          "pendulum_effect": "",
+          "treated_as": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "def": "1500",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Machine",
+          "ocg": 0,
+          "atk": "1500",
+          "tcg": 1,
+          "id": 17081,
+          "attribute": "EARTH",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 2,
+          "level": 8,
+          "custom": 0,
+          "serial_number": "44573911",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 11,
+          "effect": "If you control no face-up monsters, or the only face-up monsters you control are \"R.B.\" monsters, you can Special Summon this card (from your hand). You can only Special Summon \"R.B. Ga10 Pile Bunker\" once per turn this way. When an attack is declared involving an opponent's monster and \"R.B. The Brute Blues\" that points to this card: You can pay 1500 LP; destroy all cards your opponent controls and this card. You can only use this effect of \"R.B. Ga10 Pile Bunker\" once per turn.",
+          "name": "R.B. Ga10 Pile Bunker",
+          "pendulum_effect": "",
+          "treated_as": "R.B. Ga10 Pile Bunker"
+        },
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Ritual",
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 16671,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "49721684",
+          "card_type": "Spell",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 20,
+          "effect": "This card can be used to Ritual Summon any Reptile Ritual Monster from your hand or GY. You must also Tribute Reptile monsters from your hand or field whose total Levels equal or exceed the Level of the Ritual Monster. If \"Ame no Murakumo no Mitsurugi\", \"Futsu no Mitama no Mitsurugi\", or \"Ame no Habakiri no Mitsurugi\" you control is Tributed, while this card is in your GY: You can shuffle this card into the Deck. You can only use each effect of \"Mitsurugi Mirror\" once per turn.",
+          "name": "Mitsurugi Mirror",
+          "pendulum_effect": "",
+          "treated_as": "Mitsurugi Mirror"
+        },
+        {
+          "def": "600",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Rock",
+          "points": 5,
+          "ocg": 1,
+          "atk": "3000",
+          "tcg": 1,
+          "id": 10345,
+          "attribute": "LIGHT",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 11,
+          "custom": 0,
+          "serial_number": "27204311",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 75,
+          "effect": "During the Main Phase, if your opponent Normal or Special Summoned 5 or more monsters this turn (Quick Effect): You can Tribute as many face-up monsters on the field as possible, and if you do, Special Summon this card from your hand, then Special Summon 1 \"Primal Being Token\" (Rock/LIGHT/Level 11/ATK ?/DEF ?) to your opponent's field. (This Token's ATK/DEF become the combined original ATK/DEF of the Tributed monsters.) You can only use this effect of \"Nibiru, the Primal Being\" once per turn.",
+          "name": "Nibiru, the Primal Being",
+          "pendulum_effect": "",
+          "treated_as": "Nibiru, the Primal Being"
+        },
+        {
+          "def": "1800",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 0,
+          "pic": "1",
+          "type": "Zombie",
+          "points": 15,
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 10374,
+          "attribute": "FIRE",
+          "ability": "Tuner",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 3,
+          "custom": 0,
+          "serial_number": "14558127",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "alt_passcode": "14558128",
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 8,
+          "effect": "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that effect.\n●Add a card from the Deck to the hand.\n●Special Summon from the Deck.\n●Send a card from the Deck to the GY.\nYou can only use this effect of \"Ash Blossom & Joyous Spring\" once per turn.",
+          "name": "Ash Blossom & Joyous Spring",
+          "pendulum_effect": "",
+          "treated_as": "Ash Blossom & Joyous Spring"
+        },
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Quick-Play",
+          "points": 13,
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 4108,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "48130397",
+          "card_type": "Spell",
+          "tcg_limit": 3,
+          "ocg_limit": 2,
+          "rush": 0,
+          "object_id": 31,
+          "effect": "Discard 1 card; Fusion Summon 1 Fusion Monster from your Extra Deck, using monsters from either field as Fusion Material. Neither player can activate cards or effects in response to this card's activation.",
+          "name": "Super Polymerization",
+          "pendulum_effect": "",
+          "treated_as": "Super Polymerization"
+        },
+        {
+          "def": "0",
+          "monster_color": "Effect",
+          "arrows": "",
+          "is_effect": 1,
+          "scale": 10,
+          "pic": "1",
+          "type": "Fiend",
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 6891,
+          "attribute": "DARK",
+          "ability": "",
+          "pendulum": 1,
+          "flip": 0,
+          "level": 1,
+          "custom": 0,
+          "serial_number": "11609969",
+          "card_type": "Monster",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 1,
+          "effect": "If this card is Normal or Special Summoned: You can activate 1 of these effects. You can only use this effect of \"D/D Savant Kepler\" once per turn.\n●Target 1 other \"D/D\" card you control; return it to the hand.\n●Add 1 \"Dark Contract\" card from your Deck to your hand.",
+          "name": "D/D Savant Kepler",
+          "pendulum_effect": "You cannot Pendulum Summon monsters, except \"D/D\" monsters. This effect cannot be negated. Once per turn, during your Standby Phase: Reduce this card's Pendulum Scale by 2 (min. 1), then destroy all monsters you control with a Level greater than or equal to this card's Pendulum Scale, except \"D/D\" monsters.",
+          "treated_as": "D/D Savant Kepler"
+        },
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Normal",
+          "points": 25,
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 15777,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "40366667",
+          "card_type": "Trap",
+          "tcg_limit": 3,
+          "ocg_limit": 3,
+          "rush": 0,
+          "object_id": 39,
+          "effect": "If your opponent controls a card, you can activate this card from your hand. When a card or effect is activated that includes an effect that Special Summons a monster(s): Negate that effect, then if you have a Trap in your GY, destroy that card. If you activated this card from your hand, you cannot activate the effects of LIGHT, EARTH, and WIND monsters for the rest of this Duel. You can only activate 1 \"Dominus Impulse\" per turn.",
+          "name": "Dominus Impulse",
+          "pendulum_effect": "",
+          "treated_as": "Dominus Impulse"
+        },
+        {
+          "def": "0",
+          "monster_color": "",
+          "arrows": "",
+          "is_effect": 0,
+          "scale": 0,
+          "pic": "1",
+          "type": "Quick-Play",
+          "points": 20,
+          "ocg": 1,
+          "atk": "0",
+          "tcg": 1,
+          "id": 9189,
+          "attribute": "",
+          "ability": "",
+          "pendulum": 0,
+          "flip": 0,
+          "level": 0,
+          "custom": 0,
+          "serial_number": "24224830",
+          "card_type": "Spell",
+          "tcg_limit": 1,
+          "ocg_limit": 2,
+          "rush": 0,
+          "object_id": 34,
+          "effect": "Target 1 monster in your opponent's GY; banish it, and if you do, until the end of the next turn, its effects are negated, as well as the activated effects and effects on the field of monsters with the same original name.",
+          "name": "Called by the Grave",
+          "pendulum_effect": "",
+          "treated_as": "Called by the Grave"
+        }
+      ],
+      "log": [
+        {
+          "private_log": "Chose to go first",
+          "public_log": "Chose to go first",
+          "type": "game",
+          "username": "Pluginzer0"
+        },
+        {
+          "private_log": "Drew \"Mulcharmy Fuwalos\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Ash Blossom & Joyous Spring\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"R.B. Ga10 Pile Bunker\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Mitsurugi Mirror\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Nibiru, the Primal Being\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Fryderyk Chopin"
+        },
+        {
+          "private_log": "Drew \"Ash Blossom & Joyous Spring\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Pluginzer0"
+        },
+        {
+          "private_log": "Drew \"Super Polymerization\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Pluginzer0"
+        },
+        {
+          "private_log": "Drew \"D/D Savant Kepler\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Pluginzer0"
+        },
+        {
+          "private_log": "Drew \"Dominus Impulse\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Pluginzer0"
+        },
+        {
+          "private_log": "Drew \"Called by the Grave\"",
+          "public_log": "Drew a card",
+          "type": "duel",
+          "username": "Pluginzer0"
+        }
+      ],
+      "action": "Duel",
+      "username": "Pluginzer0",
+      "order": [
+        "Pluginzer0",
+        "Fryderyk Chopin"
+      ]
+    },
+    {
+      "play": "Enter SP",
+      "seconds": 125,
+      "log": {
+        "public_log": "Entered Standby Phase",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Good",
+      "seconds": 127,
+      "log": {
+        "public_log": "Signaled OK",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Enter M1",
+      "seconds": 127,
+      "log": {
+        "public_log": "Entered Main Phase 1",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Normal Summon",
+      "seconds": 133,
+      "log": {
+        "public_log": "Normal Summoned \"D/D Savant Kepler\" from hand (3/5) to M-1",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "zone": "M-1",
+      "action": "Duel",
+      "id": 78,
+      "card": {
+        "def": "0",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 10,
+        "pic": "1",
+        "type": "Fiend",
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 6891,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 1,
+        "flip": 0,
+        "level": 1,
+        "custom": 0,
+        "serial_number": "11609969",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 1,
+        "effect": "If this card is Normal or Special Summoned: You can activate 1 of these effects. You can only use this effect of \"D/D Savant Kepler\" once per turn.\n●Target 1 other \"D/D\" card you control; return it to the hand.\n●Add 1 \"Dark Contract\" card from your Deck to your hand.",
+        "name": "D/D Savant Kepler",
+        "pendulum_effect": "You cannot Pendulum Summon monsters, except \"D/D\" monsters. This effect cannot be negated. Once per turn, during your Standby Phase: Reduce this card's Pendulum Scale by 2 (min. 1), then destroy all monsters you control with a Level greater than or equal to this card's Pendulum Scale, except \"D/D\" monsters.",
+        "treated_as": "D/D Savant Kepler"
+      },
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Declare",
+      "seconds": 133,
+      "log": {
+        "public_log": "Declared effect of \"D/D Savant Kepler\" in M-1",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "name": "D/D Savant Kepler",
+      "action": "Duel",
+      "id": 78,
+      "card": {
+        "def": "0",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 10,
+        "pic": "1",
+        "type": "Fiend",
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 6891,
+        "attribute": "DARK",
+        "ability": "",
+        "pendulum": 1,
+        "flip": 0,
+        "level": 1,
+        "custom": 0,
+        "serial_number": "11609969",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 1,
+        "effect": "If this card is Normal or Special Summoned: You can activate 1 of these effects. You can only use this effect of \"D/D Savant Kepler\" once per turn.\n●Target 1 other \"D/D\" card you control; return it to the hand.\n●Add 1 \"Dark Contract\" card from your Deck to your hand.",
+        "name": "D/D Savant Kepler",
+        "pendulum_effect": "You cannot Pendulum Summon monsters, except \"D/D\" monsters. This effect cannot be negated. Once per turn, during your Standby Phase: Reduce this card's Pendulum Scale by 2 (min. 1), then destroy all monsters you control with a Level greater than or equal to this card's Pendulum Scale, except \"D/D\" monsters.",
+        "treated_as": "D/D Savant Kepler"
+      },
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Thinking",
+      "seconds": 133,
+      "log": {
+        "public_log": "Thinking",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "To GY",
+      "seconds": 134,
+      "log": {
+        "public_log": "Sent \"Mulcharmy Fuwalos\" from hand (1/5) to GY",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "id": 1,
+      "card": {
+        "def": "600",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Winged Beast",
+        "points": 7,
+        "ocg": 1,
+        "atk": "100",
+        "tcg": 1,
+        "id": 15722,
+        "attribute": "WIND",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 4,
+        "custom": 0,
+        "serial_number": "42141493",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 34,
+        "effect": "If you control no cards (Quick Effect): You can discard this card; apply these effects this turn.\n●Each time your opponent Special Summons a monster(s) from the Deck and/or Extra Deck, immediately draw 1 card.\n●Once, during this End Phase, if the number of cards in your hand is more than the number of cards your opponent controls +6, you must randomly shuffle cards from your hand into the Deck so the number in your hand equals the number your opponent controls +6.\nYou can only activate 1 other \"Mulcharmy\" monster effect, the turn you activate this effect.",
+        "name": "Mulcharmy Fuwalos",
+        "pendulum_effect": "",
+        "treated_as": "Mulcharmy Fuwalos"
+      },
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 134,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"lag\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "lag",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Add watcher",
+      "seconds": 134,
+      "action": "Duel",
+      "username": "MikeBuonasera"
+    },
+    {
+      "play": "View deck",
+      "seconds": 135,
+      "log": {
+        "private_log": "Viewed deck",
+        "public_log": "Viewed deck",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Remove watcher",
+      "seconds": 137,
+      "action": "Duel",
+      "username": "MikeBuonasera"
+    },
+    {
+      "play": "To GY",
+      "seconds": 139,
+      "log": {
+        "public_log": "Sent \"Ash Blossom & Joyous Spring\" from hand (1/4) to GY",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "id": 76,
+      "card": {
+        "def": "1800",
+        "monster_color": "Effect",
+        "arrows": "",
+        "is_effect": 1,
+        "scale": 0,
+        "pic": "1",
+        "type": "Zombie",
+        "points": 15,
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 10374,
+        "attribute": "FIRE",
+        "ability": "Tuner",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 3,
+        "custom": 0,
+        "serial_number": "14558127",
+        "card_type": "Monster",
+        "tcg_limit": 3,
+        "alt_passcode": "14558128",
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 8,
+        "effect": "When a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that effect.\n●Add a card from the Deck to the hand.\n●Special Summon from the Deck.\n●Send a card from the Deck to the GY.\nYou can only use this effect of \"Ash Blossom & Joyous Spring\" once per turn.",
+        "name": "Ash Blossom & Joyous Spring",
+        "pendulum_effect": "",
+        "treated_as": "Ash Blossom & Joyous Spring"
+      },
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Add watcher",
+      "seconds": 140,
+      "action": "Duel",
+      "username": "MikeBuonasera"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 143,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"?'\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "?'",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Remove watcher",
+      "seconds": 144,
+      "action": "Duel",
+      "username": "MikeBuonasera"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 144,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"n\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "n",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 146,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"no\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "no",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 147,
+      "log": {
+        "public_log": "Stopped viewing Deck",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Shuffle deck",
+      "seconds": 147,
+      "log": {
+        "private_log": "Shuffled deck",
+        "public_log": "Shuffled deck",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "deck": [
+        545,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557,
+        558,
+        559,
+        560,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        567,
+        568,
+        569,
+        570,
+        571,
+        572,
+        573,
+        574,
+        575,
+        576,
+        577,
+        578,
+        579,
+        580,
+        581
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "message": "Pluginzer0 shuffled his deck",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "View ED 2",
+      "seconds": 148,
+      "log": {
+        "private_log": "Viewed Opponent's Extra Deck",
+        "public_log": "Viewed Opponent's Extra Deck",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "viewing": "Opponent's Public Extra Deck",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 149,
+      "log": {
+        "public_log": "Stopped viewing Opponent's Public Extra Deck",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "viewing": "Opponent's Public Extra Deck",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 153,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"?\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "?",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "View deck",
+      "seconds": 159,
+      "log": {
+        "private_log": "Viewed deck",
+        "public_log": "Viewed deck",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "To hand",
+      "seconds": 164,
+      "log": {
+        "private_log": "Added \"Dark Contract with the Gate\" from Deck to hand",
+        "public_log": "Added \"Dark Contract with the Gate\" from Deck to hand",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "prev": [
+        79,
+        80,
+        77,
+        545
+      ],
+      "action": "Duel",
+      "id": 545,
+      "shuffle": true,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Continuous",
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 6895,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "46372010",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 6,
+        "effect": "During your Main Phase: You can add 1 \"D/D\" monster from your Deck to your hand. You can only use this effect of \"Dark Contract with the Gate\" once per turn. Once per turn, during your Standby Phase: Take 1000 damage.",
+        "name": "Dark Contract with the Gate",
+        "pendulum_effect": "",
+        "treated_as": "Dark Contract with the Gate"
+      },
+      "hand": [
+        582,
+        583,
+        584,
+        585
+      ],
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Stop viewing",
+      "seconds": 166,
+      "log": {
+        "public_log": "Stopped viewing Deck",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Shuffle deck",
+      "seconds": 166,
+      "log": {
+        "private_log": "Shuffled deck",
+        "public_log": "Shuffled deck",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "deck": [
+        586,
+        587,
+        588,
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621
+      ],
+      "action": "Duel",
+      "shuffle": true,
+      "message": "Pluginzer0 shuffled his deck",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 166,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"[2:13] Thinking [2:14] Sent Mulcharmy Fuwalos from hand (1/5) to GY [2:14] \"lag\" [2:15] Viewed deck [2:19] Sent Ash Blossom & Joyous Spring from hand (1/4) to GY [2:23] \"?'\"\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "[2:13] Thinking [2:14] Sent Mulcharmy Fuwalos from hand (1/5) to GY [2:14] \"lag\" [2:15] Viewed deck [2:19] Sent Ash Blossom & Joyous Spring from hand (1/4) to GY [2:23] \"?'\"",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 167,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"no\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "no",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 170,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u cannot ash sir\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "u cannot ash sir",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 174,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"?\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "?",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Activate ST",
+      "seconds": 179,
+      "log": {
+        "public_log": "Activated \"Dark Contract with the Gate\" from hand (4/4) to S-3",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "zone": "S-3",
+      "action": "Duel",
+      "id": 585,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Continuous",
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 6895,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "46372010",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 6,
+        "effect": "During your Main Phase: You can add 1 \"D/D\" monster from your Deck to your hand. You can only use this effect of \"Dark Contract with the Gate\" once per turn. Once per turn, during your Standby Phase: Take 1000 damage.",
+        "name": "Dark Contract with the Gate",
+        "pendulum_effect": "",
+        "treated_as": "Dark Contract with the Gate"
+      },
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 180,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u opened deck and then ashed it\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "u opened deck and then ashed it",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Pause game",
+      "seconds": 182,
+      "log": {
+        "public_log": "Fryderyk Chopin paused the game",
+        "type": "game",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 187,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u were resolving the card\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "u were resolving the card",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 190,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"bro\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "bro",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 192,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"so u cannot chain anything more\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "so u cannot chain anything more",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 199,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u lag to discrd the charmy\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "u lag to discrd the charmy",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 204,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"its not my fault\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "its not my fault",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 206,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"no\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "no",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 209,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i discard at 14\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i discard at 14",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 213,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u opened the deck at 19\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "u opened the deck at 19",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 217,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"and u throwed ash at 23\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "and u throwed ash at 23",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 220,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"it s not my fault\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "it s not my fault",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 222,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"when i openned my deck, u discard\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "when i openned my deck, u discard",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 223,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u saw fuwalos\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "u saw fuwalos",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 225,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"still opened the deck\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "still opened the deck",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 229,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"and then u realized u had ash\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "and then u realized u had ash",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 233,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"but it s too late\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "but it s too late",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 233,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"just take the ash and play\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "just take the ash and play",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 238,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"because u already started to resolve the card\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "because u already started to resolve the card",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Resume game",
+      "seconds": 242,
+      "log": {
+        "public_log": "Fryderyk Chopin resumed the game",
+        "type": "game",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Declare",
+      "seconds": 246,
+      "log": {
+        "public_log": "Declared effect of \"Dark Contract with the Gate\" in S-3",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "name": "Dark Contract with the Gate",
+      "action": "Duel",
+      "id": 585,
+      "card": {
+        "def": "0",
+        "monster_color": "",
+        "arrows": "",
+        "is_effect": 0,
+        "scale": 0,
+        "pic": "1",
+        "type": "Continuous",
+        "ocg": 1,
+        "atk": "0",
+        "tcg": 1,
+        "id": 6895,
+        "attribute": "",
+        "ability": "",
+        "pendulum": 0,
+        "flip": 0,
+        "level": 0,
+        "custom": 0,
+        "serial_number": "46372010",
+        "card_type": "Spell",
+        "tcg_limit": 3,
+        "ocg_limit": 3,
+        "rush": 0,
+        "object_id": 6,
+        "effect": "During your Main Phase: You can add 1 \"D/D\" monster from your Deck to your hand. You can only use this effect of \"Dark Contract with the Gate\" once per turn. Once per turn, during your Standby Phase: Take 1000 damage.",
+        "name": "Dark Contract with the Gate",
+        "pendulum_effect": "",
+        "treated_as": "Dark Contract with the Gate"
+      },
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Pause game",
+      "seconds": 247,
+      "log": {
+        "public_log": "Fryderyk Chopin paused the game",
+        "type": "game",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Call admin",
+      "seconds": 249,
+      "log": {
+        "public_log": "Called a judge for Ruling",
+        "type": "game",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Resume game",
+      "seconds": 250,
+      "log": {
+        "public_log": "Fryderyk Chopin resumed the game",
+        "type": "game",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 253,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u stop playing\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "u stop playing",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 256,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"ash to hand\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "ash to hand",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "View deck",
+      "seconds": 256,
+      "log": {
+        "private_log": "Viewed deck",
+        "public_log": "Viewed deck",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "viewing": "Deck",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Pause game",
+      "seconds": 260,
+      "log": {
+        "public_log": "Fryderyk Chopin paused the game",
+        "type": "game",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 264,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"ok we wait\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "ok we wait",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 305,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u cannot just throw things while u started resolving the chain\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "u cannot just throw things while u started resolving the chain",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 308,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u could do it before\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "u could do it before",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 314,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"not while u resolve\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "not while u resolve",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 315,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"wtf\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "wtf",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 325,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\":)\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": ":)",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 328,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"accept the fact that u forgot u had ash and go on under fuwalos\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "accept the fact that u forgot u had ash and go on under fuwalos",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 546,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"hi judge, my opponent activate effect of keplero, i activated fuwalos and he waited a lil bit and after that he opened the deck to resolve kepler and after a while he was searching resolving the chain he decided to ash my fuwalos, i assume he noticed he had it in hand after, i told him it s too late because he already started to resolve the chain going into his deck but he s refusing to stop playing even though i called a judge and refuse to take back ash blossom in hand, this is the log\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "hi judge, my opponent activate effect of keplero, i activated fuwalos and he waited a lil bit and after that he opened the deck to resolve kepler and after a while he was searching resolving the chain he decided to ash my fuwalos, i assume he noticed he had it in hand after, i told him it s too late because he already started to resolve the chain going into his deck but he s refusing to stop playing even though i called a judge and refuse to take back ash blossom in hand, this is the log",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 587,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"bro, just accept your card its send to gy late to me\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "bro, just accept your card its send to gy late to me",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 592,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"no\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "no",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 595,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i send at 14\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i send at 14",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 599,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"it s in the logs\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "it s in the logs",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 601,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"stop\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "stop",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 611,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i lagged nbefore sendind the card\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i lagged nbefore sendind the card",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 612,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u lagged, and for me shows when i oppened the deck\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "u lagged, and for me shows when i oppened the deck",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 618,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"no\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "no",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 621,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i lagged before\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i lagged before",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 623,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"not after\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "not after",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 628,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"so, stop typing\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "so, stop typing",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 630,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"when i told u lag\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "when i told u lag",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 632,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"and wiat the judge\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "and wiat the judge",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 640,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i already sent fuwalos to gy and it showed it perfectly\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i already sent fuwalos to gy and it showed it perfectly",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 653,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u re just a cheater who missplayed and stop\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "u re just a cheater who missplayed and stop",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 661,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"accept it and keep playing under fuwalos\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "accept it and keep playing under fuwalos",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Add watcher",
+      "seconds": 679,
+      "action": "Duel",
+      "admin": 1,
+      "username": "Alexis Dipoalo"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 684,
+      "color": "009900",
+      "log": {
+        "public_log": "\"hi issue?\"",
+        "type": "chat",
+        "username": "Alexis Dipoalo"
+      },
+      "action": "Duel",
+      "message": "hi issue?",
+      "username": "Alexis Dipoalo"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 686,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"hi judge, my opponent activate effect of keplero, i activated fuwalos and he waited a lil bit and after that he opened the deck to resolve kepler and after a while he was searching resolving the chain he decided to ash my fuwalos, i assume he noticed he had it in hand after, i told him it s too late because he already started to resolve the chain going into his deck but he s refusing to stop playing even though i called a judge and refuse to take back ash blossom in hand, this is the log\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "hi judge, my opponent activate effect of keplero, i activated fuwalos and he waited a lil bit and after that he opened the deck to resolve kepler and after a while he was searching resolving the chain he decided to ash my fuwalos, i assume he noticed he had it in hand after, i told him it s too late because he already started to resolve the chain going into his deck but he s refusing to stop playing even though i called a judge and refuse to take back ash blossom in hand, this is the log",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 713,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"hi judge, for me the fuwa its send lately\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "hi judge, for me the fuwa its send lately",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 718,
+      "color": "009900",
+      "log": {
+        "public_log": "\"Pluginzer0 why did you open deck before chaining to fuwa?\"",
+        "type": "chat",
+        "username": "Alexis Dipoalo"
+      },
+      "action": "Duel",
+      "message": "Pluginzer0 why did you open deck before chaining to fuwa?",
+      "username": "Alexis Dipoalo"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 719,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"[2:13] Declared effect of D/D Savant Kepler in M-1 [2:13] Thinking [2:14] Sent Mulcharmy Fuwalos from hand (1/5) to GY [2:14] \"lag\" [2:15] Viewed deck [2:19] Sent Ash Blossom & Joyous Spring from hand (1/4) to GY [2:23] \"?'\"\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "[2:13] Declared effect of D/D Savant Kepler in M-1 [2:13] Thinking [2:14] Sent Mulcharmy Fuwalos from hand (1/5) to GY [2:14] \"lag\" [2:15] Viewed deck [2:19] Sent Ash Blossom & Joyous Spring from hand (1/4) to GY [2:23] \"?'\"",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 723,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"only shows to me when i open my deck\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "only shows to me when i open my deck",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 731,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"log doesn t say this\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "log doesn t say this",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 734,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"absolutely\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "absolutely",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 753,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i think its a bug, or lag\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "i think its a bug, or lag",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 757,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"it s not\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "it s not",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 759,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"dont know\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "dont know",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 761,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u just didn t notice ash\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "u just didn t notice ash",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 766,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i before sent fuwalos\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i before sent fuwalos",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 767,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"bro\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "bro",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 776,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"then said i was lagging  a bit, but not in that moment\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "then said i was lagging  a bit, but not in that moment",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 778,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"in g1\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "in g1",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 780,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"how can i fuck dont notice ash in my hand\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "how can i fuck dont notice ash in my hand",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 783,
+      "color": "009900",
+      "log": {
+        "public_log": "\"I'll be allowing the ash here. You even stated yourself there was some lag\"",
+        "type": "chat",
+        "username": "Alexis Dipoalo"
+      },
+      "action": "Duel",
+      "message": "I'll be allowing the ash here. You even stated yourself there was some lag",
+      "username": "Alexis Dipoalo"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 784,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i immediately responded to keplero\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i immediately responded to keplero",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 787,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"since i wasn t lagging\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "since i wasn t lagging",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 788,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"no\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "no",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 789,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"there was some lag before\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "there was some lag before",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 791,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"not in that moment\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "not in that moment",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 802,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i said thininng to kepler and in 1 second i droppet fuwalos\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i said thininng to kepler and in 1 second i droppet fuwalos",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 813,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"he opened the deck and then realized he had ash in hand and tried to do it\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "he opened the deck and then realized he had ash in hand and tried to do it",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 820,
+      "color": "009900",
+      "log": {
+        "public_log": "\"Can you explain how you had lag than in roughly the same moment, they couldn't be lagging?\"",
+        "type": "chat",
+        "username": "Alexis Dipoalo"
+      },
+      "action": "Duel",
+      "message": "Can you explain how you had lag than in roughly the same moment, they couldn't be lagging?",
+      "username": "Alexis Dipoalo"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 820,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"it s sop clear\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "it s sop clear",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 833,
+      "color": "009900",
+      "log": {
+        "public_log": "\"Because the interactions in question were only around 5 seconds apart\"",
+        "type": "chat",
+        "username": "Alexis Dipoalo"
+      },
+      "action": "Duel",
+      "message": "Because the interactions in question were only around 5 seconds apart",
+      "username": "Alexis Dipoalo"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 834,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i didn t say lag because i was laggging in that moment\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i didn t say lag because i was laggging in that moment",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 838,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i lagged in g1\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i lagged in g1",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 846,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"so i wanted to warmn him that it can happen later\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "so i wanted to warmn him that it can happen later",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 852,
+      "color": "009900",
+      "log": {
+        "public_log": "\"[2:14] Sent Mulcharmy Fuwalos from hand (1/5) to GY [2:14] \"lag\"  /   [2:19] Sent Ash Blossom & Joyous Spring from hand (1/4) to GY\"",
+        "type": "chat",
+        "username": "Alexis Dipoalo"
+      },
+      "action": "Duel",
+      "message": "[2:14] Sent Mulcharmy Fuwalos from hand (1/5) to GY [2:14] \"lag\"  /   [2:19] Sent Ash Blossom & Joyous Spring from hand (1/4) to GY",
+      "username": "Alexis Dipoalo"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 852,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"but it clearly didn t happen in that moment\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "but it clearly didn t happen in that moment",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 871,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i know what i wrot\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i know what i wrot",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 879,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"ebut i wan t lagging in that specific moment\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "ebut i wan t lagging in that specific moment",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 892,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"the proove is my 1 seocnd thinking on kepèler\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "the proove is my 1 seocnd thinking on kepèler",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 897,
+      "color": "009900",
+      "log": {
+        "public_log": "\"Than why would you write lag if you weren't lagging?\"",
+        "type": "chat",
+        "username": "Alexis Dipoalo"
+      },
+      "action": "Duel",
+      "message": "Than why would you write lag if you weren't lagging?",
+      "username": "Alexis Dipoalo"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 898,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"i immediately droppet fuwalos\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "i immediately droppet fuwalos",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 912,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"because i wanted to warn him that if i don t respond is because i may lag\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "because i wanted to warn him that if i don t respond is because i may lag",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 914,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"but in that  moment no\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "but in that  moment no",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 928,
+      "color": "009900",
+      "log": {
+        "public_log": "\"You don't see how that could be very confusing?\"",
+        "type": "chat",
+        "username": "Alexis Dipoalo"
+      },
+      "action": "Duel",
+      "message": "You don't see how that could be very confusing?",
+      "username": "Alexis Dipoalo"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 930,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"lag is just enough to make my oppponent more patient with my responses\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "lag is just enough to make my oppponent more patient with my responses",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 940,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"maybe it can be confusing\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "maybe it can be confusing",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 948,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"but it doesn t change the fact i dropped immediately fuwalos\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "but it doesn t change the fact i dropped immediately fuwalos",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 963,
+      "color": "009900",
+      "log": {
+        "public_log": "\"Either way, i can confirm there was at least some lag around the time this play happened. \"",
+        "type": "chat",
+        "username": "Alexis Dipoalo"
+      },
+      "action": "Duel",
+      "message": "Either way, i can confirm there was at least some lag around the time this play happened. ",
+      "username": "Alexis Dipoalo"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 964,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"this doesn t change the fact that he can think i was laggging if i was not\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "this doesn t change the fact that he can think i was laggging if i was not",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 969,
+      "color": "009900",
+      "log": {
+        "public_log": "\"So i will still be allowing the Ash here.\"",
+        "type": "chat",
+        "username": "Alexis Dipoalo"
+      },
+      "action": "Duel",
+      "message": "So i will still be allowing the Ash here.",
+      "username": "Alexis Dipoalo"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 986,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"and the fact he told me that fuwqalos did show up untile he was in deck for 4 seconds is the proove he s lying \"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "and the fact he told me that fuwqalos did show up untile he was in deck for 4 seconds is the proove he s lying ",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 987,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"in my opinioni\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "in my opinioni",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 995,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"since i wasn t lagging in that moent\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "since i wasn t lagging in that moent",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1004,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"moment\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "moment",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1014,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"can i appeal?\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "can i appeal?",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1016,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"judge, its ok. My opp really nead ranked point to leave, i'm out. Going find a good game with some human\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "judge, its ok. My opp really nead ranked point to leave, i'm out. Going find a good game with some human",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1019,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"good day\"",
+        "type": "chat",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "message": "good day",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1029,
+      "color": "009900",
+      "log": {
+        "public_log": "\"I guess no need if there surrendering\"",
+        "type": "chat",
+        "username": "Alexis Dipoalo"
+      },
+      "action": "Duel",
+      "message": "I guess no need if there surrendering",
+      "username": "Alexis Dipoalo"
+    },
+    {
+      "play": "Left duel",
+      "seconds": 1044,
+      "log": {
+        "public_log": "Left duel",
+        "type": "duel",
+        "username": "Pluginzer0"
+      },
+      "action": "Duel",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Quit duel",
+      "seconds": 1044,
+      "player1": {
+        "rating": 1076,
+        "experience": 393,
+        "points": 20
+      },
+      "log": {
+        "public_log": "Lost Duel",
+        "type": "game",
+        "username": "Pluginzer0"
+      },
+      "player2": {
+        "rating": 545,
+        "experience": 1577,
+        "points": -11
+      },
+      "action": "Duel",
+      "username": "Pluginzer0"
+    },
+    {
+      "play": "Resume game",
+      "seconds": 1044,
+      "log": {
+        "public_log": "The game can resume",
+        "type": "game",
+        "username": "Duelingbook"
+      },
+      "action": "Duel",
+      "username": "Duelingbook"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1051,
+      "color": "009900",
+      "log": {
+        "public_log": "\"Have a good day\"",
+        "type": "chat",
+        "username": "Alexis Dipoalo"
+      },
+      "action": "Duel",
+      "message": "Have a good day",
+      "username": "Alexis Dipoalo"
+    },
+    {
+      "play": "Duel message",
+      "seconds": 1056,
+      "color": "0000FF",
+      "log": {
+        "public_log": "\"u 2\"",
+        "type": "chat",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "message": "u 2",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "play": "Remove watcher",
+      "seconds": 1058,
+      "action": "Duel",
+      "username": "Alexis Dipoalo"
+    },
+    {
+      "play": "Left duel",
+      "seconds": 1058,
+      "log": {
+        "public_log": "Left duel",
+        "type": "duel",
+        "username": "Fryderyk Chopin"
+      },
+      "action": "Duel",
+      "username": "Fryderyk Chopin"
+    }
+  ],
+  "player1": {
+    "side": [
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75
+    ],
+    "nsfw": 0,
+    "rating": 1056,
+    "start": 1,
+    "extra_total": 15,
+    "main": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "pic": "13011.jpg",
+    "experience": 392,
+    "token": "1",
+    "main_total": 45,
+    "side_total": 15,
+    "legality": "Advanced",
+    "user_id": 1313181,
+    "default_pic": "13011.jpg",
+    "sleeve": "",
+    "extra": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    "username": "Fryderyk Chopin"
+  },
+  "player2": {
+    "side": [
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72
+    ],
+    "nsfw": 0,
+    "rating": 556,
+    "start": 76,
+    "extra_total": 15,
+    "main": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117
+    ],
+    "pic": "15904.jpg",
+    "experience": 1575,
+    "token": "1",
+    "main_total": 42,
+    "side_total": 15,
+    "legality": "Advanced",
+    "user_id": 528058,
+    "default_pic": "15904.jpg",
+    "sleeve": "308.jpg",
+    "extra": [
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132
+    ],
+    "username": "Pluginzer0"
+  },
+  "format": "ar",
+  "rules": "TCG",
+  "tag_duel": false,
+  "version": 17,
+  "watching": true,
+  "rated": true,
+  "password": false,
+  "match_type": "m",
+  "links": true,
+  "id": 77237443,
+  "logs": [
+    {
+      "seconds": 0,
+      "public_log": "Fryderyk Chopin joined pool (English, TCG, Match) in Advanced (Rated)",
+      "type": "game",
+      "username": "Fryderyk Chopin"
+    },
+    {
+      "seconds": 24,
+      "public_log": "Pluginzer0 automatically paired via pool",
+      "type": "game",
+      "username": "Pluginzer0"
+    }
+  ],
+  "player3": null,
+  "player4": null,
+  "liked": false
+}
