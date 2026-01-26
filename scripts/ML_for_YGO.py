@@ -2,30 +2,33 @@
 # THIS CODE AIMS TO IMPORT OUR DATA (from .csv), PROCESS IT, EXPLORE DIFFERENT MACHINE LEARNING MODELS AND EVALUATE THEM
 # ======================================================================================================================================================================
 
-from re import L
+from __future__ import annotations
+
+import argparse
+import json
+from pathlib import Path
+
 import pandas as pd
 
-# Import dataset
-# working directory is Desktop, needs to be seted-up as our file ML_for_YGO
-dataset = pd.read_csv("matches_data_mitsu_RB.csv") # voir get_csv_from_json.py pour le lien
-# colonnes : ['file', 'player1', 'player2', 'rps_winner', 'game1_winner', 'starting_hand_player1', 'starting_hand_player2']
-# Dtype/colonne : [object, object, object, bool, bool, object, object]
+def load_dataset(csv_path: Path) -> pd.DataFrame:
+    csv_path = csv_path.expanduser().resolve()
+    return pd.read_csv(csv_path)
 
 # DATA PROCESSING ==========================================================================================================================================================
 
 from sklearn.model_selection import train_test_split
-import json
 
 # filter by deck choice - assuming the player1 is our data provider
 list_plays = ['Normal Summon', 'Declare', 'Activate ST', 'To GY', 'SS ATK', 'Banish', 'SS DEF']
 targeted_cards = ['R.B. Ga10 Driller', 'Jet Synchron', 'R.B. Last Stand', 'R.B. Ga10 Cutter', 'Scrap Recycler', 'R.B. Funk Dock', 'R.B. Stage Landing', 'R.B. Lambda Cannon', 'R.B. Lambda Blade', 'R.B. Ga10 Pile Bunker']
 DATA_PROVIDER_USERNAME = "Fryderyk Chopin"
 
-def using_wrong_deck(index_file):
+def using_wrong_deck(dataset: pd.DataFrame, index_file: int, replays_dir: Path) -> bool:
     # True  -> wrong deck (no targeted plays/cards found)
     # False -> correct deck (targeted play/card found)
     file_name_json = dataset.loc[index_file, "file"]
-    with open(f"/Users/BastienLevy-Guinot/Desktop/db_replays/{file_name_json}", "r") as f:
+    replay_path = (replays_dir / str(file_name_json)).expanduser().resolve()
+    with open(replay_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
         # print("================="+str(index_file)+"=================="+str(dataset.loc[index_file, 'file'])+"=============")
@@ -49,62 +52,51 @@ def using_wrong_deck(index_file):
         # print("RETURN TRUE, WRONG DECK")
         return True
 
-# Drop all rows that are detected as "wrong deck"
+def build_features(
+    dataset: pd.DataFrame,
+    replays_dir: Path,
+    *,
+    drop_indices: list[int] | None = None,
+) -> tuple[pd.DataFrame, pd.Series]:
+    # Drop rows with missing target/hand information (more robust than hardcoded indices)
+    dataset = dataset.copy()
+    dataset = dataset.dropna(subset=["file"]).reset_index(drop=True)
 
-to_drop = [idx for idx in dataset.index if using_wrong_deck(idx)]
-dataset = dataset.drop(index=to_drop).reset_index(drop=True)
-dataset = dataset.drop(index=113).reset_index(drop=True) # specific column misinterpreted
-dataset = dataset.drop(index=44).reset_index(drop=True) # game not played, game_winner = NaN
-dataset = dataset.drop(index=31).reset_index(drop=True) # game not played, game_winner = NaN
-dataset = dataset.drop(index=2).reset_index(drop=True) # game not played, game_winner = NaN
-dataset["game1_winner"] = dataset["game1_winner"].astype("boolean")
-dataset['game1_winner'] = dataset['game1_winner'].fillna(True)
+    # Some rows have game not played -> NaN winner
+    dataset["game1_winner"] = dataset["game1_winner"].astype("boolean")
+    dataset = dataset.dropna(subset=["game1_winner"]).reset_index(drop=True)
 
-# starting_hands from string to list
-dataset['starting_hand_player1'] = dataset['starting_hand_player1'].apply(lambda x: x.split("%%%%")[0:5])
-dataset['starting_hand_player2'] = dataset['starting_hand_player2'].apply(lambda x: x.split("%%%%")[0:5])
+    # Optional legacy drops (kept for backwards compatibility with earlier experiments)
+    if drop_indices:
+        existing = [i for i in drop_indices if 0 <= i < len(dataset)]
+        if existing:
+            dataset = dataset.drop(index=existing).reset_index(drop=True)
 
-# Which plays are associated to card actions ?
-# list_plays = ['Normal Summon', 'Declare', 'Activate ST', 'To GY', 'SS ATK', 'Banish', 'SS DEF'] 
-# list_cards_player1 = []
+    # Drop all rows detected as "wrong deck"
+    to_drop = [idx for idx in dataset.index if using_wrong_deck(dataset, idx, replays_dir)]
+    dataset = dataset.drop(index=to_drop).reset_index(drop=True)
 
-# creating columns for each card name used in the matches - player 1
-for starting_hand_player1 in dataset['starting_hand_player1']:
-    for i in range (len(starting_hand_player1)):
-        # list_cards_player1.append(starting_hand_player1[i])
-        dataset[str(starting_hand_player1[i])+" (player1)"] = [0 for j in range(len(dataset['starting_hand_player1']))]
+    # starting_hands from string to list
+    dataset["starting_hand_player1"] = dataset["starting_hand_player1"].apply(lambda x: str(x).split("%%%%")[0:5])
+    dataset["starting_hand_player2"] = dataset["starting_hand_player2"].apply(lambda x: str(x).split("%%%%")[0:5])
 
+    # Create columns for each card name used in the matches - player 1
+    unique_cards_p1: list[str] = []
+    for hand in dataset["starting_hand_player1"]:
+        for card in hand:
+            if card and card not in unique_cards_p1:
+                unique_cards_p1.append(card)
+    for card in unique_cards_p1:
+        dataset[f"{card} (player1)"] = 0
 
-# list_cards_player1_unique = []
-# [list_cards_player1_unique.append(card) for card in list_cards_player1 if card not in list_cards_player1_unique]
-# Which are played by the player1 - we assume the player1 is our data provider
+    # Fill cards' columns with the data in 'starting_hand_player1'
+    for i in range(len(dataset["starting_hand_player1"])):
+        for card in dataset.loc[i, "starting_hand_player1"]:
+            dataset.loc[i, f"{card} (player1)"] += 1
 
-# creating columns for each card name used in the matches - player 2
-"""for starting_hand_player2 in dataset['starting_hand_player2']:
-    for i in range (len(starting_hand_player2)):
-        dataset[str(starting_hand_player2[i]) + " (player2)"] = [0 for j in range(len(dataset['starting_hand_player2']))]"""
-
-# Fill cards' columns with the data in 'starting_hand_player1'
-for i in  range (len(dataset['starting_hand_player1'])):
-    for card in dataset.loc[i, 'starting_hand_player1']:
-        dataset.loc[i, str(card)+" (player1)"] += 1
-
-# Fill cards' columns with the data in 'starting_hand_player2'
-"""for i in  range (len(dataset['starting_hand_player2'])):
-   for card in dataset.loc[i, 'starting_hand_player2']:
-        dataset.loc[i, str(card)+" (player2)"] += 1"""
-
-# output_file = "/Users/BastienLevy-Guinot/Desktop/matches_data_mitsu_RB_1.0.csv"
-# dataset.to_csv(output_file, index=False)
-
-
-X = dataset.drop(columns=["game1_winner", "file", "starting_hand_player1", "starting_hand_player2", 'player1', 'player2']) # features , drop 'file' ?
-y = dataset["game1_winner"] # target variable
-
-output_file = "/Users/BastienLevy-Guinot/Desktop/matches_data_mitsu_RB_2.0.csv"
-X.to_csv(output_file, index=False)
-
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1) # how should we choose the test_size ?
+    X = dataset.drop(columns=["game1_winner", "file", "starting_hand_player1", "starting_hand_player2", "player1", "player2"])
+    y = dataset["game1_winner"]
+    return X, y
 
 # EXPLORING MODELS =======================================================================================================================================================================
 
@@ -113,23 +105,55 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
-knn = KNeighborsClassifier(n_neighbors=11) # How should we choose the n_neighbors
-knn.fit(X_train, y_train)
-print("Score of knn is : " + str(knn.score(X_test, y_test)))
+def train_and_score_models(X: pd.DataFrame, y: pd.Series, *, test_size: float = 0.2, random_state: int = 1) -> dict[str, float]:
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=random_state)
 
-logistic_regression = LogisticRegression(max_iter=100) # How should we fix the max_iter
-logistic_regression.fit(X_train, y_train)
-print("Score of logistic_regression is : " + str(logistic_regression.score(X_test, y_test)))
+    scores: dict[str, float] = {}
 
-decision_tree = DecisionTreeClassifier(criterion="entropy", max_depth=10, random_state=0)
-decision_tree.fit(X_train, y_train)
-print("Score of decision tree is : " + str(decision_tree.score(X_test, y_test)))
+    knn = KNeighborsClassifier(n_neighbors=11)
+    knn.fit(X_train, y_train)
+    scores["knn"] = float(knn.score(X_test, y_test))
 
-random_forest = RandomForestClassifier(criterion="entropy", n_estimators=100, max_depth=10)
-random_forest.fit(X_train, y_train)
-print("Score of random forest is : " + str(random_forest.score(X_test, y_test)))
+    logistic_regression = LogisticRegression(max_iter=200)
+    logistic_regression.fit(X_train, y_train)
+    scores["logistic_regression"] = float(logistic_regression.score(X_test, y_test))
 
-print(list(X_train.columns()))
+    decision_tree = DecisionTreeClassifier(criterion="entropy", max_depth=10, random_state=0)
+    decision_tree.fit(X_train, y_train)
+    scores["decision_tree"] = float(decision_tree.score(X_test, y_test))
+
+    random_forest = RandomForestClassifier(criterion="entropy", n_estimators=200, max_depth=10, random_state=0)
+    random_forest.fit(X_train, y_train)
+    scores["random_forest"] = float(random_forest.score(X_test, y_test))
+
+    return scores
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--csv", type=Path, default=Path("data/matches_data_mitsu_RB.csv"))
+    parser.add_argument("--replays-dir", type=Path, default=Path("data/db_replays"))
+    parser.add_argument("--features-out", type=Path, default=Path("data/matches_data_mitsu_RB_2.0.csv"))
+    parser.add_argument("--test-size", type=float, default=0.2)
+    parser.add_argument("--random-state", type=int, default=1)
+    parser.add_argument("--drop-index", type=int, action="append", default=[])
+    args = parser.parse_args(argv)
+
+    dataset = load_dataset(args.csv)
+    X, y = build_features(dataset, args.replays_dir, drop_indices=args.drop_index or None)
+
+    args.features_out.parent.mkdir(parents=True, exist_ok=True)
+    X.to_csv(args.features_out, index=False)
+    print(f"✅ Features CSV saved to: {args.features_out} (shape={X.shape})")
+
+    scores = train_and_score_models(X, y, test_size=args.test_size, random_state=args.random_state)
+    for k, v in scores.items():
+        print(f"{k}: {v}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
 # TREE VISUALISATION =======================================================================================================================================================================
 
 """from matplotlib import pyplot as plt
