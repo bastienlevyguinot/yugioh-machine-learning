@@ -24,7 +24,9 @@ Outputs:
 
 ### Pipeline 2: from-excel (start only from a links file, scrape JSONs, then run offline)
 
-You provide an `.xlsx` / `.csv` / `.txt` file with replay ids/urls.
+You provide an `.xlsx` / `.csv` / `.txt` / `.json` file with replay ids/urls.
+
+Tip: the `.json` can be the exact export you copy from the browser console on the replays page (example: `ML_for_YGO/replay_data.json`).
 
 ```bash
 python scripts/run_pipeline.py from-excel --links-file path/to/links.xlsx
@@ -80,6 +82,21 @@ Or from a list file (xlsx/csv/txt):
 ```bash
 python scripts/get_db_match_selenium_clean.py --links-file path/to/links.xlsx --out-dir data/db_replays
 ```
+
+### Try-it-yourself (paste your replay list, scrape + run ML)
+
+1) Paste your replay URLs/ids into `data/empty_match_data.csv` (one per line, column name must be `url`).
+
+2) Run:
+
+```bash
+python scripts/get_db_match_selenium_clean.py --try-it-yourself
+```
+
+This will:
+- scrape JSONs into `data/my_own_db_replays/`
+- generate `data/my_matches.csv` + `data/my_features.csv`
+- print baseline model scores
 
 If some replays require login, you can point Selenium at a local Chrome profile directory **on your machine** (do not commit it):
 

@@ -13,6 +13,10 @@ import json
 import sys
 
 DEFAULT_OUT_DIR = Path("data/db_replays")
+DEFAULT_TRY_IT_YOURSELF_LINKS = Path("data/empty_match_data.csv")
+DEFAULT_TRY_IT_YOURSELF_REPLAYS_DIR = Path("data/my_own_db_replays")
+DEFAULT_TRY_IT_YOURSELF_MATCHES_CSV = Path("data/my_matches.csv")
+DEFAULT_TRY_IT_YOURSELF_FEATURES_CSV = Path("data/my_features.csv")
 
 def get_replay_id(url_id):
     return url_id.split("=")[1]
@@ -25,7 +29,7 @@ def get_recaptcha_token_and_cookies_with_selenium(replay_url: str, *, profile_di
         from selenium.webdriver.chrome.options import Options
     except ImportError as e:
         raise RuntimeError(
-            "Selenium is not installed. Install dependencies with: pip install -r requirements.txt"
+            "Selenium is not installed."
         ) from e
 
     # Utilise Selenium pour obtenir un token reCAPTCHA ET les cookies de session.
@@ -50,7 +54,7 @@ def get_recaptcha_token_and_cookies_with_selenium(replay_url: str, *, profile_di
             from webdriver_manager.chrome import ChromeDriverManager
         except ImportError as e:
             raise RuntimeError(
-                "webdriver-manager is not installed. Install dependencies with: pip install -r requirements.txt"
+                "webdriver-manager is not installed."
             ) from e
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=chrome_options)
@@ -214,6 +218,45 @@ def read_links_from_file(path: Path) -> list[str]:
     if not path.exists():
         raise FileNotFoundError(str(path))
 
+    if path.suffix.lower() in [".json"]:
+        # Supports the JSON you export from the browser console (list of {"text": ..., "url": ...})
+        # Also supports: list[str] where each string is an id/url.
+        obj = json.loads(path.read_text(encoding="utf-8", errors="ignore"))
+        links: list[str] = []
+
+        if isinstance(obj, list):
+            for item in obj:
+                if isinstance(item, str):
+                    s = item.strip()
+                    if s:
+                        links.append(s)
+                    continue
+                if isinstance(item, dict):
+                    url = str(item.get("url", "")).strip()
+                    if not url or url.upper() == "N/A":
+                        continue
+                    # keep anything that looks like a duelingbook replay link/id
+                    if "duelingbook.com" in url and "replay" in url.lower():
+                        links.append(url)
+            return links
+
+        if isinstance(obj, dict):
+            # Best-effort: if user stored {"links": [...]} or {"replays": [...]}
+            for k in ("links", "replays", "urls"):
+                v = obj.get(k)
+                if isinstance(v, list):
+                    for item in v:
+                        if isinstance(item, str) and item.strip():
+                            links.append(item.strip())
+                        elif isinstance(item, dict):
+                            url = str(item.get("url", "")).strip()
+                            if url and url.upper() != "N/A":
+                                links.append(url)
+                    if links:
+                        return links
+
+        raise ValueError(f"Unsupported JSON structure in {path}")
+
     if path.suffix.lower() in [".xlsx", ".xls"]:
         try:
             import pandas as pd
@@ -265,9 +308,21 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         description="Fetch DuelingBook replay JSONs using Selenium (reCAPTCHA v3) and save them locally."
     )
-    src = parser.add_mutually_exclusive_group(required=True)
+    parser.add_argument(
+        "--try-it-yourself",
+        action="store_true",
+        help=(
+            "Convenience mode: read links from data/empty_match_data.csv, scrape into data/my_own_db_replays/, "
+            "then build CSV + features and print model scores."
+        ),
+    )
+    src = parser.add_mutually_exclusive_group(required=False)
     src.add_argument("--replay", type=str, help="Replay URL or id (e.g. 745183-77512517)")
-    src.add_argument("--links-file", type=Path, help="Path to .xlsx/.csv/.txt containing replay links/ids (first column or one per line)")
+    src.add_argument(
+        "--links-file",
+        type=Path,
+        help="Path to .xlsx/.csv/.txt/.json containing replay links/ids (first column or one per line; json can be browser export)",
+    )
     parser.add_argument("--out-dir", type=Path, default=DEFAULT_OUT_DIR, help="Output directory for JSON files")
     parser.add_argument(
         "--profile-dir",
@@ -280,7 +335,39 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="Do not strip userId from ids like '745183-77512517' (by default we keep only '77512517').",
     )
+    parser.add_argument(
+        "--run-ml",
+        action="store_true",
+        help="After scraping, build matches CSV + features and print baseline model scores.",
+    )
+    parser.add_argument(
+        "--provider",
+        type=str,
+        default=None,
+        help="Optional username to force into player1 when building the matches CSV.",
+    )
+    parser.add_argument(
+        "--matches-csv",
+        type=Path,
+        default=DEFAULT_TRY_IT_YOURSELF_MATCHES_CSV,
+        help="Where to write the built matches CSV (only used with --run-ml / --try-it-yourself).",
+    )
+    parser.add_argument(
+        "--features-out",
+        type=Path,
+        default=DEFAULT_TRY_IT_YOURSELF_FEATURES_CSV,
+        help="Where to write the built features CSV (only used with --run-ml / --try-it-yourself).",
+    )
     args = parser.parse_args(argv)
+
+    # Resolve preset mode
+    if args.try_it_yourself:
+        args.links_file = DEFAULT_TRY_IT_YOURSELF_LINKS
+        args.out_dir = DEFAULT_TRY_IT_YOURSELF_REPLAYS_DIR
+        args.run_ml = True
+
+    if not (args.replay or args.links_file):
+        parser.error("one of the arguments --replay --links-file is required (or use --try-it-yourself)")
 
     links: Iterable[str]
     if args.replay:
@@ -305,7 +392,37 @@ def main(argv: list[str] | None = None) -> int:
     if failures:
         print(f"Done with {failures} failure(s).")
         return 1
+
     print("Done with 0 failures.")
+
+    # Optional: run offline ML pipeline on freshly scraped replays
+    if args.run_ml:
+        try:
+            from get_csv_from_json import build_matches_dataframe
+            from ML_for_YGO import build_features, load_dataset, train_and_score_models
+        except Exception as e:
+            raise RuntimeError(
+                "Unable to import pipeline modules (get_csv_from_json / ML_for_YGO). "
+                "Make sure you're running from the repo and dependencies are installed."
+            ) from e
+
+        replays_dir = args.out_dir.expanduser().resolve()
+        df = build_matches_dataframe(replays_dir, data_provider_username=args.provider)
+        args.matches_csv.parent.mkdir(parents=True, exist_ok=True)
+        df.to_csv(args.matches_csv, index=False)
+        print(f"✅ Matches CSV saved to: {args.matches_csv} (rows={len(df)})")
+
+        dataset = load_dataset(args.matches_csv)
+        X, y = build_features(dataset, replays_dir)
+        args.features_out.parent.mkdir(parents=True, exist_ok=True)
+        X.to_csv(args.features_out, index=False)
+        print(f"✅ Features CSV saved to: {args.features_out} (shape={X.shape})")
+
+        scores = train_and_score_models(X, y)
+        print("Scores:")
+        for k, v in scores.items():
+            print(f"  - {k}: {v}")
+
     return 0
 
 

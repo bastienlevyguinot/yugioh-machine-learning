@@ -109,7 +109,12 @@ def main(argv: list[str] | None = None) -> int:
 
     # from-excel: start only from a links file, scrape JSONs, then run offline
     p_fx = sub.add_parser("from-excel", help="Start only from a links file, scrape JSONs, then run offline steps.")
-    p_fx.add_argument("--links-file", type=Path, required=True, help="xlsx/csv/txt containing replay ids/urls")
+    p_fx.add_argument(
+        "--links-file",
+        type=Path,
+        required=True,
+        help="xlsx/csv/txt/json containing replay ids/urls (json can be browser console export)",
+    )
     p_fx.add_argument("--replays-dir", type=Path, default=Path("data/db_replays"), help="Where to store scraped JSON replay files")
     p_fx.add_argument("--profile-dir", type=str, default=None, help="Optional Chrome user-data-dir (for replays requiring login)")
     p_fx.add_argument("--keep-user-prefix", action="store_true", help="Do not strip userId from ids like 745183-77512517")
