@@ -54,3 +54,23 @@ Likely legacy / previously used experiments (not used by `scripts/run_pipeline.p
 - `assets/duelingbook_replay.html` (HTML snapshot for reference)
 - `requirements/requirements_duelingbook.txt` (older requirements list; prefer `requirements.txt`)
 
+## Scrape new replays (optional)
+
+If you want to generate new JSON files like the ones in `data/db_replays/`, you can use:
+
+```bash
+python scripts/get_db_match_selenium_clean.py --replay "745183-77512517" --out-dir data/db_replays
+```
+
+Or from a list file (xlsx/csv/txt):
+
+```bash
+python scripts/get_db_match_selenium_clean.py --links-file path/to/links.xlsx --out-dir data/db_replays
+```
+
+If some replays require login, you can point Selenium at a local Chrome profile directory **on your machine** (do not commit it):
+
+```bash
+python scripts/get_db_match_selenium_clean.py --replay "745183-77512517" --profile-dir "/absolute/path/to/chrome_profile" --out-dir data/db_replays
+```
+

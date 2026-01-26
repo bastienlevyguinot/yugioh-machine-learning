@@ -30,21 +30,7 @@ def using_wrong_deck(dataset: pd.DataFrame, index_file: int, replays_dir: Path) 
     replay_path = (replays_dir / str(file_name_json)).expanduser().resolve()
     with open(replay_path, "r", encoding="utf-8") as f:
         data = json.load(f)
-
-        # print("================="+str(index_file)+"=================="+str(dataset.loc[index_file, 'file'])+"=============")
         for play in data['plays']:
-
-            # if True :
-            #     if play['play'] in list_plays:
-            #         print("Play is : " + str(play['play']))
-            #         if play.get('username') == DATA_PROVIDER_USERNAME:
-            #             print("Username is : " + str(play.get('username')))
-            #             if play['card'].get('name') in targeted_cards:
-            #                 print("Card is : " + str(play['card'].get('name')))
-            #             else:
-            #                 print("Card is not in targeted cards, card is " + str(play['card'].get('name')))
-            #         else:
-            #             print("Username isnt correct")
                 
             if (play['play'] in list_plays) and (play['card'].get('name') in targeted_cards) and (play.get('username') == DATA_PROVIDER_USERNAME):
                 # print("RETURN FALSE, CORRECT DECK")
@@ -131,9 +117,9 @@ def train_and_score_models(X: pd.DataFrame, y: pd.Series, *, test_size: float = 
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--csv", type=Path, default=Path("data/matches_data_mitsu_RB.csv"))
+    parser.add_argument("--csv", type=Path, default=Path("data/matches_data_Fryderyk Chopin.csv"))
     parser.add_argument("--replays-dir", type=Path, default=Path("data/db_replays"))
-    parser.add_argument("--features-out", type=Path, default=Path("data/matches_data_mitsu_RB_2.0.csv"))
+    parser.add_argument("--features-out", type=Path, default=Path("data/matches_data_features_Fryderyk Chopin.csv"))
     parser.add_argument("--test-size", type=float, default=0.2)
     parser.add_argument("--random-state", type=int, default=1)
     parser.add_argument("--drop-index", type=int, action="append", default=[])

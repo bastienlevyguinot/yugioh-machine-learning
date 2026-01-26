@@ -17,13 +17,13 @@ from typing import Any
 
 import pandas as pd
 
-def get_player_name(data_json: dict[str, Any]):
+def get_player_name(data_json : dict[str, Any]):
     for play in data_json['plays']:
             if play['play']=='RPS':
                 return play['player1'], play['player2']
     return None, None  # Retourner None si aucun play RPS n'est trouvé
 
-def get_RPS_winner(data_json: dict[str, Any]):
+def get_RPS_winner(data_json : dict[str, Any]):
     for play in data_json['plays']:
             if play['play']=='RPS':
                 # Retourne True si player1 a gagné, False si player2 a gagné
@@ -56,6 +56,9 @@ def get_start_hands(data_json: dict[str, Any]):
             return cards_player1, cards_player2
     return None, None
 
+# Get the lists of different plays possible in duelingbook replays
+# In combinaison with get_list_of_cards, it can be used to filter the replays by plays and cards
+# Goal : classify the deck played in the replay
 def get_list_of_plays(data_json: dict[str, Any]):
     l = []
     for play in data_json['plays']:
@@ -104,10 +107,7 @@ def build_matches_dataframe(replays_dir: Path, data_provider_username: str | Non
         for i in range(len(df["file"])):
             if df.loc[i, "player2"] == data_provider_username:
                 df.loc[i, "player1"], df.loc[i, "player2"] = df.loc[i, "player2"], df.loc[i, "player1"]
-                df.loc[i, "starting_hand_player1"], df.loc[i, "starting_hand_player2"] = (
-                    df.loc[i, "starting_hand_player2"],
-                    df.loc[i, "starting_hand_player1"],
-                )
+                df.loc[i, "starting_hand_player1"], df.loc[i, "starting_hand_player2"] = df.loc[i, "starting_hand_player2"], df.loc[i, "starting_hand_player1"]
 
     total_plays_unique: list[str] = []
     [total_plays_unique.append(p) for p in total_plays if p not in total_plays_unique]
@@ -119,7 +119,7 @@ def build_matches_dataframe(replays_dir: Path, data_provider_username: str | Non
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--replays-dir", type=Path, default=Path("data/db_replays"))
-    parser.add_argument("--out", type=Path, default=Path("data/matches_data_mitsu_RB.csv"))
+    parser.add_argument("--out", type=Path, default=Path("data/matches_data_Fryderyk Chopin.csv"))
     parser.add_argument("--provider", type=str, default="Fryderyk Chopin")
     args = parser.parse_args(argv)
 
