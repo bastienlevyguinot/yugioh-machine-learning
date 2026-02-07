@@ -1,106 +1,94 @@
-# yugioh-machine-learning
+# Yu-Gi-Oh! Machine Learning
 
-## Run from this GitHub repo
+Machine learning project to predict duel outcomes from DuelingBook replay data (Fryderyk Chopin dataset).
 
-### Setup
+## Setup
 
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### Pipeline 1: offline (no scraping, uses an existing `db_replays/`)
+## Pipeline
 
-This uses the committed replay JSON files in `data/db_replays/`.
+The pipeline has two steps: **data processing** (matches CSV → features + target) and **machine learning** (train and evaluate models).
 
-```bash
-python scripts/run_pipeline.py offline
-```
+### 1. Data processing
 
-Outputs:
-- `data/matches_data_mitsu_RB.csv` (built from `data/db_replays/`)
-- `data/matches_data_mitsu_RB_2.0.csv` (features for ML)
+Reads `data/matches_data_Fryderyk Chopin.csv`, builds features and target variable, saves to:
 
-### Pipeline 2: from-excel (start only from a links file, scrape JSONs, then run offline)
-
-You provide an `.xlsx` / `.csv` / `.txt` / `.json` file with replay ids/urls.
-
-Tip: the `.json` can be the exact export you copy from the browser console on the replays page (example: `ML_for_YGO/replay_data.json`).
+- `data/matches_data_features_Fryderyk Chopin.csv`
+- `data/target_variable_Fryderyk Chopin.csv`
 
 ```bash
-python scripts/run_pipeline.py from-excel --links-file path/to/links.xlsx
+python scripts/DataProcessing_for_YGO.py
 ```
 
-This will:
-- scrape replay JSONs into `data/db_replays/` (or `--replays-dir ...`)
-- build the matches CSV + features CSV
-- print model scores
+Options: `--csv`, `--replays-dir`, `--features-out`, `--target-out`, `--no-deck-filter`, `--provider`
 
-### Run individual steps
+### 2. Machine learning
 
-Build the matches CSV:
+Reads the features and target CSVs, trains classifiers, prints scores, saves a comparison plot.
 
 ```bash
-python scripts/get_csv_from_json.py --replays-dir data/db_replays --out data/matches_data_mitsu_RB.csv --provider "Fryderyk Chopin"
+python scripts/ML_for_YGO.py
 ```
 
-Train/evaluate on an existing CSV:
+Outputs: `data/model_comparison.png` (bar chart of model accuracies)
+
+Options: `--features`, `--target`, `--plot-out`, `--no-plot`, `--test-size`, `--random-state`
+
+## Data
+
+| File | Description |
+|------|-------------|
+| `data/db_replays/` | Replay JSON files from DuelingBook |
+| `data/matches_data_Fryderyk Chopin.csv` | Matches table (built from replays) |
+| `data/matches_data_features_Fryderyk Chopin.csv` | Feature matrix for ML |
+| `data/target_variable_Fryderyk Chopin.csv` | Target: `game1_winner` (True/False) |
+
+## Optional: build matches CSV from replays
+
+If you have replay JSONs in `data/db_replays/` but no matches CSV yet:
 
 ```bash
-python scripts/ML_for_YGO.py --csv data/matches_data_mitsu_RB.csv --replays-dir data/db_replays --features-out data/matches_data_mitsu_RB_2.0.csv
+python scripts/get_csv_from_json.py --replays-dir data/db_replays --out "data/matches_data_Fryderyk Chopin.csv" --provider "Fryderyk Chopin"
 ```
 
-## What files are used vs legacy (high level)
+## Optional: scrape new replays
 
-Actively used for the runnable pipeline:
-- `scripts/run_pipeline.py`
-- `scripts/get_csv_from_json.py`
-- `scripts/ML_for_YGO.py`
-- `data/db_replays/` and `data/*.csv`
+Requires Chrome and ChromeDriver. Fetches replay JSONs from DuelingBook (handles reCAPTCHA via Selenium).
 
-Optional (scraping new replays, requires Chrome + ChromeDriver):
-- `scripts/get_duelingbook_match_selenium.py`
-- `scripts/get_db_match_selenium_clean.py`
-- `docs/INSTALL_CHROMEDRIVER.md`
-
-Likely legacy / previously used experiments (not used by `scripts/run_pipeline.py`):
-- `ML_for_YGO/*` (browser console scripts + older data snapshots)
-- `assets/duelingbook_replay.html` (HTML snapshot for reference)
-- `requirements/requirements_duelingbook.txt` (older requirements list; prefer `requirements.txt`)
-
-## Scrape new replays (optional)
-
-If you want to generate new JSON files like the ones in `data/db_replays/`, you can use:
+Single replay:
 
 ```bash
-python scripts/get_db_match_selenium_clean.py --replay "745183-77512517" --out-dir data/db_replays
+python scripts/get_db_match_selenium_clean.py --replay "1313181-76237082" --out-dir data/db_replays
 ```
 
-Or from a list file (xlsx/csv/txt):
+From a links file (xlsx/csv/txt/json):
 
 ```bash
-python scripts/get_db_match_selenium_clean.py --links-file path/to/links.xlsx --out-dir data/db_replays
+python scripts/get_db_match_selenium_clean.py --links-file path/to/links.csv --out-dir data/db_replays
 ```
 
-### Try-it-yourself (paste your replay list, scrape + run ML)
+## Project structure
 
-1) Paste your replay URLs/ids into `data/empty_match_data.csv` (one per line, column name must be `url`).
-
-2) Run:
-
-```bash
-python scripts/get_db_match_selenium_clean.py --try-it-yourself
+```
+scripts/
+  DataProcessing_for_YGO.py   # Matches CSV → features + target
+  ML_for_YGO.py              # Train/evaluate classifiers, plot results
+  get_csv_from_json.py       # Replay JSONs → matches CSV
+  get_db_match_selenium_clean.py  # Scrape replay JSONs from DuelingBook
+  clean_replay_links.py      # Extract replay URLs from browser console JSON
+data/
+  db_replays/                # Replay JSON files
+  matches_data_Fryderyk Chopin.csv
+  matches_data_features_Fryderyk Chopin.csv
+  target_variable_Fryderyk Chopin.csv
+  model_comparison.png       # Visualization of model scores
 ```
 
-This will:
-- scrape JSONs into `data/my_own_db_replays/`
-- generate `data/my_matches.csv` + `data/my_features.csv`
-- print baseline model scores
+## Models
 
-If some replays require login, you can point Selenium at a local Chrome profile directory **on your machine** (do not commit it):
-
-```bash
-python scripts/get_db_match_selenium_clean.py --replay "745183-77512517" --profile-dir "/absolute/path/to/chrome_profile" --out-dir data/db_replays
-```
-
+KNN, logistic regression, decision tree, random forest, SVC, gradient boosting, AdaBoost, naive Bayes, MLP.
