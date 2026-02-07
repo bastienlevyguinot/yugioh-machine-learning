@@ -1,112 +1,29 @@
 # ======================================================================================================================================================================
-# THIS CODE AIMS TO IMPORT OUR DATA (from .csv), PROCESS IT, EXPLORE DIFFERENT MACHINE LEARNING MODELS AND EVALUATE THEM
+# MACHINE LEARNING FOR YU-GI-OH! REPLAYS
+#
+# Loads pre-built features and target CSVs (from DataProcessing_for_YGO.py) and
+# trains/evaluates classification models.
 # ======================================================================================================================================================================
 
 from __future__ import annotations
 
 import argparse
-import json
 from pathlib import Path
 
+import matplotlib
+matplotlib.use("Agg")  # Non-interactive backend (works headless)
+import matplotlib.pyplot as plt
 import pandas as pd
-
-def load_dataset(csv_path: Path) -> pd.DataFrame:
-    csv_path = csv_path.expanduser().resolve()
-    return pd.read_csv(csv_path)
-
-# DATA PROCESSING ==========================================================================================================================================================
-
-from sklearn.model_selection import train_test_split
-
-# filter by deck choice - assuming the player1 is our data provider
-list_plays = ['Normal Summon', 'Declare', 'Activate ST', 'To GY', 'SS ATK', 'Banish', 'SS DEF']
-targeted_cards = ['R.B. Ga10 Driller', 'Jet Synchron', 'R.B. Last Stand', 'R.B. Ga10 Cutter', 'Scrap Recycler', 'R.B. Funk Dock', 'R.B. Stage Landing', 'R.B. Lambda Cannon', 'R.B. Lambda Blade', 'R.B. Ga10 Pile Bunker']
-DATA_PROVIDER_USERNAME = "Fryderyk Chopin"
-
-def using_wrong_deck(
-    dataset: pd.DataFrame,
-    index_file: int,
-    replays_dir: Path,
-    *,
-    data_provider_username: str,
-) -> bool:
-    # True  -> wrong deck (no targeted plays/cards found)
-    # False -> correct deck (targeted play/card found)
-    file_name_json = dataset.loc[index_file, "file"]
-    replay_path = (replays_dir / str(file_name_json)).expanduser().resolve()
-    with open(replay_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-        for play in data['plays']:
-                
-            if (
-                (play['play'] in list_plays)
-                and (play['card'].get('name') in targeted_cards)
-                and (play.get('username') == data_provider_username)
-            ):
-                # print("RETURN FALSE, CORRECT DECK")
-                return False
-        # print("RETURN TRUE, WRONG DECK")
-        return True
-
-def build_features(
-    dataset: pd.DataFrame,
-    replays_dir: Path,
-    *,
-    drop_indices: list[int] | None = None,
-    filter_wrong_deck: bool = True,
-    data_provider_username: str = DATA_PROVIDER_USERNAME,
-) -> tuple[pd.DataFrame, pd.Series]:
-    # Drop rows with missing target/hand information (more robust than hardcoded indices)
-    dataset = dataset.copy()
-    dataset = dataset.dropna(subset=["file"]).reset_index(drop=True)
-
-    # Some rows have game not played -> NaN winner
-    dataset["game1_winner"] = dataset["game1_winner"].astype("boolean")
-    dataset = dataset.dropna(subset=["game1_winner"]).reset_index(drop=True)
-
-    # Optional legacy drops (kept for backwards compatibility with earlier experiments)
-    if drop_indices:
-        existing = [i for i in drop_indices if 0 <= i < len(dataset)]
-        if existing:
-            dataset = dataset.drop(index=existing).reset_index(drop=True)
-
-    # Drop all rows detected as "wrong deck" (optional; deck-specific heuristic)
-    if filter_wrong_deck:
-        to_drop = [
-            idx
-            for idx in dataset.index
-            if using_wrong_deck(dataset, idx, replays_dir, data_provider_username=data_provider_username)
-        ]
-        dataset = dataset.drop(index=to_drop).reset_index(drop=True)
-
-    # starting_hands from string to list
-    dataset["starting_hand_player1"] = dataset["starting_hand_player1"].apply(lambda x: str(x).split("%%%%")[0:5])
-    dataset["starting_hand_player2"] = dataset["starting_hand_player2"].apply(lambda x: str(x).split("%%%%")[0:5])
-
-    # Create columns for each card name used in the matches - player 1
-    unique_cards_p1: list[str] = []
-    for hand in dataset["starting_hand_player1"]:
-        for card in hand:
-            if card and card not in unique_cards_p1:
-                unique_cards_p1.append(card)
-    for card in unique_cards_p1:
-        dataset[f"{card} (player1)"] = 0
-
-    # Fill cards' columns with the data in 'starting_hand_player1'
-    for i in range(len(dataset["starting_hand_player1"])):
-        for card in dataset.loc[i, "starting_hand_player1"]:
-            dataset.loc[i, f"{card} (player1)"] += 1
-
-    X = dataset.drop(columns=["game1_winner", "file", "starting_hand_player1", "starting_hand_player2", "player1", "player2"])
-    y = dataset["game1_winner"]
-    return X, y
-
-# EXPLORING MODELS =======================================================================================================================================================================
-
-from sklearn.neighbors import KNeighborsClassifier
+from sklearn.ensemble import AdaBoostClassifier, GradientBoostingClassifier, RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import GaussianNB
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.neural_network import MLPClassifier
+from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
+
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 def train_and_score_models(X: pd.DataFrame, y: pd.Series, *, test_size: float = 0.2, random_state: int = 1) -> dict[str, float]:
     if len(X) == 0:
@@ -132,59 +49,104 @@ def train_and_score_models(X: pd.DataFrame, y: pd.Series, *, test_size: float = 
     logistic_regression.fit(X_train, y_train)
     scores["logistic_regression"] = float(logistic_regression.score(X_test, y_test))
 
-    decision_tree = DecisionTreeClassifier(criterion="entropy", max_depth=10, random_state=0)
+    decision_tree = DecisionTreeClassifier(criterion="entropy", max_depth=10, random_state=random_state)
     decision_tree.fit(X_train, y_train)
     scores["decision_tree"] = float(decision_tree.score(X_test, y_test))
 
-    random_forest = RandomForestClassifier(criterion="entropy", n_estimators=200, max_depth=10, random_state=0)
+    random_forest = RandomForestClassifier(criterion="entropy", n_estimators=200, max_depth=10, random_state=random_state)
     random_forest.fit(X_train, y_train)
     scores["random_forest"] = float(random_forest.score(X_test, y_test))
+
+    svc = SVC(kernel="rbf", random_state=random_state)
+    svc.fit(X_train, y_train)
+    scores["svc"] = float(svc.score(X_test, y_test))
+
+    gradient_boosting = GradientBoostingClassifier(n_estimators=100, max_depth=3, random_state=random_state)
+    gradient_boosting.fit(X_train, y_train)
+    scores["gradient_boosting"] = float(gradient_boosting.score(X_test, y_test))
+
+    adaboost = AdaBoostClassifier(n_estimators=50, random_state=random_state)
+    adaboost.fit(X_train, y_train)
+    scores["adaboost"] = float(adaboost.score(X_test, y_test))
+
+    naive_bayes = GaussianNB()
+    naive_bayes.fit(X_train, y_train)
+    scores["naive_bayes"] = float(naive_bayes.score(X_test, y_test))
+
+    mlp = MLPClassifier(hidden_layer_sizes=(64, 32), max_iter=500, random_state=random_state)
+    mlp.fit(X_train, y_train)
+    scores["mlp"] = float(mlp.score(X_test, y_test))
 
     return scores
 
 
+def plot_model_scores(scores: dict[str, float], out_path: Path | None = None) -> None:
+    """Plot model accuracy scores as a horizontal bar chart."""
+    models = list(scores.keys())
+    accuracies = [scores[m] for m in models]
+    colors = plt.cm.viridis([a / max(accuracies) if accuracies else 0 for a in accuracies])
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+    ax.barh(models, accuracies, color=colors)
+    ax.set_xlabel("Accuracy")
+    ax.set_xlim(0, 1)
+    ax.axvline(x=0.5, color="gray", linestyle="--", alpha=0.5)
+    ax.set_title("Model comparison (test accuracy)")
+    fig.tight_layout()
+
+    if out_path:
+        out_path = Path(out_path).expanduser().resolve()
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        fig.savefig(out_path, dpi=150)
+        print(f"✅ Plot saved to: {out_path}")
+
+
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--csv", type=Path, default=Path("data/matches_data_Fryderyk Chopin.csv"))
-    parser.add_argument("--replays-dir", type=Path, default=Path("data/db_replays"))
-    parser.add_argument("--features-out", type=Path, default=Path("data/matches_data_features_Fryderyk Chopin.csv"))
+    parser = argparse.ArgumentParser(description="Train and evaluate ML models on pre-built features and target CSVs.")
+    parser.add_argument(
+        "--features",
+        type=Path,
+        default=_PROJECT_ROOT / "data/matches_data_features_Fryderyk Chopin.csv",
+        help="Input features CSV",
+    )
+    parser.add_argument(
+        "--target",
+        type=Path,
+        default=_PROJECT_ROOT / "data/target_variable_Fryderyk Chopin.csv",
+        help="Input target variable CSV (game1_winner)",
+    )
     parser.add_argument("--test-size", type=float, default=0.2)
     parser.add_argument("--random-state", type=int, default=1)
-    parser.add_argument("--drop-index", type=int, action="append", default=[])
     parser.add_argument(
-        "--no-deck-filter",
-        action="store_true",
-        help="Disable the deck-specific 'wrong deck' filter (recommended for generic datasets).",
+        "--plot-out",
+        type=Path,
+        default=_PROJECT_ROOT / "data/model_comparison.png",
+        help="Save bar chart of model scores to this path",
     )
-    parser.add_argument(
-        "--provider",
-        type=str,
-        default=DATA_PROVIDER_USERNAME,
-        help="Username to use for deck filtering (only relevant if deck filter is enabled).",
-    )
+    parser.add_argument("--no-plot", action="store_true", help="Skip visualization (for headless/CI)")
     args = parser.parse_args(argv)
 
-    dataset = load_dataset(args.csv)
-    X, y = build_features(
-        dataset,
-        args.replays_dir,
-        drop_indices=args.drop_index or None,
-        filter_wrong_deck=not args.no_deck_filter,
-        data_provider_username=args.provider,
-    )
+    X = pd.read_csv(Path(args.features).expanduser().resolve())
+    y = pd.read_csv(Path(args.target).expanduser().resolve()).squeeze("columns")
+    if y.name is None:
+        y.name = "game1_winner"
 
-    args.features_out.parent.mkdir(parents=True, exist_ok=True)
-    X.to_csv(args.features_out, index=False)
-    print(f"✅ Features CSV saved to: {args.features_out} (shape={X.shape})")
-
+    print(f"Loaded X: {X.shape}, y: {y.shape}")
     scores = train_and_score_models(X, y, test_size=args.test_size, random_state=args.random_state)
     for k, v in scores.items():
         print(f"{k}: {v}")
+
+    if not args.no_plot:
+        plot_model_scores(scores, out_path=args.plot_out)
+
     return 0
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
+
+
 # TREE VISUALISATION =======================================================================================================================================================================
 
 """from matplotlib import pyplot as plt

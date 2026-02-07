@@ -35,3 +35,6 @@ data/my_features.csv
 # Data outputs (optional, can be large)
 data/db_replays/.DS_Store
 
+# Legacy / not used
+Not Used for Fryderyk Chopin's Data/
+
